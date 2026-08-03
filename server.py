@@ -654,7 +654,7 @@ def corpus_composer(theme: str) -> str:
 
 
 if __name__ == "__main__":
-    # Transport selection (DECISIONS.md D19):
+    # Transport selection:
     #   default            -> stdio (local use: Claude Desktop / Cowork config)
     #   BIBLE_MCP_TRANSPORT=streamable-http -> public remote endpoint
     # Stateless HTTP so instances scale horizontally with no session affinity;
@@ -665,7 +665,7 @@ if __name__ == "__main__":
         mcp.settings.port = int(os.environ.get("PORT", "8080"))
         mcp.settings.stateless_http = True
         # FastMCP() defaults to loopback-only DNS-rebinding protection (host="127.0.0.1"
-        # at construction time); this is a public no-auth read-only endpoint (D18), so
+        # at construction time); this is a public no-auth read-only endpoint, so
         # there's no localhost boundary to protect and the loopback-only allowlist would
         # otherwise reject every real request's Host header.
         mcp.settings.transport_security = TransportSecuritySettings(enable_dns_rebinding_protection=False)

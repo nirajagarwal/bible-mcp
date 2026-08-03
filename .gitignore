@@ -1,4 +1,4 @@
-# the built corpus ships as a GitHub Release asset, not in git (DECISIONS.md D16)
+# the built corpus ships as a GitHub Release asset, not in git (too large for git)
 db/bible.db
 db/*.bak*
 db/*-journal

@@ -1,8 +1,8 @@
 # License
 
 bible-mcp is a **non-commercial public resource**. Its licensing is layered, because
-the corpus contains material under several origins (see DECISIONS.md D15 and
-NOTICE.md for the full attribution table):
+the corpus contains material under several origins (see NOTICE.md for the full
+attribution table):
 
 ## 1. Underlying source texts and data
 

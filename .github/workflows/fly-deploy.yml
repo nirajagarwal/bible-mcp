@@ -13,7 +13,7 @@ jobs:
     concurrency: deploy-group    # optional: ensure only one action runs at a time
     steps:
       - uses: actions/checkout@v4
-      # db/bible.db ships as a GitHub Release asset, not in git (DECISIONS.md D16) —
+      # db/bible.db ships as a GitHub Release asset, not in git (too large for git) —
       # the Dockerfile expects it on disk at build time, so fetch the latest release's
       # copy before building.
       - name: Fetch corpus db from latest release

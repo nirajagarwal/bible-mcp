@@ -1,4 +1,4 @@
-# bible-mcp remote server (Streamable HTTP) — see DECISIONS.md D18/D19, DEPLOY.md
+# bible-mcp remote server (Streamable HTTP) — see DEPLOY.md
 FROM python:3.12-slim
 
 WORKDIR /app

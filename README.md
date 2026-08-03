@@ -87,7 +87,7 @@ This is a **non-commercial public resource**. Licensing is layered — sources k
 their own licenses (all PD / CC BY / CC BY-SA); the code is PolyForm Noncommercial
 1.0.0; the compilation and derived data (versemap, citation graph, embeddings,
 outputs layer) are CC BY-NC 4.0. Full details: `LICENSE.md`, attributions in
-`NOTICE.md`, rationale in `DECISIONS.md`.
+`NOTICE.md`.
 
 Three ways to use it:
 1. **Remote (no install)** — add the hosted endpoint as a custom connector in any
