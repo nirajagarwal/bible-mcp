@@ -43,7 +43,7 @@ export const TOOLS = [
     name: 'word_study',
     description: "Original-language word study by Strong's number, lemma, or English gloss.",
     params: [
-      { name: 'query', type: 'text', required: true, default: 'G26', help: "Strong's (G26), lemma, or gloss (e.g. 'lovingkindness')" },
+      { name: 'query', type: 'text', required: true, default: 'anointing', help: "Strong's (e.g. G26), lemma, or gloss (e.g. 'anointing')" },
       { name: 'language', type: 'text', default: '', help: 'optional: grc | hbo | arc' },
       { name: 'limit', type: 'number', default: 10 },
     ],
