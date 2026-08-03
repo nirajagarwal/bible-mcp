@@ -24,7 +24,19 @@ All in one SQLite file (`db/bible.db`, ~230MB) with FTS5 full-text search. Prose
 
 ## Tools
 
-`get_passage` · `search` (stemmed BM25, phrases, AND/OR/NOT; `version` takes BSB, WEB, or any prose work id) · `semantic_search` (meaning-based, hybrid RRF with keyword search) · `find_similar` (nearest passages to any verse or paragraph, across layers) · `word_study` (by Strong's — zero-padding optional, lettered homograph variants surfaced together — or by lemma, pointed or unpointed, or English gloss) · `get_interlinear` (versemap-corrected across all books, not just Psalms) · `get_cross_references` (with target text) · `get_citations` (patristic citations of a verse; footnote-extracted, so sparse — full-text search is the thorough probe) · `get_entity` · `entities_in_passage` · `read_work` · `compare_versions` · `corpus_info`
+- `get_passage(reference, version="BSB")` — Bible text for a reference, e.g. `John 3:16`, `John 3:16-18`, `Genesis 1`. Versions: BSB, WEB (Apocrypha requires `version="WEB"`).
+- `search(query, version="BSB", book="", limit=20)` — Full-text search, stemmed and ranked (BM25). Supports quoted phrases and AND/OR/NOT, e.g. `faith AND works NOT law`. `version` also takes any prose work id. Note: stemming conflates related surface forms (e.g. "desert" also matches "deserted") — quote exact phrases or add AND-terms to disambiguate.
+- `semantic_search(query, top_k=12, kind="", hybrid=True)` — Meaning-based search across the whole corpus (scripture + prose), hybrid-fused with keyword search (RRF) by default. Finds passages on a theme even with no shared words, e.g. "divine self-emptying". `kind` optional: verse | window | paragraph.
+- `find_similar(reference, top_k=10)` — Nearest passages by embedding to a given verse or prose paragraph, across scripture, Apocrypha, and the classics. Powers parallel-finding across corpus layers.
+- `word_study(query, language="", limit=15)` — Original-language word study by Strong's number (zero-padding optional), lemma (pointed or unpointed), or English gloss. Returns occurrence counts, gloss range, book distribution, and sample verses. Lettered homograph variants (e.g. H4723 vs H4723a — same written form, different word) are surfaced together. `language` optional: grc | hbo | arc.
+- `get_interlinear(reference)` — Word-by-word original language for a verse or short range: surface form, lemma, Strong's, gloss, morphology. Versemap-corrected across all books, not just Psalms.
+- `get_cross_references(reference, limit=20)` — Cross-references for a verse (OpenBible.info, ranked by community votes), with the target text included.
+- `get_citations(reference, limit=20)` — Where a verse is cited by name in the patristic corpus, extracted from the translators' own footnotes (tier 1). Complements `get_cross_references` (scripture→scripture); this is patristic text→scripture. Coverage is sparse by design — an empty result doesn't mean uncited; full-text `search` within the patristic works is the thorough probe.
+- `get_entity(name, entity_type="")` — Look up a biblical person, place, event, or people group by name (Theographic knowledge graph); returns details and where they appear. `entity_type` optional: person | place | event | people_group.
+- `entities_in_passage(reference)` — People, places, and events linked to a verse or chapter, e.g. `Genesis 14`.
+- `read_work(work, chapter=1, start=1, end=5)` — Read a prose work by paragraph range (CONFESSIONS, IMITATION, PILGRIM, PRESENCE, JULIAN, ORTHODOXY, 1CLEMENT, BARNABAS, and others — see `corpus_info()` for the full list). Use `search(version=<WORK>)` to find passages first.
+- `compare_versions(reference)` — A verse or short range in BSB and WEB, side by side.
+- `corpus_info()` — What's in the corpus: documents, layers, licenses, and counts.
 
 ## Prompts
 
@@ -79,8 +91,8 @@ outputs layer) are CC BY-NC 4.0. Full details: `LICENSE.md`, attributions in
 
 Three ways to use it:
 1. **Remote (no install)** — add the hosted endpoint as a custom connector in any
-   MCP client (Claude: Settings → Connectors → Add custom connector). URL in the
-   registry listing / repo description.
+   MCP client (Claude: Settings → Connectors → Add custom connector):
+   `https://bible-mcp-server.fly.dev/mcp`
 2. **Local (stdio)** — clone, download `db/bible.db` from the latest GitHub
    Release (or rebuild from `data/sources/`), add the config above.
 3. **Self-host** — `Dockerfile` ships the Streamable-HTTP server; see `DEPLOY.md`.
