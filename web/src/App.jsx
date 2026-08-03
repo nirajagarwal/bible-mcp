@@ -118,7 +118,7 @@ export default function App() {
       <section className="panel">
         <h2>Try it live</h2>
         <p className="muted">
-          Calls the real, live server at <code>{ENDPOINT}</code> — real corpus, real results.
+          Calls the live server at <code>{ENDPOINT}</code>
         </p>
         <div className="demo">
           <div className="tool-list">
