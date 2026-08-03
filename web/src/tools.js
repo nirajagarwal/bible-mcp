@@ -25,7 +25,7 @@ export const TOOLS = [
     name: 'semantic_search',
     description: 'Meaning-based search across scripture and prose, hybrid-fused with keyword search by default.',
     params: [
-      { name: 'query', type: 'text', required: true, default: "divine self-emptying" },
+      { name: 'query', type: 'text', required: true, default: "self-emptying" },
       { name: 'top_k', type: 'number', default: 5 },
       { name: 'kind', type: 'text', default: '', help: 'optional: verse | window | paragraph' },
       { name: 'hybrid', type: 'checkbox', default: true },
