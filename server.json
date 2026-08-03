@@ -10,7 +10,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://bible-mcp.fly.dev/mcp"
+      "url": "https://bible-mcp-server.fly.dev/mcp"
     }
   ]
 }
