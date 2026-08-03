@@ -3,7 +3,7 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir "mcp>=1.0" fastembed numpy
+RUN pip install --no-cache-dir "mcp>=1.0,<2.0" fastembed numpy
 
 # Pre-download the embedding model at build time so first queries are fast.
 RUN python3 -c "from fastembed import TextEmbedding; TextEmbedding('BAAI/bge-small-en-v1.5')"

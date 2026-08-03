@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scr
 from lib_refs import parse_ref, OSIS_TO_NAME  # noqa: E402
 
 from mcp.server.fastmcp import FastMCP
+from mcp.server.transport_security import TransportSecuritySettings
 
 DB = os.environ.get(
     "BIBLE_DB_PATH",
@@ -663,6 +664,11 @@ if __name__ == "__main__":
         mcp.settings.host = os.environ.get("HOST", "0.0.0.0")
         mcp.settings.port = int(os.environ.get("PORT", "8080"))
         mcp.settings.stateless_http = True
+        # FastMCP() defaults to loopback-only DNS-rebinding protection (host="127.0.0.1"
+        # at construction time); this is a public no-auth read-only endpoint (D18), so
+        # there's no localhost boundary to protect and the loopback-only allowlist would
+        # otherwise reject every real request's Host header.
+        mcp.settings.transport_security = TransportSecuritySettings(enable_dns_rebinding_protection=False)
         mcp.run(transport="streamable-http")
     else:
         mcp.run()
