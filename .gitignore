@@ -1,0 +1,16 @@
+# the built corpus ships as a GitHub Release asset, not in git (DECISIONS.md D16)
+db/bible.db
+db/*.bak*
+db/*-journal
+
+_to_delete/
+*.bak-*
+__pycache__/
+**/__pycache__/
+.venv/
+.DS_Store
+tmp-*.json
+
+# legacy spreadsheets from the project's pre-history (not part of the public edition)
+bible_data.xlsx
+bible_data.json

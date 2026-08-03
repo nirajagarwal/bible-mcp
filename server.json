@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.NIRAJ_GITHUB_USERNAME/bible-mcp",
+  "description": "Christian scholarship and research corpus: BSB/WEB scripture with Apocrypha, MACULA Greek/Hebrew word data, cross-references, entities, Apostolic Fathers, Irenaeus, Justin Martyr, semantic search, and a grounded research pipeline. Non-commercial public resource.",
+  "repository": {
+    "url": "https://github.com/NIRAJ_GITHUB_USERNAME/bible-mcp",
+    "source": "github"
+  },
+  "version": "0.9.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://BIBLE_MCP_DOMAIN/mcp"
+    }
+  ]
+}

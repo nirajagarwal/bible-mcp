@@ -1,0 +1,13 @@
+.git
+.venv
+__pycache__
+**/__pycache__
+data/sources
+data/*.json
+db/*.bak*
+db/bible.db.bak*
+_to_delete
+outputs
+*.wiki
+bible_data.xlsx
+bible_data.json

@@ -1,0 +1,989 @@
+scheme	src_ref	dst_ref	note
+MT	1Chr.12.10	1Chr.12.9	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.11	1Chr.12.10	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.12	1Chr.12.11	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.13	1Chr.12.12	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.14	1Chr.12.13	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.15	1Chr.12.14	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.16	1Chr.12.15	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.17	1Chr.12.16	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.18	1Chr.12.17	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.19	1Chr.12.18	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.20	1Chr.12.19	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.21	1Chr.12.20	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.22	1Chr.12.21	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.23	1Chr.12.22	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.24	1Chr.12.23	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.25	1Chr.12.24	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.26	1Chr.12.25	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.27	1Chr.12.26	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.28	1Chr.12.27	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.29	1Chr.12.28	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.30	1Chr.12.29	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.31	1Chr.12.30	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.32	1Chr.12.31	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.33	1Chr.12.32	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.34	1Chr.12.33	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.35	1Chr.12.34	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.36	1Chr.12.35	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.37	1Chr.12.36	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.38	1Chr.12.37	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.39	1Chr.12.38	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.40	1Chr.12.39	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.41	1Chr.12.40	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.5	1Chr.12.4	empirical DP alignment (merge:second), gloss-validated overlap=0.36
+MT	1Chr.12.6	1Chr.12.5	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.7	1Chr.12.6	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.8	1Chr.12.7	empirical DP alignment (shift), gloss-validated
+MT	1Chr.12.9	1Chr.12.8	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.27	1Chr.6.1	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.28	1Chr.6.2	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.29	1Chr.6.3	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.30	1Chr.6.4	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.31	1Chr.6.5	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.32	1Chr.6.6	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.33	1Chr.6.7	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.34	1Chr.6.8	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.35	1Chr.6.9	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.36	1Chr.6.10	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.37	1Chr.6.11	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.38	1Chr.6.12	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.39	1Chr.6.13	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.40	1Chr.6.14	empirical DP alignment (shift), gloss-validated
+MT	1Chr.5.41	1Chr.6.15	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.1	1Chr.6.16	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.10	1Chr.6.25	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.11	1Chr.6.26	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.12	1Chr.6.27	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.13	1Chr.6.28	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.14	1Chr.6.29	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.15	1Chr.6.30	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.16	1Chr.6.31	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.17	1Chr.6.32	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.18	1Chr.6.33	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.19	1Chr.6.34	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.2	1Chr.6.17	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.20	1Chr.6.35	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.21	1Chr.6.36	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.22	1Chr.6.37	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.23	1Chr.6.38	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.24	1Chr.6.39	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.25	1Chr.6.40	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.26	1Chr.6.41	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.27	1Chr.6.42	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.28	1Chr.6.43	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.29	1Chr.6.44	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.3	1Chr.6.18	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.30	1Chr.6.45	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.31	1Chr.6.46	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.32	1Chr.6.47	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.33	1Chr.6.48	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.34	1Chr.6.49	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.35	1Chr.6.50	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.36	1Chr.6.51	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.37	1Chr.6.52	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.38	1Chr.6.53	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.39	1Chr.6.54	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.4	1Chr.6.19	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.40	1Chr.6.55	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.41	1Chr.6.56	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.42	1Chr.6.57	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.43	1Chr.6.58	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.44	1Chr.6.59	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.45	1Chr.6.60	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.46	1Chr.6.61	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.47	1Chr.6.62	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.48	1Chr.6.63	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.49	1Chr.6.64	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.5	1Chr.6.20	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.50	1Chr.6.65	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.51	1Chr.6.66	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.52	1Chr.6.67	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.53	1Chr.6.68	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.54	1Chr.6.69	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.55	1Chr.6.70	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.56	1Chr.6.71	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.57	1Chr.6.72	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.58	1Chr.6.73	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.59	1Chr.6.74	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.6	1Chr.6.21	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.60	1Chr.6.75	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.61	1Chr.6.76	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.62	1Chr.6.77	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.63	1Chr.6.78	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.64	1Chr.6.79	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.65	1Chr.6.80	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.66	1Chr.6.81	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.7	1Chr.6.22	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.8	1Chr.6.23	empirical DP alignment (shift), gloss-validated
+MT	1Chr.6.9	1Chr.6.24	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.44	1Kgs.22.43	empirical DP alignment (merge:second), gloss-validated overlap=0.29
+MT	1Kgs.22.45	1Kgs.22.44	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.46	1Kgs.22.45	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.47	1Kgs.22.46	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.48	1Kgs.22.47	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.49	1Kgs.22.48	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.50	1Kgs.22.49	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.51	1Kgs.22.50	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.52	1Kgs.22.51	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.53	1Kgs.22.52	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.22.54	1Kgs.22.53	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.1	1Kgs.4.21	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.10	1Kgs.4.30	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.11	1Kgs.4.31	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.12	1Kgs.4.32	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.13	1Kgs.4.33	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.14	1Kgs.4.34	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.15	1Kgs.5.1	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.16	1Kgs.5.2	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.17	1Kgs.5.3	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.18	1Kgs.5.4	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.19	1Kgs.5.5	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.2	1Kgs.4.22	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.20	1Kgs.5.6	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.21	1Kgs.5.7	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.22	1Kgs.5.8	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.23	1Kgs.5.9	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.24	1Kgs.5.10	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.25	1Kgs.5.11	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.26	1Kgs.5.12	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.27	1Kgs.5.13	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.28	1Kgs.5.14	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.29	1Kgs.5.15	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.3	1Kgs.4.23	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.30	1Kgs.5.16	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.31	1Kgs.5.17	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.32	1Kgs.5.18	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.4	1Kgs.4.24	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.5	1Kgs.4.25	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.6	1Kgs.4.26	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.7	1Kgs.4.27	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.8	1Kgs.4.28	empirical DP alignment (shift), gloss-validated
+MT	1Kgs.5.9	1Kgs.4.29	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.1	1Sam.20.42	empirical residual merge, overlap=0.50
+MT	1Sam.21.10	1Sam.21.9	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.11	1Sam.21.10	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.12	1Sam.21.11	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.13	1Sam.21.12	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.14	1Sam.21.13	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.15	1Sam.21.14	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.16	1Sam.21.15	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.2	1Sam.21.1	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.3	1Sam.21.2	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.4	1Sam.21.3	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.5	1Sam.21.4	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.6	1Sam.21.5	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.7	1Sam.21.6	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.8	1Sam.21.7	empirical DP alignment (shift), gloss-validated
+MT	1Sam.21.9	1Sam.21.8	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.1	1Sam.23.29	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.10	1Sam.24.9	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.11	1Sam.24.10	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.12	1Sam.24.11	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.13	1Sam.24.12	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.14	1Sam.24.13	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.15	1Sam.24.14	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.16	1Sam.24.15	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.17	1Sam.24.16	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.18	1Sam.24.17	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.19	1Sam.24.18	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.2	1Sam.24.1	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.20	1Sam.24.19	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.21	1Sam.24.20	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.22	1Sam.24.21	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.23	1Sam.24.22	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.3	1Sam.24.2	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.4	1Sam.24.3	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.5	1Sam.24.4	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.6	1Sam.24.5	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.7	1Sam.24.6	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.8	1Sam.24.7	empirical DP alignment (shift), gloss-validated
+MT	1Sam.24.9	1Sam.24.8	empirical DP alignment (shift), gloss-validated
+MT	2Chr.1.18	2Chr.2.1	empirical sequence alignment, gloss-validated
+MT	2Chr.13.23	2Chr.14.1	empirical sequence alignment, gloss-validated
+MT	2Chr.14.1	2Chr.14.2	empirical sequence alignment, gloss-validated
+MT	2Chr.14.10	2Chr.14.11	empirical sequence alignment, gloss-validated
+MT	2Chr.14.11	2Chr.14.12	empirical sequence alignment, gloss-validated
+MT	2Chr.14.12	2Chr.14.13	empirical sequence alignment, gloss-validated
+MT	2Chr.14.13	2Chr.14.14	empirical sequence alignment, gloss-validated
+MT	2Chr.14.14	2Chr.14.15	empirical sequence alignment, gloss-validated
+MT	2Chr.14.2	2Chr.14.3	empirical sequence alignment, gloss-validated
+MT	2Chr.14.3	2Chr.14.4	empirical sequence alignment, gloss-validated
+MT	2Chr.14.4	2Chr.14.5	empirical sequence alignment, gloss-validated
+MT	2Chr.14.5	2Chr.14.6	empirical sequence alignment, gloss-validated
+MT	2Chr.14.6	2Chr.14.7	empirical sequence alignment, gloss-validated
+MT	2Chr.14.7	2Chr.14.8	empirical sequence alignment, gloss-validated
+MT	2Chr.14.8	2Chr.14.9	empirical sequence alignment, gloss-validated
+MT	2Chr.14.9	2Chr.14.10	empirical sequence alignment, gloss-validated
+MT	2Chr.2.1	2Chr.2.2	empirical sequence alignment, gloss-validated
+MT	2Chr.2.10	2Chr.2.11	empirical sequence alignment, gloss-validated
+MT	2Chr.2.11	2Chr.2.12	empirical sequence alignment, gloss-validated
+MT	2Chr.2.12	2Chr.2.13	empirical sequence alignment, gloss-validated
+MT	2Chr.2.13	2Chr.2.14	empirical sequence alignment, gloss-validated
+MT	2Chr.2.14	2Chr.2.15	empirical sequence alignment, gloss-validated
+MT	2Chr.2.15	2Chr.2.16	empirical sequence alignment, gloss-validated
+MT	2Chr.2.16	2Chr.2.17	empirical sequence alignment, gloss-validated
+MT	2Chr.2.17	2Chr.2.18	empirical sequence alignment, gloss-validated
+MT	2Chr.2.2	2Chr.2.3	empirical sequence alignment, gloss-validated
+MT	2Chr.2.3	2Chr.2.4	empirical sequence alignment, gloss-validated
+MT	2Chr.2.4	2Chr.2.5	empirical sequence alignment, gloss-validated
+MT	2Chr.2.5	2Chr.2.6	empirical sequence alignment, gloss-validated
+MT	2Chr.2.6	2Chr.2.7	empirical sequence alignment, gloss-validated
+MT	2Chr.2.7	2Chr.2.8	empirical sequence alignment, gloss-validated
+MT	2Chr.2.8	2Chr.2.9	empirical sequence alignment, gloss-validated
+MT	2Chr.2.9	2Chr.2.10	empirical sequence alignment, gloss-validated
+MT	2Cor.13.12	2Cor.13.13	empirical DP alignment (split:second), gloss-validated overlap=0.50
+MT	2Cor.13.13	2Cor.13.14	empirical DP alignment (shift), gloss-validated
+MT	2Kgs.12.1	2Kgs.11.21	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.10	2Kgs.12.9	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.11	2Kgs.12.10	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.12	2Kgs.12.11	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.13	2Kgs.12.12	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.14	2Kgs.12.13	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.15	2Kgs.12.14	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.16	2Kgs.12.15	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.17	2Kgs.12.16	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.18	2Kgs.12.17	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.19	2Kgs.12.18	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.2	2Kgs.12.1	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.20	2Kgs.12.19	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.21	2Kgs.12.20	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.22	2Kgs.12.21	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.3	2Kgs.12.2	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.4	2Kgs.12.3	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.5	2Kgs.12.4	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.6	2Kgs.12.5	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.7	2Kgs.12.6	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.8	2Kgs.12.7	empirical sequence alignment, gloss-validated
+MT	2Kgs.12.9	2Kgs.12.8	empirical sequence alignment, gloss-validated
+MT	2Sam.19.1	2Sam.18.33	empirical sequence alignment, gloss-validated
+MT	2Sam.19.10	2Sam.19.9	empirical sequence alignment, gloss-validated
+MT	2Sam.19.11	2Sam.19.10	empirical sequence alignment, gloss-validated
+MT	2Sam.19.12	2Sam.19.11	empirical sequence alignment, gloss-validated
+MT	2Sam.19.13	2Sam.19.12	empirical sequence alignment, gloss-validated
+MT	2Sam.19.14	2Sam.19.13	empirical sequence alignment, gloss-validated
+MT	2Sam.19.15	2Sam.19.14	empirical sequence alignment, gloss-validated
+MT	2Sam.19.16	2Sam.19.15	empirical sequence alignment, gloss-validated
+MT	2Sam.19.17	2Sam.19.16	empirical sequence alignment, gloss-validated
+MT	2Sam.19.18	2Sam.19.17	empirical sequence alignment, gloss-validated
+MT	2Sam.19.19	2Sam.19.18	empirical sequence alignment, gloss-validated
+MT	2Sam.19.2	2Sam.19.1	empirical sequence alignment, gloss-validated
+MT	2Sam.19.20	2Sam.19.19	empirical sequence alignment, gloss-validated
+MT	2Sam.19.21	2Sam.19.20	empirical sequence alignment, gloss-validated
+MT	2Sam.19.22	2Sam.19.21	empirical sequence alignment, gloss-validated
+MT	2Sam.19.23	2Sam.19.22	empirical sequence alignment, gloss-validated
+MT	2Sam.19.24	2Sam.19.23	empirical sequence alignment, gloss-validated
+MT	2Sam.19.25	2Sam.19.24	empirical sequence alignment, gloss-validated
+MT	2Sam.19.26	2Sam.19.25	empirical sequence alignment, gloss-validated
+MT	2Sam.19.27	2Sam.19.26	empirical sequence alignment, gloss-validated
+MT	2Sam.19.28	2Sam.19.27	empirical sequence alignment, gloss-validated
+MT	2Sam.19.29	2Sam.19.28	empirical sequence alignment, gloss-validated
+MT	2Sam.19.3	2Sam.19.2	empirical sequence alignment, gloss-validated
+MT	2Sam.19.30	2Sam.19.29	empirical sequence alignment, gloss-validated
+MT	2Sam.19.31	2Sam.19.30	empirical sequence alignment, gloss-validated
+MT	2Sam.19.32	2Sam.19.31	empirical sequence alignment, gloss-validated
+MT	2Sam.19.33	2Sam.19.32	empirical sequence alignment, gloss-validated
+MT	2Sam.19.34	2Sam.19.33	empirical sequence alignment, gloss-validated
+MT	2Sam.19.35	2Sam.19.34	empirical sequence alignment, gloss-validated
+MT	2Sam.19.36	2Sam.19.35	empirical sequence alignment, gloss-validated
+MT	2Sam.19.37	2Sam.19.36	empirical sequence alignment, gloss-validated
+MT	2Sam.19.38	2Sam.19.37	empirical sequence alignment, gloss-validated
+MT	2Sam.19.39	2Sam.19.38	empirical sequence alignment, gloss-validated
+MT	2Sam.19.4	2Sam.19.3	empirical sequence alignment, gloss-validated
+MT	2Sam.19.40	2Sam.19.39	empirical sequence alignment, gloss-validated
+MT	2Sam.19.41	2Sam.19.40	empirical sequence alignment, gloss-validated
+MT	2Sam.19.42	2Sam.19.41	empirical sequence alignment, gloss-validated
+MT	2Sam.19.43	2Sam.19.42	empirical sequence alignment, gloss-validated
+MT	2Sam.19.44	2Sam.19.43	empirical sequence alignment, gloss-validated
+MT	2Sam.19.5	2Sam.19.4	empirical sequence alignment, gloss-validated
+MT	2Sam.19.6	2Sam.19.5	empirical sequence alignment, gloss-validated
+MT	2Sam.19.7	2Sam.19.6	empirical sequence alignment, gloss-validated
+MT	2Sam.19.8	2Sam.19.7	empirical sequence alignment, gloss-validated
+MT	2Sam.19.9	2Sam.19.8	empirical sequence alignment, gloss-validated
+MT	3John.1.15	3John.1.14	empirical residual merge, overlap=1.00
+MT	Acts.19.40	Acts.19.41	empirical DP alignment (split:second), gloss-validated overlap=0.33
+MT	Dan.3.31	Dan.4.1	empirical sequence alignment, gloss-validated
+MT	Dan.3.32	Dan.4.2	empirical sequence alignment, gloss-validated
+MT	Dan.3.33	Dan.4.3	empirical sequence alignment, gloss-validated
+MT	Dan.4.1	Dan.4.4	empirical sequence alignment, gloss-validated
+MT	Dan.4.10	Dan.4.13	empirical sequence alignment, gloss-validated
+MT	Dan.4.11	Dan.4.14	empirical sequence alignment, gloss-validated
+MT	Dan.4.12	Dan.4.15	empirical sequence alignment, gloss-validated
+MT	Dan.4.13	Dan.4.16	empirical sequence alignment, gloss-validated
+MT	Dan.4.14	Dan.4.17	empirical sequence alignment, gloss-validated
+MT	Dan.4.15	Dan.4.18	empirical sequence alignment, gloss-validated
+MT	Dan.4.16	Dan.4.19	empirical sequence alignment, gloss-validated
+MT	Dan.4.17	Dan.4.20	empirical sequence alignment, gloss-validated
+MT	Dan.4.18	Dan.4.21	empirical sequence alignment, gloss-validated
+MT	Dan.4.19	Dan.4.22	empirical sequence alignment, gloss-validated
+MT	Dan.4.2	Dan.4.5	empirical sequence alignment, gloss-validated
+MT	Dan.4.20	Dan.4.23	empirical sequence alignment, gloss-validated
+MT	Dan.4.21	Dan.4.24	empirical sequence alignment, gloss-validated
+MT	Dan.4.22	Dan.4.25	empirical sequence alignment, gloss-validated
+MT	Dan.4.23	Dan.4.26	empirical sequence alignment, gloss-validated
+MT	Dan.4.24	Dan.4.27	empirical sequence alignment, gloss-validated
+MT	Dan.4.25	Dan.4.28	empirical sequence alignment, gloss-validated
+MT	Dan.4.26	Dan.4.29	empirical sequence alignment, gloss-validated
+MT	Dan.4.27	Dan.4.30	empirical sequence alignment, gloss-validated
+MT	Dan.4.28	Dan.4.31	empirical sequence alignment, gloss-validated
+MT	Dan.4.29	Dan.4.32	empirical sequence alignment, gloss-validated
+MT	Dan.4.3	Dan.4.6	empirical sequence alignment, gloss-validated
+MT	Dan.4.30	Dan.4.33	empirical sequence alignment, gloss-validated
+MT	Dan.4.31	Dan.4.34	empirical sequence alignment, gloss-validated
+MT	Dan.4.32	Dan.4.35	empirical sequence alignment, gloss-validated
+MT	Dan.4.33	Dan.4.36	empirical sequence alignment, gloss-validated
+MT	Dan.4.34	Dan.4.37	empirical sequence alignment, gloss-validated
+MT	Dan.4.4	Dan.4.7	empirical sequence alignment, gloss-validated
+MT	Dan.4.5	Dan.4.8	empirical sequence alignment, gloss-validated
+MT	Dan.4.6	Dan.4.9	empirical sequence alignment, gloss-validated
+MT	Dan.4.7	Dan.4.10	empirical sequence alignment, gloss-validated
+MT	Dan.4.8	Dan.4.11	empirical sequence alignment, gloss-validated
+MT	Dan.4.9	Dan.4.12	empirical sequence alignment, gloss-validated
+MT	Dan.6.1	Dan.5.31	empirical sequence alignment, gloss-validated
+MT	Dan.6.10	Dan.6.9	empirical sequence alignment, gloss-validated
+MT	Dan.6.11	Dan.6.10	empirical sequence alignment, gloss-validated
+MT	Dan.6.12	Dan.6.11	empirical sequence alignment, gloss-validated
+MT	Dan.6.13	Dan.6.12	empirical sequence alignment, gloss-validated
+MT	Dan.6.14	Dan.6.13	empirical sequence alignment, gloss-validated
+MT	Dan.6.15	Dan.6.14	empirical sequence alignment, gloss-validated
+MT	Dan.6.16	Dan.6.15	empirical sequence alignment, gloss-validated
+MT	Dan.6.17	Dan.6.16	empirical sequence alignment, gloss-validated
+MT	Dan.6.18	Dan.6.17	empirical sequence alignment, gloss-validated
+MT	Dan.6.19	Dan.6.18	empirical sequence alignment, gloss-validated
+MT	Dan.6.2	Dan.6.1	empirical sequence alignment, gloss-validated
+MT	Dan.6.20	Dan.6.19	empirical sequence alignment, gloss-validated
+MT	Dan.6.21	Dan.6.20	empirical sequence alignment, gloss-validated
+MT	Dan.6.22	Dan.6.21	empirical sequence alignment, gloss-validated
+MT	Dan.6.23	Dan.6.22	empirical sequence alignment, gloss-validated
+MT	Dan.6.24	Dan.6.23	empirical sequence alignment, gloss-validated
+MT	Dan.6.25	Dan.6.24	empirical sequence alignment, gloss-validated
+MT	Dan.6.26	Dan.6.25	empirical sequence alignment, gloss-validated
+MT	Dan.6.27	Dan.6.26	empirical sequence alignment, gloss-validated
+MT	Dan.6.28	Dan.6.27	empirical sequence alignment, gloss-validated
+MT	Dan.6.29	Dan.6.28	empirical sequence alignment, gloss-validated
+MT	Dan.6.3	Dan.6.2	empirical sequence alignment, gloss-validated
+MT	Dan.6.4	Dan.6.3	empirical sequence alignment, gloss-validated
+MT	Dan.6.5	Dan.6.4	empirical sequence alignment, gloss-validated
+MT	Dan.6.6	Dan.6.5	empirical sequence alignment, gloss-validated
+MT	Dan.6.7	Dan.6.6	empirical sequence alignment, gloss-validated
+MT	Dan.6.8	Dan.6.7	empirical sequence alignment, gloss-validated
+MT	Dan.6.9	Dan.6.8	empirical sequence alignment, gloss-validated
+MT	Deut.13.1	Deut.12.32	empirical sequence alignment, gloss-validated
+MT	Deut.13.10	Deut.13.9	empirical sequence alignment, gloss-validated
+MT	Deut.13.11	Deut.13.10	empirical sequence alignment, gloss-validated
+MT	Deut.13.12	Deut.13.11	empirical sequence alignment, gloss-validated
+MT	Deut.13.13	Deut.13.12	empirical sequence alignment, gloss-validated
+MT	Deut.13.14	Deut.13.13	empirical sequence alignment, gloss-validated
+MT	Deut.13.15	Deut.13.14	empirical sequence alignment, gloss-validated
+MT	Deut.13.16	Deut.13.15	empirical sequence alignment, gloss-validated
+MT	Deut.13.17	Deut.13.16	empirical sequence alignment, gloss-validated
+MT	Deut.13.18	Deut.13.17	empirical sequence alignment, gloss-validated
+MT	Deut.13.19	Deut.13.18	empirical sequence alignment, gloss-validated
+MT	Deut.13.2	Deut.13.1	empirical sequence alignment, gloss-validated
+MT	Deut.13.3	Deut.13.2	empirical sequence alignment, gloss-validated
+MT	Deut.13.4	Deut.13.3	empirical sequence alignment, gloss-validated
+MT	Deut.13.5	Deut.13.4	empirical sequence alignment, gloss-validated
+MT	Deut.13.6	Deut.13.5	empirical sequence alignment, gloss-validated
+MT	Deut.13.7	Deut.13.6	empirical sequence alignment, gloss-validated
+MT	Deut.13.8	Deut.13.7	empirical sequence alignment, gloss-validated
+MT	Deut.13.9	Deut.13.8	empirical sequence alignment, gloss-validated
+MT	Deut.23.1	Deut.22.30	empirical sequence alignment, gloss-validated
+MT	Deut.23.10	Deut.23.9	empirical sequence alignment, gloss-validated
+MT	Deut.23.11	Deut.23.10	empirical sequence alignment, gloss-validated
+MT	Deut.23.12	Deut.23.11	empirical sequence alignment, gloss-validated
+MT	Deut.23.13	Deut.23.12	empirical sequence alignment, gloss-validated
+MT	Deut.23.14	Deut.23.13	empirical sequence alignment, gloss-validated
+MT	Deut.23.15	Deut.23.14	empirical sequence alignment, gloss-validated
+MT	Deut.23.16	Deut.23.15	empirical sequence alignment, gloss-validated
+MT	Deut.23.17	Deut.23.16	empirical sequence alignment, gloss-validated
+MT	Deut.23.18	Deut.23.17	empirical sequence alignment, gloss-validated
+MT	Deut.23.19	Deut.23.18	empirical sequence alignment, gloss-validated
+MT	Deut.23.2	Deut.23.1	empirical sequence alignment, gloss-validated
+MT	Deut.23.20	Deut.23.19	empirical sequence alignment, gloss-validated
+MT	Deut.23.21	Deut.23.20	empirical sequence alignment, gloss-validated
+MT	Deut.23.22	Deut.23.21	empirical sequence alignment, gloss-validated
+MT	Deut.23.23	Deut.23.22	empirical sequence alignment, gloss-validated
+MT	Deut.23.24	Deut.23.23	empirical sequence alignment, gloss-validated
+MT	Deut.23.25	Deut.23.24	empirical sequence alignment, gloss-validated
+MT	Deut.23.26	Deut.23.25	empirical sequence alignment, gloss-validated
+MT	Deut.23.3	Deut.23.2	empirical sequence alignment, gloss-validated
+MT	Deut.23.4	Deut.23.3	empirical sequence alignment, gloss-validated
+MT	Deut.23.5	Deut.23.4	empirical sequence alignment, gloss-validated
+MT	Deut.23.6	Deut.23.5	empirical sequence alignment, gloss-validated
+MT	Deut.23.7	Deut.23.6	empirical sequence alignment, gloss-validated
+MT	Deut.23.8	Deut.23.7	empirical sequence alignment, gloss-validated
+MT	Deut.23.9	Deut.23.8	empirical sequence alignment, gloss-validated
+MT	Deut.28.69	Deut.29.1	empirical sequence alignment, gloss-validated
+MT	Deut.29.1	Deut.29.2	empirical sequence alignment, gloss-validated
+MT	Deut.29.10	Deut.29.11	empirical sequence alignment, gloss-validated
+MT	Deut.29.11	Deut.29.12	empirical sequence alignment, gloss-validated
+MT	Deut.29.12	Deut.29.13	empirical sequence alignment, gloss-validated
+MT	Deut.29.13	Deut.29.14	empirical sequence alignment, gloss-validated
+MT	Deut.29.14	Deut.29.15	empirical sequence alignment, gloss-validated
+MT	Deut.29.15	Deut.29.16	empirical sequence alignment, gloss-validated
+MT	Deut.29.16	Deut.29.17	empirical sequence alignment, gloss-validated
+MT	Deut.29.17	Deut.29.18	empirical sequence alignment, gloss-validated
+MT	Deut.29.18	Deut.29.19	empirical sequence alignment, gloss-validated
+MT	Deut.29.19	Deut.29.20	empirical sequence alignment, gloss-validated
+MT	Deut.29.2	Deut.29.3	empirical sequence alignment, gloss-validated
+MT	Deut.29.20	Deut.29.21	empirical sequence alignment, gloss-validated
+MT	Deut.29.21	Deut.29.22	empirical sequence alignment, gloss-validated
+MT	Deut.29.22	Deut.29.23	empirical sequence alignment, gloss-validated
+MT	Deut.29.23	Deut.29.24	empirical sequence alignment, gloss-validated
+MT	Deut.29.24	Deut.29.25	empirical sequence alignment, gloss-validated
+MT	Deut.29.25	Deut.29.26	empirical sequence alignment, gloss-validated
+MT	Deut.29.26	Deut.29.27	empirical sequence alignment, gloss-validated
+MT	Deut.29.27	Deut.29.28	empirical sequence alignment, gloss-validated
+MT	Deut.29.28	Deut.29.29	empirical sequence alignment, gloss-validated
+MT	Deut.29.3	Deut.29.4	empirical sequence alignment, gloss-validated
+MT	Deut.29.4	Deut.29.5	empirical sequence alignment, gloss-validated
+MT	Deut.29.5	Deut.29.6	empirical sequence alignment, gloss-validated
+MT	Deut.29.6	Deut.29.7	empirical sequence alignment, gloss-validated
+MT	Deut.29.7	Deut.29.8	empirical sequence alignment, gloss-validated
+MT	Deut.29.8	Deut.29.9	empirical sequence alignment, gloss-validated
+MT	Deut.29.9	Deut.29.10	empirical sequence alignment, gloss-validated
+MT	Eccl.4.17	Eccl.5.1	empirical sequence alignment, gloss-validated
+MT	Eccl.5.1	Eccl.5.2	empirical sequence alignment, gloss-validated
+MT	Eccl.5.10	Eccl.5.11	empirical sequence alignment, gloss-validated
+MT	Eccl.5.11	Eccl.5.12	empirical sequence alignment, gloss-validated
+MT	Eccl.5.12	Eccl.5.13	empirical sequence alignment, gloss-validated
+MT	Eccl.5.13	Eccl.5.14	empirical sequence alignment, gloss-validated
+MT	Eccl.5.14	Eccl.5.15	empirical sequence alignment, gloss-validated
+MT	Eccl.5.15	Eccl.5.16	empirical sequence alignment, gloss-validated
+MT	Eccl.5.16	Eccl.5.17	empirical sequence alignment, gloss-validated
+MT	Eccl.5.17	Eccl.5.18	empirical sequence alignment, gloss-validated
+MT	Eccl.5.18	Eccl.5.19	empirical sequence alignment, gloss-validated
+MT	Eccl.5.19	Eccl.5.20	empirical sequence alignment, gloss-validated
+MT	Eccl.5.2	Eccl.5.3	empirical sequence alignment, gloss-validated
+MT	Eccl.5.3	Eccl.5.4	empirical sequence alignment, gloss-validated
+MT	Eccl.5.4	Eccl.5.5	empirical sequence alignment, gloss-validated
+MT	Eccl.5.5	Eccl.5.6	empirical sequence alignment, gloss-validated
+MT	Eccl.5.6	Eccl.5.7	empirical sequence alignment, gloss-validated
+MT	Eccl.5.7	Eccl.5.8	empirical sequence alignment, gloss-validated
+MT	Eccl.5.8	Eccl.5.9	empirical sequence alignment, gloss-validated
+MT	Eccl.5.9	Eccl.5.10	empirical sequence alignment, gloss-validated
+MT	Exod.21.37	Exod.22.1	empirical sequence alignment, gloss-validated
+MT	Exod.22.1	Exod.22.2	empirical sequence alignment, gloss-validated
+MT	Exod.22.10	Exod.22.11	empirical sequence alignment, gloss-validated
+MT	Exod.22.11	Exod.22.12	empirical sequence alignment, gloss-validated
+MT	Exod.22.12	Exod.22.13	empirical sequence alignment, gloss-validated
+MT	Exod.22.13	Exod.22.14	empirical sequence alignment, gloss-validated
+MT	Exod.22.14	Exod.22.15	empirical sequence alignment, gloss-validated
+MT	Exod.22.15	Exod.22.16	empirical sequence alignment, gloss-validated
+MT	Exod.22.16	Exod.22.17	empirical sequence alignment, gloss-validated
+MT	Exod.22.17	Exod.22.18	empirical sequence alignment, gloss-validated
+MT	Exod.22.18	Exod.22.19	empirical sequence alignment, gloss-validated
+MT	Exod.22.19	Exod.22.20	empirical sequence alignment, gloss-validated
+MT	Exod.22.2	Exod.22.3	empirical sequence alignment, gloss-validated
+MT	Exod.22.20	Exod.22.21	empirical sequence alignment, gloss-validated
+MT	Exod.22.21	Exod.22.22	empirical sequence alignment, gloss-validated
+MT	Exod.22.22	Exod.22.23	empirical sequence alignment, gloss-validated
+MT	Exod.22.23	Exod.22.24	empirical sequence alignment, gloss-validated
+MT	Exod.22.24	Exod.22.25	empirical sequence alignment, gloss-validated
+MT	Exod.22.25	Exod.22.26	empirical sequence alignment, gloss-validated
+MT	Exod.22.26	Exod.22.27	empirical sequence alignment, gloss-validated
+MT	Exod.22.27	Exod.22.28	empirical sequence alignment, gloss-validated
+MT	Exod.22.28	Exod.22.29	empirical sequence alignment, gloss-validated
+MT	Exod.22.29	Exod.22.30	empirical sequence alignment, gloss-validated
+MT	Exod.22.3	Exod.22.4	empirical sequence alignment, gloss-validated
+MT	Exod.22.30	Exod.22.31	empirical sequence alignment, gloss-validated
+MT	Exod.22.4	Exod.22.5	empirical sequence alignment, gloss-validated
+MT	Exod.22.5	Exod.22.6	empirical sequence alignment, gloss-validated
+MT	Exod.22.6	Exod.22.7	empirical sequence alignment, gloss-validated
+MT	Exod.22.7	Exod.22.8	empirical sequence alignment, gloss-validated
+MT	Exod.22.8	Exod.22.9	empirical sequence alignment, gloss-validated
+MT	Exod.22.9	Exod.22.10	empirical sequence alignment, gloss-validated
+MT	Exod.7.26	Exod.8.1	empirical sequence alignment, gloss-validated
+MT	Exod.7.27	Exod.8.2	empirical sequence alignment, gloss-validated
+MT	Exod.7.28	Exod.8.3	empirical sequence alignment, gloss-validated
+MT	Exod.7.29	Exod.8.4	empirical sequence alignment, gloss-validated
+MT	Exod.8.1	Exod.8.5	empirical sequence alignment, gloss-validated
+MT	Exod.8.10	Exod.8.14	empirical sequence alignment, gloss-validated
+MT	Exod.8.11	Exod.8.15	empirical sequence alignment, gloss-validated
+MT	Exod.8.12	Exod.8.16	empirical sequence alignment, gloss-validated
+MT	Exod.8.13	Exod.8.17	empirical sequence alignment, gloss-validated
+MT	Exod.8.14	Exod.8.18	empirical sequence alignment, gloss-validated
+MT	Exod.8.15	Exod.8.19	empirical sequence alignment, gloss-validated
+MT	Exod.8.16	Exod.8.20	empirical sequence alignment, gloss-validated
+MT	Exod.8.17	Exod.8.21	empirical sequence alignment, gloss-validated
+MT	Exod.8.18	Exod.8.22	empirical sequence alignment, gloss-validated
+MT	Exod.8.19	Exod.8.23	empirical sequence alignment, gloss-validated
+MT	Exod.8.2	Exod.8.6	empirical sequence alignment, gloss-validated
+MT	Exod.8.20	Exod.8.24	empirical sequence alignment, gloss-validated
+MT	Exod.8.21	Exod.8.25	empirical sequence alignment, gloss-validated
+MT	Exod.8.22	Exod.8.26	empirical sequence alignment, gloss-validated
+MT	Exod.8.23	Exod.8.27	empirical sequence alignment, gloss-validated
+MT	Exod.8.24	Exod.8.28	empirical sequence alignment, gloss-validated
+MT	Exod.8.25	Exod.8.29	empirical sequence alignment, gloss-validated
+MT	Exod.8.26	Exod.8.30	empirical sequence alignment, gloss-validated
+MT	Exod.8.27	Exod.8.31	empirical sequence alignment, gloss-validated
+MT	Exod.8.28	Exod.8.32	empirical sequence alignment, gloss-validated
+MT	Exod.8.3	Exod.8.7	empirical sequence alignment, gloss-validated
+MT	Exod.8.4	Exod.8.8	empirical sequence alignment, gloss-validated
+MT	Exod.8.5	Exod.8.9	empirical sequence alignment, gloss-validated
+MT	Exod.8.6	Exod.8.10	empirical sequence alignment, gloss-validated
+MT	Exod.8.7	Exod.8.11	empirical sequence alignment, gloss-validated
+MT	Exod.8.8	Exod.8.12	empirical sequence alignment, gloss-validated
+MT	Exod.8.9	Exod.8.13	empirical sequence alignment, gloss-validated
+MT	Ezek.21.1	Ezek.20.45	empirical sequence alignment, gloss-validated
+MT	Ezek.21.10	Ezek.21.5	empirical sequence alignment, gloss-validated
+MT	Ezek.21.11	Ezek.21.6	empirical sequence alignment, gloss-validated
+MT	Ezek.21.12	Ezek.21.7	empirical sequence alignment, gloss-validated
+MT	Ezek.21.13	Ezek.21.8	empirical sequence alignment, gloss-validated
+MT	Ezek.21.14	Ezek.21.9	empirical sequence alignment, gloss-validated
+MT	Ezek.21.15	Ezek.21.10	empirical sequence alignment, gloss-validated
+MT	Ezek.21.16	Ezek.21.11	empirical sequence alignment, gloss-validated
+MT	Ezek.21.17	Ezek.21.12	empirical sequence alignment, gloss-validated
+MT	Ezek.21.18	Ezek.21.13	empirical sequence alignment, gloss-validated
+MT	Ezek.21.19	Ezek.21.14	empirical sequence alignment, gloss-validated
+MT	Ezek.21.2	Ezek.20.46	empirical sequence alignment, gloss-validated
+MT	Ezek.21.20	Ezek.21.15	empirical sequence alignment, gloss-validated
+MT	Ezek.21.21	Ezek.21.16	empirical sequence alignment, gloss-validated
+MT	Ezek.21.22	Ezek.21.17	empirical sequence alignment, gloss-validated
+MT	Ezek.21.23	Ezek.21.18	empirical sequence alignment, gloss-validated
+MT	Ezek.21.24	Ezek.21.19	empirical sequence alignment, gloss-validated
+MT	Ezek.21.25	Ezek.21.20	empirical sequence alignment, gloss-validated
+MT	Ezek.21.26	Ezek.21.21	empirical sequence alignment, gloss-validated
+MT	Ezek.21.27	Ezek.21.22	empirical sequence alignment, gloss-validated
+MT	Ezek.21.28	Ezek.21.23	empirical sequence alignment, gloss-validated
+MT	Ezek.21.29	Ezek.21.24	empirical sequence alignment, gloss-validated
+MT	Ezek.21.3	Ezek.20.47	empirical sequence alignment, gloss-validated
+MT	Ezek.21.30	Ezek.21.25	empirical sequence alignment, gloss-validated
+MT	Ezek.21.31	Ezek.21.26	empirical sequence alignment, gloss-validated
+MT	Ezek.21.32	Ezek.21.27	empirical sequence alignment, gloss-validated
+MT	Ezek.21.33	Ezek.21.28	empirical sequence alignment, gloss-validated
+MT	Ezek.21.34	Ezek.21.29	empirical sequence alignment, gloss-validated
+MT	Ezek.21.35	Ezek.21.30	empirical sequence alignment, gloss-validated
+MT	Ezek.21.36	Ezek.21.31	empirical sequence alignment, gloss-validated
+MT	Ezek.21.37	Ezek.21.32	empirical sequence alignment, gloss-validated
+MT	Ezek.21.4	Ezek.20.48	empirical sequence alignment, gloss-validated
+MT	Ezek.21.5	Ezek.20.49	empirical sequence alignment, gloss-validated
+MT	Ezek.21.6	Ezek.21.1	empirical sequence alignment, gloss-validated
+MT	Ezek.21.7	Ezek.21.2	empirical sequence alignment, gloss-validated
+MT	Ezek.21.8	Ezek.21.3	empirical sequence alignment, gloss-validated
+MT	Ezek.21.9	Ezek.21.4	empirical sequence alignment, gloss-validated
+MT	Gen.32.1	Gen.31.55	empirical sequence alignment, gloss-validated
+MT	Gen.32.10	Gen.32.9	empirical sequence alignment, gloss-validated
+MT	Gen.32.11	Gen.32.10	empirical sequence alignment, gloss-validated
+MT	Gen.32.12	Gen.32.11	empirical sequence alignment, gloss-validated
+MT	Gen.32.13	Gen.32.12	empirical sequence alignment, gloss-validated
+MT	Gen.32.14	Gen.32.13	empirical sequence alignment, gloss-validated
+MT	Gen.32.15	Gen.32.14	empirical sequence alignment, gloss-validated
+MT	Gen.32.16	Gen.32.15	empirical sequence alignment, gloss-validated
+MT	Gen.32.17	Gen.32.16	empirical sequence alignment, gloss-validated
+MT	Gen.32.18	Gen.32.17	empirical sequence alignment, gloss-validated
+MT	Gen.32.19	Gen.32.18	empirical sequence alignment, gloss-validated
+MT	Gen.32.2	Gen.32.1	empirical sequence alignment, gloss-validated
+MT	Gen.32.20	Gen.32.19	empirical sequence alignment, gloss-validated
+MT	Gen.32.21	Gen.32.20	empirical sequence alignment, gloss-validated
+MT	Gen.32.22	Gen.32.21	empirical sequence alignment, gloss-validated
+MT	Gen.32.23	Gen.32.22	empirical sequence alignment, gloss-validated
+MT	Gen.32.24	Gen.32.23	empirical sequence alignment, gloss-validated
+MT	Gen.32.25	Gen.32.24	empirical sequence alignment, gloss-validated
+MT	Gen.32.26	Gen.32.25	empirical sequence alignment, gloss-validated
+MT	Gen.32.27	Gen.32.26	empirical sequence alignment, gloss-validated
+MT	Gen.32.28	Gen.32.27	empirical sequence alignment, gloss-validated
+MT	Gen.32.29	Gen.32.28	empirical sequence alignment, gloss-validated
+MT	Gen.32.3	Gen.32.2	empirical sequence alignment, gloss-validated
+MT	Gen.32.30	Gen.32.29	empirical sequence alignment, gloss-validated
+MT	Gen.32.31	Gen.32.30	empirical sequence alignment, gloss-validated
+MT	Gen.32.32	Gen.32.31	empirical sequence alignment, gloss-validated
+MT	Gen.32.33	Gen.32.32	empirical sequence alignment, gloss-validated
+MT	Gen.32.4	Gen.32.3	empirical sequence alignment, gloss-validated
+MT	Gen.32.5	Gen.32.4	empirical sequence alignment, gloss-validated
+MT	Gen.32.6	Gen.32.5	empirical sequence alignment, gloss-validated
+MT	Gen.32.7	Gen.32.6	empirical sequence alignment, gloss-validated
+MT	Gen.32.8	Gen.32.7	empirical sequence alignment, gloss-validated
+MT	Gen.32.9	Gen.32.8	empirical sequence alignment, gloss-validated
+MT	Hos.12.1	Hos.11.12	empirical sequence alignment, gloss-validated
+MT	Hos.12.10	Hos.12.9	empirical sequence alignment, gloss-validated
+MT	Hos.12.11	Hos.12.10	empirical sequence alignment, gloss-validated
+MT	Hos.12.12	Hos.12.11	empirical sequence alignment, gloss-validated
+MT	Hos.12.13	Hos.12.12	empirical sequence alignment, gloss-validated
+MT	Hos.12.14	Hos.12.13	empirical sequence alignment, gloss-validated
+MT	Hos.12.15	Hos.12.14	empirical sequence alignment, gloss-validated
+MT	Hos.12.2	Hos.12.1	empirical sequence alignment, gloss-validated
+MT	Hos.12.3	Hos.12.2	empirical sequence alignment, gloss-validated
+MT	Hos.12.4	Hos.12.3	empirical sequence alignment, gloss-validated
+MT	Hos.12.5	Hos.12.4	empirical sequence alignment, gloss-validated
+MT	Hos.12.6	Hos.12.5	empirical sequence alignment, gloss-validated
+MT	Hos.12.7	Hos.12.6	empirical sequence alignment, gloss-validated
+MT	Hos.12.8	Hos.12.7	empirical sequence alignment, gloss-validated
+MT	Hos.12.9	Hos.12.8	empirical sequence alignment, gloss-validated
+MT	Hos.14.1	Hos.13.16	empirical sequence alignment, gloss-validated
+MT	Hos.14.10	Hos.14.9	empirical sequence alignment, gloss-validated
+MT	Hos.14.2	Hos.14.1	empirical sequence alignment, gloss-validated
+MT	Hos.14.3	Hos.14.2	empirical sequence alignment, gloss-validated
+MT	Hos.14.4	Hos.14.3	empirical sequence alignment, gloss-validated
+MT	Hos.14.5	Hos.14.4	empirical sequence alignment, gloss-validated
+MT	Hos.14.6	Hos.14.5	empirical sequence alignment, gloss-validated
+MT	Hos.14.7	Hos.14.6	empirical sequence alignment, gloss-validated
+MT	Hos.14.8	Hos.14.7	empirical sequence alignment, gloss-validated
+MT	Hos.14.9	Hos.14.8	empirical sequence alignment, gloss-validated
+MT	Hos.2.1	Hos.1.10	empirical sequence alignment, gloss-validated
+MT	Hos.2.10	Hos.2.8	empirical sequence alignment, gloss-validated
+MT	Hos.2.11	Hos.2.9	empirical sequence alignment, gloss-validated
+MT	Hos.2.12	Hos.2.10	empirical sequence alignment, gloss-validated
+MT	Hos.2.13	Hos.2.11	empirical sequence alignment, gloss-validated
+MT	Hos.2.14	Hos.2.12	empirical sequence alignment, gloss-validated
+MT	Hos.2.15	Hos.2.13	empirical sequence alignment, gloss-validated
+MT	Hos.2.16	Hos.2.14	empirical sequence alignment, gloss-validated
+MT	Hos.2.17	Hos.2.15	empirical sequence alignment, gloss-validated
+MT	Hos.2.18	Hos.2.16	empirical sequence alignment, gloss-validated
+MT	Hos.2.19	Hos.2.17	empirical sequence alignment, gloss-validated
+MT	Hos.2.2	Hos.1.11	empirical sequence alignment, gloss-validated
+MT	Hos.2.20	Hos.2.18	empirical sequence alignment, gloss-validated
+MT	Hos.2.21	Hos.2.19	empirical sequence alignment, gloss-validated
+MT	Hos.2.22	Hos.2.20	empirical sequence alignment, gloss-validated
+MT	Hos.2.23	Hos.2.21	empirical sequence alignment, gloss-validated
+MT	Hos.2.24	Hos.2.22	empirical sequence alignment, gloss-validated
+MT	Hos.2.25	Hos.2.23	empirical sequence alignment, gloss-validated
+MT	Hos.2.3	Hos.2.1	empirical sequence alignment, gloss-validated
+MT	Hos.2.4	Hos.2.2	empirical sequence alignment, gloss-validated
+MT	Hos.2.5	Hos.2.3	empirical sequence alignment, gloss-validated
+MT	Hos.2.6	Hos.2.4	empirical sequence alignment, gloss-validated
+MT	Hos.2.7	Hos.2.5	empirical sequence alignment, gloss-validated
+MT	Hos.2.8	Hos.2.6	empirical sequence alignment, gloss-validated
+MT	Hos.2.9	Hos.2.7	empirical sequence alignment, gloss-validated
+MT	Isa.63.19	Isa.64.1	empirical DP alignment (split:second), gloss-validated overlap=0.62
+MT	Isa.64.1	Isa.64.2	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.10	Isa.64.11	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.11	Isa.64.12	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.2	Isa.64.3	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.3	Isa.64.4	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.4	Isa.64.5	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.5	Isa.64.6	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.6	Isa.64.7	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.7	Isa.64.8	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.8	Isa.64.9	empirical DP alignment (shift), gloss-validated
+MT	Isa.64.9	Isa.64.10	empirical DP alignment (shift), gloss-validated
+MT	Isa.8.23	Isa.9.1	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.1	Isa.9.2	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.10	Isa.9.11	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.11	Isa.9.12	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.12	Isa.9.13	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.13	Isa.9.14	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.14	Isa.9.15	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.15	Isa.9.16	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.16	Isa.9.17	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.17	Isa.9.18	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.18	Isa.9.19	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.19	Isa.9.20	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.2	Isa.9.3	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.20	Isa.9.21	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.3	Isa.9.4	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.4	Isa.9.5	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.5	Isa.9.6	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.6	Isa.9.7	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.7	Isa.9.8	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.8	Isa.9.9	empirical DP alignment (shift), gloss-validated
+MT	Isa.9.9	Isa.9.10	empirical DP alignment (shift), gloss-validated
+MT	Jer.8.23	Jer.9.1	empirical sequence alignment, gloss-validated
+MT	Jer.9.1	Jer.9.2	empirical sequence alignment, gloss-validated
+MT	Jer.9.10	Jer.9.11	empirical sequence alignment, gloss-validated
+MT	Jer.9.11	Jer.9.12	empirical sequence alignment, gloss-validated
+MT	Jer.9.12	Jer.9.13	empirical sequence alignment, gloss-validated
+MT	Jer.9.13	Jer.9.14	empirical sequence alignment, gloss-validated
+MT	Jer.9.14	Jer.9.15	empirical sequence alignment, gloss-validated
+MT	Jer.9.15	Jer.9.16	empirical sequence alignment, gloss-validated
+MT	Jer.9.16	Jer.9.17	empirical sequence alignment, gloss-validated
+MT	Jer.9.17	Jer.9.18	empirical sequence alignment, gloss-validated
+MT	Jer.9.18	Jer.9.19	empirical sequence alignment, gloss-validated
+MT	Jer.9.19	Jer.9.20	empirical sequence alignment, gloss-validated
+MT	Jer.9.2	Jer.9.3	empirical sequence alignment, gloss-validated
+MT	Jer.9.20	Jer.9.21	empirical sequence alignment, gloss-validated
+MT	Jer.9.21	Jer.9.22	empirical sequence alignment, gloss-validated
+MT	Jer.9.22	Jer.9.23	empirical sequence alignment, gloss-validated
+MT	Jer.9.23	Jer.9.24	empirical sequence alignment, gloss-validated
+MT	Jer.9.24	Jer.9.25	empirical sequence alignment, gloss-validated
+MT	Jer.9.25	Jer.9.26	empirical sequence alignment, gloss-validated
+MT	Jer.9.3	Jer.9.4	empirical sequence alignment, gloss-validated
+MT	Jer.9.4	Jer.9.5	empirical sequence alignment, gloss-validated
+MT	Jer.9.5	Jer.9.6	empirical sequence alignment, gloss-validated
+MT	Jer.9.6	Jer.9.7	empirical sequence alignment, gloss-validated
+MT	Jer.9.7	Jer.9.8	empirical sequence alignment, gloss-validated
+MT	Jer.9.8	Jer.9.9	empirical sequence alignment, gloss-validated
+MT	Jer.9.9	Jer.9.10	empirical sequence alignment, gloss-validated
+MT	Job.40.25	Job.41.1	empirical sequence alignment, gloss-validated
+MT	Job.40.26	Job.41.2	empirical sequence alignment, gloss-validated
+MT	Job.40.27	Job.41.3	empirical sequence alignment, gloss-validated
+MT	Job.40.28	Job.41.4	empirical sequence alignment, gloss-validated
+MT	Job.40.29	Job.41.5	empirical sequence alignment, gloss-validated
+MT	Job.40.30	Job.41.6	empirical sequence alignment, gloss-validated
+MT	Job.40.31	Job.41.7	empirical sequence alignment, gloss-validated
+MT	Job.40.32	Job.41.8	empirical sequence alignment, gloss-validated
+MT	Job.41.1	Job.41.9	empirical sequence alignment, gloss-validated
+MT	Job.41.10	Job.41.18	empirical sequence alignment, gloss-validated
+MT	Job.41.11	Job.41.19	empirical sequence alignment, gloss-validated
+MT	Job.41.12	Job.41.20	empirical sequence alignment, gloss-validated
+MT	Job.41.13	Job.41.21	empirical sequence alignment, gloss-validated
+MT	Job.41.14	Job.41.22	empirical sequence alignment, gloss-validated
+MT	Job.41.15	Job.41.23	empirical sequence alignment, gloss-validated
+MT	Job.41.16	Job.41.24	empirical sequence alignment, gloss-validated
+MT	Job.41.17	Job.41.25	empirical sequence alignment, gloss-validated
+MT	Job.41.18	Job.41.26	empirical sequence alignment, gloss-validated
+MT	Job.41.19	Job.41.27	empirical sequence alignment, gloss-validated
+MT	Job.41.2	Job.41.10	empirical sequence alignment, gloss-validated
+MT	Job.41.20	Job.41.28	empirical sequence alignment, gloss-validated
+MT	Job.41.21	Job.41.29	empirical sequence alignment, gloss-validated
+MT	Job.41.22	Job.41.30	empirical sequence alignment, gloss-validated
+MT	Job.41.23	Job.41.31	empirical sequence alignment, gloss-validated
+MT	Job.41.24	Job.41.32	empirical sequence alignment, gloss-validated
+MT	Job.41.25	Job.41.33	empirical sequence alignment, gloss-validated
+MT	Job.41.26	Job.41.34	empirical sequence alignment, gloss-validated
+MT	Job.41.3	Job.41.11	empirical sequence alignment, gloss-validated
+MT	Job.41.4	Job.41.12	empirical sequence alignment, gloss-validated
+MT	Job.41.5	Job.41.13	empirical sequence alignment, gloss-validated
+MT	Job.41.6	Job.41.14	empirical sequence alignment, gloss-validated
+MT	Job.41.7	Job.41.15	empirical sequence alignment, gloss-validated
+MT	Job.41.8	Job.41.16	empirical sequence alignment, gloss-validated
+MT	Job.41.9	Job.41.17	empirical sequence alignment, gloss-validated
+MT	Joel.3.1	Joel.2.28	empirical sequence alignment, gloss-validated
+MT	Joel.3.2	Joel.2.29	empirical sequence alignment, gloss-validated
+MT	Joel.3.3	Joel.2.30	empirical sequence alignment, gloss-validated
+MT	Joel.3.4	Joel.2.31	empirical sequence alignment, gloss-validated
+MT	Joel.3.5	Joel.2.32	empirical sequence alignment, gloss-validated
+MT	Joel.4.1	Joel.3.1	empirical sequence alignment, gloss-validated
+MT	Joel.4.10	Joel.3.10	empirical sequence alignment, gloss-validated
+MT	Joel.4.11	Joel.3.11	empirical sequence alignment, gloss-validated
+MT	Joel.4.12	Joel.3.12	empirical sequence alignment, gloss-validated
+MT	Joel.4.13	Joel.3.13	empirical sequence alignment, gloss-validated
+MT	Joel.4.14	Joel.3.14	empirical sequence alignment, gloss-validated
+MT	Joel.4.15	Joel.3.15	empirical sequence alignment, gloss-validated
+MT	Joel.4.16	Joel.3.16	empirical sequence alignment, gloss-validated
+MT	Joel.4.17	Joel.3.17	empirical sequence alignment, gloss-validated
+MT	Joel.4.18	Joel.3.18	empirical sequence alignment, gloss-validated
+MT	Joel.4.19	Joel.3.19	empirical sequence alignment, gloss-validated
+MT	Joel.4.2	Joel.3.2	empirical sequence alignment, gloss-validated
+MT	Joel.4.20	Joel.3.20	empirical sequence alignment, gloss-validated
+MT	Joel.4.21	Joel.3.21	empirical sequence alignment, gloss-validated
+MT	Joel.4.3	Joel.3.3	empirical sequence alignment, gloss-validated
+MT	Joel.4.4	Joel.3.4	empirical sequence alignment, gloss-validated
+MT	Joel.4.5	Joel.3.5	empirical sequence alignment, gloss-validated
+MT	Joel.4.6	Joel.3.6	empirical sequence alignment, gloss-validated
+MT	Joel.4.7	Joel.3.7	empirical sequence alignment, gloss-validated
+MT	Joel.4.8	Joel.3.8	empirical sequence alignment, gloss-validated
+MT	Joel.4.9	Joel.3.9	empirical sequence alignment, gloss-validated
+MT	Jonah.2.1	Jonah.1.17	empirical sequence alignment, gloss-validated
+MT	Jonah.2.10	Jonah.2.9	empirical sequence alignment, gloss-validated
+MT	Jonah.2.11	Jonah.2.10	empirical sequence alignment, gloss-validated
+MT	Jonah.2.2	Jonah.2.1	empirical sequence alignment, gloss-validated
+MT	Jonah.2.3	Jonah.2.2	empirical sequence alignment, gloss-validated
+MT	Jonah.2.4	Jonah.2.3	empirical sequence alignment, gloss-validated
+MT	Jonah.2.5	Jonah.2.4	empirical sequence alignment, gloss-validated
+MT	Jonah.2.6	Jonah.2.5	empirical sequence alignment, gloss-validated
+MT	Jonah.2.7	Jonah.2.6	empirical sequence alignment, gloss-validated
+MT	Jonah.2.8	Jonah.2.7	empirical sequence alignment, gloss-validated
+MT	Jonah.2.9	Jonah.2.8	empirical sequence alignment, gloss-validated
+MT	Lev.5.20	Lev.6.1	empirical sequence alignment, gloss-validated
+MT	Lev.5.21	Lev.6.2	empirical sequence alignment, gloss-validated
+MT	Lev.5.22	Lev.6.3	empirical sequence alignment, gloss-validated
+MT	Lev.5.23	Lev.6.4	empirical sequence alignment, gloss-validated
+MT	Lev.5.24	Lev.6.5	empirical sequence alignment, gloss-validated
+MT	Lev.5.25	Lev.6.6	empirical sequence alignment, gloss-validated
+MT	Lev.5.26	Lev.6.7	empirical sequence alignment, gloss-validated
+MT	Lev.6.1	Lev.6.8	empirical sequence alignment, gloss-validated
+MT	Lev.6.10	Lev.6.17	empirical sequence alignment, gloss-validated
+MT	Lev.6.11	Lev.6.18	empirical sequence alignment, gloss-validated
+MT	Lev.6.12	Lev.6.19	empirical sequence alignment, gloss-validated
+MT	Lev.6.13	Lev.6.20	empirical sequence alignment, gloss-validated
+MT	Lev.6.14	Lev.6.21	empirical sequence alignment, gloss-validated
+MT	Lev.6.15	Lev.6.22	empirical sequence alignment, gloss-validated
+MT	Lev.6.16	Lev.6.23	empirical sequence alignment, gloss-validated
+MT	Lev.6.17	Lev.6.24	empirical sequence alignment, gloss-validated
+MT	Lev.6.18	Lev.6.25	empirical sequence alignment, gloss-validated
+MT	Lev.6.19	Lev.6.26	empirical sequence alignment, gloss-validated
+MT	Lev.6.2	Lev.6.9	empirical sequence alignment, gloss-validated
+MT	Lev.6.20	Lev.6.27	empirical sequence alignment, gloss-validated
+MT	Lev.6.21	Lev.6.28	empirical sequence alignment, gloss-validated
+MT	Lev.6.22	Lev.6.29	empirical sequence alignment, gloss-validated
+MT	Lev.6.23	Lev.6.30	empirical sequence alignment, gloss-validated
+MT	Lev.6.3	Lev.6.10	empirical sequence alignment, gloss-validated
+MT	Lev.6.4	Lev.6.11	empirical sequence alignment, gloss-validated
+MT	Lev.6.5	Lev.6.12	empirical sequence alignment, gloss-validated
+MT	Lev.6.6	Lev.6.13	empirical sequence alignment, gloss-validated
+MT	Lev.6.7	Lev.6.14	empirical sequence alignment, gloss-validated
+MT	Lev.6.8	Lev.6.15	empirical sequence alignment, gloss-validated
+MT	Lev.6.9	Lev.6.16	empirical sequence alignment, gloss-validated
+MT	Mal.3.19	Mal.4.1	empirical sequence alignment, gloss-validated
+MT	Mal.3.20	Mal.4.2	empirical sequence alignment, gloss-validated
+MT	Mal.3.21	Mal.4.3	empirical sequence alignment, gloss-validated
+MT	Mal.3.22	Mal.4.4	empirical sequence alignment, gloss-validated
+MT	Mal.3.23	Mal.4.5	empirical sequence alignment, gloss-validated
+MT	Mal.3.24	Mal.4.6	empirical sequence alignment, gloss-validated
+MT	Mic.4.14	Mic.5.1	empirical sequence alignment, gloss-validated
+MT	Mic.5.1	Mic.5.2	empirical sequence alignment, gloss-validated
+MT	Mic.5.10	Mic.5.11	empirical sequence alignment, gloss-validated
+MT	Mic.5.11	Mic.5.12	empirical sequence alignment, gloss-validated
+MT	Mic.5.12	Mic.5.13	empirical sequence alignment, gloss-validated
+MT	Mic.5.13	Mic.5.14	empirical sequence alignment, gloss-validated
+MT	Mic.5.14	Mic.5.15	empirical sequence alignment, gloss-validated
+MT	Mic.5.2	Mic.5.3	empirical sequence alignment, gloss-validated
+MT	Mic.5.3	Mic.5.4	empirical sequence alignment, gloss-validated
+MT	Mic.5.4	Mic.5.5	empirical sequence alignment, gloss-validated
+MT	Mic.5.5	Mic.5.6	empirical sequence alignment, gloss-validated
+MT	Mic.5.6	Mic.5.7	empirical sequence alignment, gloss-validated
+MT	Mic.5.7	Mic.5.8	empirical sequence alignment, gloss-validated
+MT	Mic.5.8	Mic.5.9	empirical sequence alignment, gloss-validated
+MT	Mic.5.9	Mic.5.10	empirical sequence alignment, gloss-validated
+MT	Nah.2.1	Nah.1.15	empirical sequence alignment, gloss-validated
+MT	Nah.2.10	Nah.2.9	empirical sequence alignment, gloss-validated
+MT	Nah.2.11	Nah.2.10	empirical sequence alignment, gloss-validated
+MT	Nah.2.12	Nah.2.11	empirical sequence alignment, gloss-validated
+MT	Nah.2.13	Nah.2.12	empirical sequence alignment, gloss-validated
+MT	Nah.2.14	Nah.2.13	empirical sequence alignment, gloss-validated
+MT	Nah.2.2	Nah.2.1	empirical sequence alignment, gloss-validated
+MT	Nah.2.3	Nah.2.2	empirical sequence alignment, gloss-validated
+MT	Nah.2.4	Nah.2.3	empirical sequence alignment, gloss-validated
+MT	Nah.2.5	Nah.2.4	empirical sequence alignment, gloss-validated
+MT	Nah.2.6	Nah.2.5	empirical sequence alignment, gloss-validated
+MT	Nah.2.7	Nah.2.6	empirical sequence alignment, gloss-validated
+MT	Nah.2.8	Nah.2.7	empirical sequence alignment, gloss-validated
+MT	Nah.2.9	Nah.2.8	empirical sequence alignment, gloss-validated
+MT	Neh.10.1	Neh.9.38	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.10	Neh.10.9	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.11	Neh.10.10	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.12	Neh.10.11	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.13	Neh.10.12	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.14	Neh.10.13	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.15	Neh.10.14	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.16	Neh.10.15	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.17	Neh.10.16	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.18	Neh.10.17	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.19	Neh.10.18	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.2	Neh.10.1	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.20	Neh.10.19	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.21	Neh.10.20	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.22	Neh.10.21	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.23	Neh.10.22	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.24	Neh.10.23	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.25	Neh.10.24	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.26	Neh.10.25	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.27	Neh.10.26	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.28	Neh.10.27	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.29	Neh.10.28	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.3	Neh.10.2	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.30	Neh.10.29	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.31	Neh.10.30	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.32	Neh.10.31	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.33	Neh.10.32	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.34	Neh.10.33	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.35	Neh.10.34	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.36	Neh.10.35	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.37	Neh.10.36	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.38	Neh.10.37	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.39	Neh.10.38	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.4	Neh.10.3	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.40	Neh.10.39	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.5	Neh.10.4	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.6	Neh.10.5	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.7	Neh.10.6	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.8	Neh.10.7	empirical DP alignment (shift), gloss-validated
+MT	Neh.10.9	Neh.10.8	empirical DP alignment (shift), gloss-validated
+MT	Neh.3.33	Neh.4.1	empirical DP alignment (shift), gloss-validated
+MT	Neh.3.34	Neh.4.2	empirical DP alignment (shift), gloss-validated
+MT	Neh.3.35	Neh.4.3	empirical DP alignment (shift), gloss-validated
+MT	Neh.3.36	Neh.4.4	empirical DP alignment (shift), gloss-validated
+MT	Neh.3.37	Neh.4.5	empirical DP alignment (shift), gloss-validated
+MT	Neh.3.38	Neh.4.6	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.1	Neh.4.7	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.10	Neh.4.16	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.11	Neh.4.17	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.12	Neh.4.18	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.13	Neh.4.19	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.14	Neh.4.20	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.15	Neh.4.21	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.16	Neh.4.22	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.17	Neh.4.23	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.2	Neh.4.8	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.3	Neh.4.9	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.4	Neh.4.10	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.5	Neh.4.11	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.6	Neh.4.12	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.7	Neh.4.13	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.8	Neh.4.14	empirical DP alignment (shift), gloss-validated
+MT	Neh.4.9	Neh.4.15	empirical DP alignment (shift), gloss-validated
+MT	Neh.7.67	Neh.7.68	empirical DP alignment (split:second), gloss-validated overlap=0.33
+MT	Neh.7.68	Neh.7.69	empirical DP alignment (shift), gloss-validated
+MT	Neh.7.69	Neh.7.70	empirical DP alignment (shift), gloss-validated
+MT	Neh.7.70	Neh.7.71	empirical DP alignment (shift), gloss-validated
+MT	Neh.7.71	Neh.7.72	empirical DP alignment (shift), gloss-validated
+MT	Neh.7.72	Neh.7.73	empirical DP alignment (shift), gloss-validated
+MT	Num.17.1	Num.16.36	empirical DP alignment (shift), gloss-validated
+MT	Num.17.10	Num.16.45	empirical DP alignment (shift), gloss-validated
+MT	Num.17.11	Num.16.46	empirical DP alignment (shift), gloss-validated
+MT	Num.17.12	Num.16.47	empirical DP alignment (shift), gloss-validated
+MT	Num.17.13	Num.16.48	empirical DP alignment (shift), gloss-validated
+MT	Num.17.14	Num.16.49	empirical DP alignment (shift), gloss-validated
+MT	Num.17.15	Num.16.50	empirical DP alignment (shift), gloss-validated
+MT	Num.17.16	Num.17.1	empirical DP alignment (shift), gloss-validated
+MT	Num.17.17	Num.17.2	empirical DP alignment (shift), gloss-validated
+MT	Num.17.18	Num.17.3	empirical DP alignment (shift), gloss-validated
+MT	Num.17.19	Num.17.4	empirical DP alignment (shift), gloss-validated
+MT	Num.17.2	Num.16.37	empirical DP alignment (shift), gloss-validated
+MT	Num.17.20	Num.17.5	empirical DP alignment (shift), gloss-validated
+MT	Num.17.21	Num.17.6	empirical DP alignment (shift), gloss-validated
+MT	Num.17.22	Num.17.7	empirical DP alignment (shift), gloss-validated
+MT	Num.17.23	Num.17.8	empirical DP alignment (shift), gloss-validated
+MT	Num.17.24	Num.17.9	empirical DP alignment (shift), gloss-validated
+MT	Num.17.25	Num.17.10	empirical DP alignment (shift), gloss-validated
+MT	Num.17.26	Num.17.11	empirical DP alignment (shift), gloss-validated
+MT	Num.17.27	Num.17.12	empirical DP alignment (shift), gloss-validated
+MT	Num.17.28	Num.17.13	empirical DP alignment (shift), gloss-validated
+MT	Num.17.3	Num.16.38	empirical DP alignment (shift), gloss-validated
+MT	Num.17.4	Num.16.39	empirical DP alignment (shift), gloss-validated
+MT	Num.17.5	Num.16.40	empirical DP alignment (shift), gloss-validated
+MT	Num.17.6	Num.16.41	empirical DP alignment (shift), gloss-validated
+MT	Num.17.7	Num.16.42	empirical DP alignment (shift), gloss-validated
+MT	Num.17.8	Num.16.43	empirical DP alignment (shift), gloss-validated
+MT	Num.17.9	Num.16.44	empirical DP alignment (shift), gloss-validated
+MT	Num.25.19	Num.26.1	empirical residual merge, overlap=0.67
+MT	Num.30.1	Num.29.40	empirical DP alignment (shift), gloss-validated
+MT	Num.30.10	Num.30.9	empirical DP alignment (shift), gloss-validated
+MT	Num.30.11	Num.30.10	empirical DP alignment (shift), gloss-validated
+MT	Num.30.12	Num.30.11	empirical DP alignment (shift), gloss-validated
+MT	Num.30.13	Num.30.12	empirical DP alignment (shift), gloss-validated
+MT	Num.30.14	Num.30.13	empirical DP alignment (shift), gloss-validated
+MT	Num.30.15	Num.30.14	empirical DP alignment (shift), gloss-validated
+MT	Num.30.16	Num.30.15	empirical DP alignment (shift), gloss-validated
+MT	Num.30.17	Num.30.16	empirical DP alignment (shift), gloss-validated
+MT	Num.30.2	Num.30.1	empirical DP alignment (shift), gloss-validated
+MT	Num.30.3	Num.30.2	empirical DP alignment (shift), gloss-validated
+MT	Num.30.4	Num.30.3	empirical DP alignment (shift), gloss-validated
+MT	Num.30.5	Num.30.4	empirical DP alignment (shift), gloss-validated
+MT	Num.30.6	Num.30.5	empirical DP alignment (shift), gloss-validated
+MT	Num.30.7	Num.30.6	empirical DP alignment (shift), gloss-validated
+MT	Num.30.8	Num.30.7	empirical DP alignment (shift), gloss-validated
+MT	Num.30.9	Num.30.8	empirical DP alignment (shift), gloss-validated
+MT	Rev.12.18	Rev.12.17	empirical residual merge, overlap=0.50
+MT	Song.7.1	Song.6.13	empirical sequence alignment, gloss-validated
+MT	Song.7.10	Song.7.9	empirical sequence alignment, gloss-validated
+MT	Song.7.11	Song.7.10	empirical sequence alignment, gloss-validated
+MT	Song.7.12	Song.7.11	empirical sequence alignment, gloss-validated
+MT	Song.7.13	Song.7.12	empirical sequence alignment, gloss-validated
+MT	Song.7.14	Song.7.13	empirical sequence alignment, gloss-validated
+MT	Song.7.2	Song.7.1	empirical sequence alignment, gloss-validated
+MT	Song.7.3	Song.7.2	empirical sequence alignment, gloss-validated
+MT	Song.7.4	Song.7.3	empirical sequence alignment, gloss-validated
+MT	Song.7.5	Song.7.4	empirical sequence alignment, gloss-validated
+MT	Song.7.6	Song.7.5	empirical sequence alignment, gloss-validated
+MT	Song.7.7	Song.7.6	empirical sequence alignment, gloss-validated
+MT	Song.7.8	Song.7.7	empirical sequence alignment, gloss-validated
+MT	Song.7.9	Song.7.8	empirical sequence alignment, gloss-validated
+MT	Zech.2.1	Zech.1.18	empirical sequence alignment, gloss-validated
+MT	Zech.2.10	Zech.2.6	empirical sequence alignment, gloss-validated
+MT	Zech.2.11	Zech.2.7	empirical sequence alignment, gloss-validated
+MT	Zech.2.12	Zech.2.8	empirical sequence alignment, gloss-validated
+MT	Zech.2.13	Zech.2.9	empirical sequence alignment, gloss-validated
+MT	Zech.2.14	Zech.2.10	empirical sequence alignment, gloss-validated
+MT	Zech.2.15	Zech.2.11	empirical sequence alignment, gloss-validated
+MT	Zech.2.16	Zech.2.12	empirical sequence alignment, gloss-validated
+MT	Zech.2.17	Zech.2.13	empirical sequence alignment, gloss-validated
+MT	Zech.2.2	Zech.1.19	empirical sequence alignment, gloss-validated
+MT	Zech.2.3	Zech.1.20	empirical sequence alignment, gloss-validated
+MT	Zech.2.4	Zech.1.21	empirical sequence alignment, gloss-validated
+MT	Zech.2.5	Zech.2.1	empirical sequence alignment, gloss-validated
+MT	Zech.2.6	Zech.2.2	empirical sequence alignment, gloss-validated
+MT	Zech.2.7	Zech.2.3	empirical sequence alignment, gloss-validated
+MT	Zech.2.8	Zech.2.4	empirical sequence alignment, gloss-validated
+MT	Zech.2.9	Zech.2.5	empirical sequence alignment, gloss-validated
