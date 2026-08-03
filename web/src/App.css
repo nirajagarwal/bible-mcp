@@ -173,17 +173,25 @@
 
 .result {
   margin-top: 18px;
-  white-space: pre-wrap;
-  word-break: break-word;
   font-family: var(--mono);
   font-size: 13px;
   line-height: 150%;
-  padding: 14px;
+  padding: 18px;
   border-radius: 8px;
   background: var(--code-bg);
   color: var(--text-h);
-  max-height: 420px;
+  max-height: 640px;
   overflow-y: auto;
+}
+
+.result-line {
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-bottom: 12px;
+}
+
+.result-line:last-child {
+  margin-bottom: 0;
 }
 
 .result.error {

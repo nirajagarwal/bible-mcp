@@ -141,8 +141,20 @@ export default function App() {
               {loading ? 'Running…' : 'Run'}
             </button>
 
-            {error && <pre className="result error">{error}</pre>}
-            {result && <pre className="result">{result}</pre>}
+            {error && (
+              <div className="result error">
+                <div className="result-line">{error}</div>
+              </div>
+            )}
+            {result && (
+              <div className="result">
+                {result.split('\n').map((line, i) => (
+                  <div key={i} className="result-line">
+                    {line || ' '}
+                  </div>
+                ))}
+              </div>
+            )}
             {request && (
               <details className="request-details">
                 <summary>Request sent</summary>
