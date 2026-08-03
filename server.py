@@ -3,11 +3,13 @@
 Corpus: BSB + WEB (with Apocrypha), OpenBible cross-references, Theographic entities.
 Run:  uv run server.py   (or: python3 server.py, with `mcp` installed)
 """
+import asyncio
 import json
 import os
 import re
 import sqlite3
 import sys
+import time
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts"))
 from lib_refs import parse_ref, OSIS_TO_NAME  # noqa: E402
@@ -653,6 +655,90 @@ def corpus_composer(theme: str) -> str:
             f"Layer 0 survey artifact, following this discipline:\n\n{_skill_text('corpus-composer')}")
 
 
+class UsageLoggingMiddleware:
+    """Fire-and-forget tool-call analytics to Axiom, if AXIOM_TOKEN is set — a no-op
+    otherwise, so self-hosters who don't configure it see no behavior change.
+
+    Deliberately NOT per-visitor tracking: no IPs, no request/session id, no raw
+    query text. Just which tool was called, which param keys were used, latency,
+    and outcome — enough to see usage patterns without reconstructing what any
+    anonymous visitor searched for."""
+
+    def __init__(self, app, token, dataset):
+        self.app = app
+        self.token = token
+        self.dataset = dataset
+        self._client = None
+        self._tasks = set()
+
+    async def __call__(self, scope, receive, send):
+        if not self.token or scope["type"] != "http":
+            return await self.app(scope, receive, send)
+
+        from starlette.requests import Request
+
+        request = Request(scope, receive)
+        body = await request.body()
+        tool_name, param_keys = None, []
+        try:
+            payload = json.loads(body)
+            if payload.get("method") == "tools/call":
+                params = payload.get("params") or {}
+                tool_name = params.get("name")
+                param_keys = sorted((params.get("arguments") or {}).keys())
+        except Exception:
+            pass
+
+        # request.body() drains the original `receive` and caches the result on
+        # `request`, but that cache isn't visible to a downstream app calling
+        # receive() directly — replay the already-read body once, then fall
+        # through to the original receive for anything after (e.g. disconnect).
+        replayed = False
+
+        async def receive_wrapper():
+            nonlocal replayed
+            if not replayed:
+                replayed = True
+                return {"type": "http.request", "body": body, "more_body": False}
+            return await receive()
+
+        status = {}
+        start = time.monotonic()
+
+        async def send_wrapper(message):
+            if message["type"] == "http.response.start":
+                status["code"] = message["status"]
+            await send(message)
+
+        await self.app(scope, receive_wrapper, send_wrapper)
+
+        if tool_name:
+            event = {
+                "tool": tool_name,
+                "param_keys": param_keys,
+                "status": status.get("code"),
+                "latency_ms": round((time.monotonic() - start) * 1000, 1),
+                "client": dict(scope.get("headers", [])).get(b"user-agent", b"")[:200].decode("utf-8", "ignore"),
+            }
+            task = asyncio.create_task(self._send(event))
+            self._tasks.add(task)
+            task.add_done_callback(self._tasks.discard)
+
+    async def _send(self, event):
+        import httpx
+
+        if self._client is None:
+            self._client = httpx.AsyncClient(timeout=5.0)
+        try:
+            await self._client.post(
+                f"https://api.axiom.co/v1/datasets/{self.dataset}/ingest",
+                headers={"Authorization": f"Bearer {self.token}"},
+                json=[event],
+            )
+        except Exception as e:
+            print(f"[usage-logging] Axiom ingest failed: {e}", file=sys.stderr)
+
+
 if __name__ == "__main__":
     # Transport selection:
     #   default            -> stdio (local use: Claude Desktop / Cowork config)
@@ -676,6 +762,11 @@ if __name__ == "__main__":
         from starlette.middleware.cors import CORSMiddleware
 
         http_app = mcp.streamable_http_app()
+        http_app.add_middleware(
+            UsageLoggingMiddleware,
+            token=os.environ.get("AXIOM_TOKEN"),
+            dataset=os.environ.get("AXIOM_DATASET", "bible-mcp"),
+        )
         http_app.add_middleware(
             CORSMiddleware,
             allow_origins=["*"],
