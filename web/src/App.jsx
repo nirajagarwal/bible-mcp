@@ -46,6 +46,7 @@ export default function App() {
   const tool = useMemo(() => TOOLS.find((t) => t.name === selectedName), [selectedName])
   const [values, setValues] = useState(defaultsFor(tool))
   const [loading, setLoading] = useState(false)
+  const [slow, setSlow] = useState(false)
   const [error, setError] = useState(null)
   const [result, setResult] = useState(null)
   const [request, setRequest] = useState(null)
@@ -65,8 +66,13 @@ export default function App() {
 
   async function run() {
     setLoading(true)
+    setSlow(false)
     setError(null)
     setResult(null)
+    // The Fly machine scales to zero when idle, so an occasional request pays a
+    // cold-start cost. Only surface that explanation if it's actually happening,
+    // not on every (usually fast) request.
+    const slowTimer = setTimeout(() => setSlow(true), 2500)
     try {
       const args = {}
       for (const p of tool.params) {
@@ -85,7 +91,9 @@ export default function App() {
     } catch (e) {
       setError(e.message || String(e))
     } finally {
+      clearTimeout(slowTimer)
       setLoading(false)
+      setSlow(false)
     }
   }
 
@@ -140,6 +148,12 @@ export default function App() {
             <button className="run-btn" onClick={run} disabled={loading}>
               {loading ? 'Running…' : 'Run'}
             </button>
+            {loading && slow && (
+              <p className="muted wake-note">
+                Waking up the server — it scales to zero when idle, so the first request
+                after a quiet spell can take up to ~15s. It'll be fast from here.
+              </p>
+            )}
 
             {error && (
               <div className="result error">

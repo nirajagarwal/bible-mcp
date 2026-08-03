@@ -171,6 +171,12 @@
   cursor: default;
 }
 
+.wake-note {
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 480px;
+}
+
 .result {
   margin-top: 18px;
   font-family: var(--mono);
