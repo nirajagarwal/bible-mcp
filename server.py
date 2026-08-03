@@ -669,6 +669,20 @@ if __name__ == "__main__":
         # there's no localhost boundary to protect and the loopback-only allowlist would
         # otherwise reject every real request's Host header.
         mcp.settings.transport_security = TransportSecuritySettings(enable_dns_rebinding_protection=False)
-        mcp.run(transport="streamable-http")
+        # CORS: allow browser clients (e.g. the demo SPA) to call this public, read-only,
+        # no-auth endpoint cross-origin. No credentials are ever sent, so a wide-open
+        # allow_origins is no wider than the endpoint's existing security posture.
+        import uvicorn
+        from starlette.middleware.cors import CORSMiddleware
+
+        http_app = mcp.streamable_http_app()
+        http_app.add_middleware(
+            CORSMiddleware,
+            allow_origins=["*"],
+            allow_methods=["GET", "POST", "OPTIONS"],
+            allow_headers=["*"],
+        )
+        uvicorn.run(http_app, host=mcp.settings.host, port=mcp.settings.port,
+                    log_level=mcp.settings.log_level.lower())
     else:
         mcp.run()
