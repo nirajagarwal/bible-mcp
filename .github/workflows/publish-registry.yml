@@ -1,0 +1,37 @@
+name: Publish to MCP Registry
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'server.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+      - name: Install mcp-publisher
+        run: |
+          go install github.com/modelcontextprotocol/registry/cmd/publisher@latest
+          BIN="$(ls "$(go env GOPATH)/bin")"
+          echo "Installed: $BIN"
+          echo "MCP_PUBLISHER=$(go env GOPATH)/bin/$BIN" >> "$GITHUB_ENV"
+      - name: Validate server.json
+        run: "$MCP_PUBLISHER validate"
+      # GitHub Actions' own OIDC token authenticates directly with the registry —
+      # no stored credential, no interactive device-flow login, and it can't go
+      # stale between "log in" and "publish" the way the manual CLI flow does.
+      - name: Login (GitHub Actions OIDC)
+        run: "$MCP_PUBLISHER login github-oidc"
+      - name: Publish
+        run: "$MCP_PUBLISHER publish"
