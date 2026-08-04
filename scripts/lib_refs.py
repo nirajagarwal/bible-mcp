@@ -116,7 +116,21 @@ _REF = re.compile(
 
 def parse_ref(ref: str):
     """Parse 'John 3:16', 'John 3:16-18', 'Gen.1.1', '1 Cor 13:4' ->
-    (osis_book, chapter, verse_start, verse_end) — verses None for whole chapter."""
+    (osis_book, chapter, verse_start, verse_end) — verses None for whole chapter.
+
+    Also accepts the full-ref-to-full-ref range form used internally for
+    links.to_ref, e.g. 'Gen.1.26-Gen.1.27' (same book+chapter only — matches
+    _expand_range_ref's convention in server.py), so a to_ref value copied
+    straight from get_cross_references works as-is in any other tool."""
+    if "-" in ref:
+        left, _, right = ref.rpartition("-")
+        try:
+            lb, lc, lv1, _ = parse_ref(left)
+            rb, rc, rv1, _ = parse_ref(right)
+            if lb == rb and lc == rc and lv1 is not None and rv1 is not None:
+                return lb, lc, lv1, rv1
+        except ValueError:
+            pass
     m = _REF.match(ref)
     if not m:
         raise ValueError(f"Cannot parse reference: {ref!r}")
