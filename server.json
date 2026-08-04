@@ -6,7 +6,7 @@
     "url": "https://github.com/nirajagarwal/bible-mcp",
     "source": "github"
   },
-  "version": "0.9.1",
+  "version": "0.10.0",
   "remotes": [
     {
       "type": "streamable-http",

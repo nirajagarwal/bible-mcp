@@ -85,6 +85,11 @@ BOOKS = [
     ("2Esd", "2 Esdras", "4ES", ["2 Esd", "4 Ezra"]),
     ("PrMan", "Prayer of Manasseh", "PRM", ["Manasseh"]),
     ("AddPs", "Psalm 151", "PSX", ["Ps151"]),
+    # LXX-only splits (Brenton edition): WEB folds these into Bar/DanGr, Brenton ships
+    # them as separate books.
+    ("Sus", "Susanna", "SUS", []),
+    ("Bel", "Bel and the Dragon", "BEL", ["Bel and Dragon"]),
+    ("EpJer", "Epistle of Jeremiah", "EPJ", ["Ep Jer", "Letter of Jeremiah"]),
 ]
 
 OSIS = {b[0] for b in BOOKS}

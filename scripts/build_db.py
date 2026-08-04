@@ -88,6 +88,120 @@ def ingest_web(con):
     print(f"  WEB: {len(rows)} verses")
 
 
+def _lxx_psalm_group(chapter, verse):
+    """Map a Brenton (native LXX) Psalm chapter/verse to its (book, chapter) group in
+    the canonical English/KJV-style numbering BSB/WEB use. LXX merges MT/English Ps
+    9+10 into one psalm and splits MT/English Ps 116 and 147 each into two; final verse
+    numbers are assigned sequentially within each group afterward (not by arithmetic on
+    Brenton's own verse labels, which have irregularities like '115:4a' that don't
+    survive remapping cleanly). Every boundary here was verified against WEB's text,
+    not just against the standard scholarly correspondence (see chat)."""
+    if chapter <= 8:
+        return ("Ps", chapter)
+    if chapter == 9:
+        return ("Ps", 9) if verse <= 21 else ("Ps", 10)
+    if chapter <= 112:
+        return ("Ps", chapter + 1)
+    if chapter == 113:
+        return ("Ps", 114) if verse <= 8 else ("Ps", 115)
+    if chapter in (114, 115):
+        return ("Ps", 116)
+    if chapter <= 145:
+        return ("Ps", chapter + 1)
+    if chapter in (146, 147):
+        return ("Ps", 147)
+    if chapter <= 150:
+        return ("Ps", chapter)
+    if chapter == 151:
+        return ("PSX", 1)
+    raise ValueError(f"Unexpected LXX Psalm chapter: {chapter}")
+
+
+def ingest_brenton(con):
+    """eBible.org eng-Brenton VPL — Brenton's 1851 English Septuagint (LXX), OT +
+    Apocrypha only (no NT). Psalms are remapped to the canonical English/KJV-style
+    chapter/verse numbering BSB/WEB share (LXX's own numbering diverges throughout
+    most of the Psalter — see _lxx_psalm_group). Other divergent books (Jeremiah's
+    relocated/shorter oracles-against-nations section, Daniel-Greek, Exodus, Job,
+    Esther-Greek, Baruch) ship under Brenton's own native LXX chapter/verse structure;
+    full alignment for those stays deferred, same status as TVTMS proper (ROADMAP.md)."""
+    path = os.path.join(SRC, "eng-brenton_vpl", "eng-Brenton_vpl.txt")
+    add_document(
+        con, id="LXX", title="Septuagint (Brenton Translation)", layer="canon", language="en",
+        translator="Sir Lancelot C. L. Brenton", source_url="https://ebible.org/eng-Brenton/",
+        license="Public Domain", license_tier="A",
+        notes="Published 1851. Old Testament + Apocrypha only (no NT). Psalms remapped to "
+              "standard English/KJV numbering; Jeremiah, Daniel-Greek, Exodus, Job, "
+              "Esther-Greek, and Baruch retain Brenton's native LXX chapter/verse "
+              "structure, which diverges from BSB/WEB in these books (reordering and/or "
+              "length, not just numbering) — full alignment deferred, see ROADMAP.md.")
+    # LXX Joshua/Judges/Kings especially carry well-documented "plus" material —
+    # extra verses the Hebrew/English tradition lacks, labeled with a letter suffix
+    # in the source (e.g. '1KI 2:35a'..'2:35o', fifteen extra verses after 2:35).
+    # The letter is captured and preserved in `ref` (distinct, citable addresses);
+    # `verse` stays the base integer since it's just used for range lookups, and
+    # `seq` (not `verse`) is what preserves true reading order.
+    line_re = re.compile(r"^([0-9A-Z]{3}) (\d+):(\d+)([a-z]?)\s+(.*)$")
+
+    entries = []
+    with open(path, encoding="utf-8-sig") as f:
+        for line in f:
+            m = line_re.match(line.rstrip("\n"))
+            if not m:
+                continue
+            code, ch, v, letter, text = (
+                m.group(1), int(m.group(2)), int(m.group(3)), m.group(4), m.group(5).strip())
+            if not text:
+                continue
+            if code == "EZR" and ch > 10:
+                continue  # chs 11-23 duplicate Nehemiah (LXX "Esdras B"); the standalone
+                          # NEH below is conventionally numbered and used instead
+            entries.append((code, ch, v, letter, text))
+
+    rows, seq, skipped = [], 0, set()
+    psa_groups = {}
+
+    def flush_psalms():
+        nonlocal seq
+        for (book, ch), texts in psa_groups.items():
+            if book == "Ps":
+                # Same superscription-as-verse-1 pattern compute_psalm_offsets() already
+                # fixes for the Hebrew side: Brenton counts some psalm superscriptions as
+                # their own verse(s) (usually 1, but longer historical superscriptions —
+                # Ps 51/52/54/60 — split across 2), where BSB folds the whole thing into
+                # verse 1's text. Detect via BSB's actual verse count (already ingested)
+                # and merge the leading extra lines to match — not drop, no content lost.
+                bsb_max = con.execute(
+                    "SELECT MAX(verse) FROM passages WHERE doc_id='BSB' AND book='Ps' AND chapter=?",
+                    (ch,)).fetchone()[0]
+                extra = len(texts) - bsb_max if bsb_max else 0
+                if extra > 0:
+                    texts = [" ".join(texts[:extra + 1])] + texts[extra + 1:]
+            for i, text in enumerate(texts, start=1):
+                seq += 1
+                rows.append(("LXX", make_ref(book, ch, i), book, ch, i, seq, text))
+        psa_groups.clear()
+
+    for code, ch, v, letter, text in entries:
+        if code == "PSA":
+            psa_groups.setdefault(_lxx_psalm_group(ch, v), []).append(text)
+            continue
+        if psa_groups:
+            flush_psalms()
+        book = PARATEXT_TO_OSIS.get(code)
+        if not book:
+            skipped.add(code)
+            continue
+        seq += 1
+        rows.append(("LXX", make_ref(book, ch, v) + letter, book, ch, v, seq, text))
+    flush_psalms()
+
+    con.executemany("INSERT INTO passages(doc_id,ref,book,chapter,verse,seq,text) VALUES(?,?,?,?,?,?,?)", rows)
+    if skipped:
+        print(f"  LXX: skipped unknown book codes: {sorted(skipped)}")
+    print(f"  LXX: {len(rows)} verses")
+
+
 def ingest_crossrefs(con):
     """openbible.info cross_references.txt — 'From<TAB>To<TAB>Votes'."""
     path = os.path.join(SRC, "cross-references", "cross_references.txt")
@@ -380,17 +494,42 @@ def compute_psalm_offsets(con):
     print(f"  Psalm versification offsets: {len(rows)} psalms corrected (superscription shift)")
 
 
+def load_versemap(con):
+    """Load the prepared data/versemap.tsv (MT/NA <-> English refs, empirically derived
+    and gloss-validated by build_versemap.py + align_splits.py) into the `versemap`
+    table. Not part of schema.sql: server.py checks for the table at runtime and
+    degrades gracefully without it, but a full rebuild should still restore it."""
+    path = os.path.join(ROOT, "data", "versemap.tsv")
+    con.execute(
+        "CREATE TABLE IF NOT EXISTS versemap "
+        "(scheme TEXT NOT NULL, src_ref TEXT NOT NULL, dst_ref TEXT NOT NULL, note TEXT)")
+    con.execute("CREATE INDEX IF NOT EXISTS idx_versemap_src ON versemap(src_ref)")
+    con.execute("CREATE INDEX IF NOT EXISTS idx_versemap_dst ON versemap(dst_ref)")
+    con.execute("DELETE FROM versemap")
+    rows = []
+    with open(path, encoding="utf-8") as f:
+        next(f)  # header
+        for line in f:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) == 4:
+                rows.append(tuple(parts))
+    con.executemany("INSERT INTO versemap(scheme,src_ref,dst_ref,note) VALUES(?,?,?,?)", rows)
+    print(f"  versemap: {len(rows)} rows")
+
+
 def main():
     con = fresh_db()
     print("Ingesting…")
     ingest_bsb(con)
     ingest_web(con)
+    ingest_brenton(con)
     ingest_crossrefs(con)
     ingest_theographic(con)
     ingest_macula(con)
     ingest_gutenberg(con)
     ingest_patristic_gutenberg(con)
     compute_psalm_offsets(con)
+    load_versemap(con)
     con.commit()
     con.execute("INSERT INTO passages_fts(passages_fts) VALUES('optimize')")
     con.commit()

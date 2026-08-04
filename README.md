@@ -2,12 +2,13 @@
 
 An MCP server for Christian scholarship and research. Non-commercial, aiming to become a public resource. See `corpus-survey.md` for the full source/license landscape and `ROADMAP.md` for direction.
 
-## What's in it (v0.9)
+## What's in it (v0.10)
 
 | Data | Source | License |
 |---|---|---|
 | Berean Standard Bible (66 books) | berean.bible | Public Domain |
 | World English Bible, Ecumenical (83 books incl. Apocrypha) | ebible.org | Public Domain |
+| **Septuagint** (Brenton translation, 1851) — OT + Apocrypha, incl. Susanna/Bel and the Dragon/Epistle of Jeremiah as separate books; Psalms remapped to standard English/KJV numbering (LXX's own numbering diverges throughout most of the Psalter — verified verse-by-verse against WEB); Jeremiah, Daniel-Greek, Exodus, Job, Esther-Greek, and Baruch retain Brenton's native LXX chapter/verse structure, which differs from BSB/WEB in these books (reordering and/or length, not just numbering) | ebible.org | Public Domain |
 | 613,690 original-language words: Greek NT + Hebrew/Aramaic OT with lemmas, Strong's, morphology, glosses, semantic domains | MACULA (Clear-Bible/Biblica) | CC BY 4.0 |
 | ~345,000 ranked cross-references | openbible.info | CC BY |
 | ~4,800 people/places/events/groups + 53,000 verse links | Theographic Bible Metadata | CC BY-SA 4.0 |
@@ -18,7 +19,7 @@ An MCP server for Christian scholarship and research. Non-commercial, aiming to 
 | Tier-1 citation graph: scripture citations extracted from the translators' own footnotes across the patristic shelf (see DESIGN.md §4) | — | — |
 | **Versemap**: 988 empirically derived MT/NA ↔ English verse alignments across 31 books (Joel 2–4, Malachi 3–4, Hosea, Isaiah 64, Kings/Chronicles/Nehemiah seams, 3 John, Acts 19, Rev 12…), gloss-validated; plus the Psalms superscription offsets | derived from corpus | — |
 | **Research outputs layer** (`layer='output'`): Layer 0 corpus surveys + Layer 2 research briefs for potter-and-clay, living water, wilderness — searchable, embedded, with `draws_on` links back to their grounding refs | generated in-project | — |
-| ~55,800 embeddings (verse/window/paragraph) for semantic + hybrid search across every layer | bge-small-en-v1.5, generated locally | — |
+| ~84,300 embeddings (verse/window/paragraph) for semantic + hybrid search across every layer | bge-small-en-v1.5, generated locally | — |
 
 All in one SQLite file (`db/bible.db`, ~230MB) with FTS5 full-text search. Prose works are addressed as `WORK.chapter.paragraph`. See DESIGN.md for the architecture rationale.
 
@@ -28,7 +29,7 @@ All in one SQLite file (`db/bible.db`, ~230MB) with FTS5 full-text search. Prose
 - `search(query, version="BSB", book="", limit=20)` — Full-text search, stemmed and ranked (BM25). Supports quoted phrases and AND/OR/NOT, e.g. `faith AND works NOT law`. `version` also takes any prose work id. Note: stemming conflates related surface forms (e.g. "desert" also matches "deserted") — quote exact phrases or add AND-terms to disambiguate.
 - `semantic_search(query, top_k=12, kind="", hybrid=True)` — Meaning-based search across the whole corpus (scripture + prose), hybrid-fused with keyword search (RRF) by default. Finds passages on a theme even with no shared words, e.g. "divine self-emptying". `kind` optional: verse | window | paragraph.
 - `find_similar(reference, top_k=10)` — Nearest passages by embedding to a given verse or prose paragraph, across scripture, Apocrypha, and the classics. Powers parallel-finding across corpus layers.
-- `word_study(query, language="", limit=15)` — Original-language word study by Strong's number (zero-padding optional), lemma (pointed or unpointed), or English gloss. Returns occurrence counts, gloss range, book distribution, and sample verses. Lettered homograph variants (e.g. H4723 vs H4723a — same written form, different word) are surfaced together. `language` optional: grc | hbo | arc.
+- `word_study(query, language="", limit=15)` — Original-language word study by Strong's number (zero-padding optional), lemma (pointed or unpointed), Hebrew/Aramaic transliteration (e.g. `miqweh`, macrons optional), or English gloss. Returns occurrence counts, gloss range, book distribution, and sample verses. Lettered homograph variants (e.g. H4723 vs H4723a — same written form, different word) are surfaced together. `language` optional: grc | hbo | arc.
 - `get_interlinear(reference)` — Word-by-word original language for a verse or short range: surface form, lemma, Strong's, gloss, morphology. Versemap-corrected across all books, not just Psalms.
 - `get_cross_references(reference, limit=20)` — Cross-references for a verse (OpenBible.info, ranked by community votes), with the target text included.
 - `get_citations(reference, limit=20)` — Where a verse is cited by name in the patristic corpus, extracted from the translators' own footnotes (tier 1). Complements `get_cross_references` (scripture→scripture); this is patristic text→scripture. Coverage is sparse by design — an empty result doesn't mean uncited; full-text `search` within the patristic works is the thorough probe.

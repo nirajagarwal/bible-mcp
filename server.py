@@ -233,6 +233,7 @@ def compare_versions(reference: str) -> str:
 
 _COMBINING = re.compile(r"[֑-ׇ̀-ͯ᷀-᷿]")
 _lemma_index = {"map": None}
+_translit_index = {"map": None}
 
 
 def _strip_marks(s):
@@ -251,11 +252,25 @@ def _lemma_candidates(con, q):
     return sorted(_lemma_index["map"].get(_strip_marks(q.strip()), set()))
 
 
+def _translit_candidates(con, q):
+    """Match a Hebrew/Aramaic transliteration query ignoring macrons/diacritics:
+    'miqweh' finds lemmas stored under 'miqwēh'. Greek/Hebrew script queries never
+    reach here (lemma matching handles those first)."""
+    if _translit_index["map"] is None:
+        m = {}
+        for (lem, translit) in con.execute(
+                "SELECT DISTINCT lemma, translit FROM words WHERE translit IS NOT NULL"):
+            m.setdefault(_strip_marks(translit).lower(), set()).add(lem)
+        _translit_index["map"] = m
+    return sorted(_translit_index["map"].get(_strip_marks(q.strip()).lower(), set()))
+
+
 @mcp.tool()
 def word_study(query: str, language: str = "", limit: int = 15) -> str:
     """Original-language word study across the whole Bible. Query by Strong's number
     ('G26', 'H2617', zero-padding optional — 'H953' works), lemma (pointed or
-    unpointed: 'חֶסֶד' or 'חסד', accented or bare Greek), or English gloss
+    unpointed: 'חֶסֶד' or 'חסד', accented or bare Greek), Hebrew/Aramaic
+    transliteration ('miqweh' finds מִקְוֶה, macrons optional), or English gloss
     ('lovingkindness'). Returns occurrence counts, gloss range, book distribution,
     and sample verses. NOTE: homographs are split by letter-suffixed Strong's
     variants (e.g. H4723 'hope' vs H4723a 'gathering of waters' — same written
@@ -280,7 +295,7 @@ def word_study(query: str, language: str = "", limit: int = 15) -> str:
     else:
         where, args = "lemma = ?", [q]
         if not con.execute(f"SELECT 1 FROM words WHERE {where} LIMIT 1", args).fetchone():
-            cands = _lemma_candidates(con, q)
+            cands = _lemma_candidates(con, q) or _translit_candidates(con, q)
             if cands:
                 where = "lemma IN (" + ",".join("?" * len(cands)) + ")"
                 args = cands
