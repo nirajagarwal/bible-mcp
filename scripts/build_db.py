@@ -202,6 +202,150 @@ def ingest_brenton(con):
     print(f"  LXX: {len(rows)} verses")
 
 
+# Swete edition book-number -> OSIS. Theodotion text used for Daniel/Susanna/Bel
+# (matches Brenton's convention, and is what's actually meant by "the LXX" in
+# common usage); the Old Greek variants (54/56/58) and Odes/Psalms of Solomon
+# (28/35, non-canonical liturgical/pseudepigraphal material) are not ingested —
+# deferred, see ROADMAP.md. 07/09/22 don't exist even in the upstream source;
+# 30 (Ecclesiastes) exists upstream but wasn't converted in this derivative —
+# a fixable, documented gap, not ingested this pass.
+SWETE_BOOK_MAP = {
+    "01": "Gen", "02": "Exod", "03": "Lev", "04": "Num", "05": "Deut",
+    "06": "Josh", "08": "Judg", "10": "Ruth",
+    "11": "1Sam", "12": "2Sam", "13": "1Kgs", "14": "2Kgs",
+    "15": "1Chr", "16": "2Chr",
+    "17": "1Esd",
+    # 18 (Esdras_B) handled specially: combined Ezra+Nehemiah, split below.
+    "19": "EsthGr", "20": "Jdt", "21": "Tob",
+    "23": "1Macc", "24": "2Macc", "25": "3Macc", "26": "4Macc",
+    # 27 (Psalmi) handled specially via _lxx_psalm_group.
+    "29": "Prov", "31": "Song", "32": "Job", "33": "Wis", "34": "Sir",
+    "36": "Hos", "37": "Amos", "38": "Mic", "39": "Joel", "40": "Obad",
+    "41": "Jonah", "42": "Nah", "43": "Hab", "44": "Zeph", "45": "Hag",
+    "46": "Zech", "47": "Mal",
+    "48": "Isa", "49": "Jer", "50": "Bar", "51": "Lam", "52": "EpJer", "53": "Ezek",
+    "55": "Sus", "57": "DanGr", "59": "Bel",
+}
+
+
+def ingest_swete_lxx_grc(con):
+    """Open Greek and Latin Project / First1KGreek transcription of Swete's Greek
+    Septuagint (Cambridge, 1887-1894) — data/sources/lxx-swete/, CC BY-SA 4.0, via
+    github.com/nathans/lxx-swete. Word-per-line source ('27.1.1 ΜΑΚAPΙΟΣ'), so this
+    both reconstructs verse-level passages (readable, searchable, embeddable, same as
+    any other document) AND populates the words table (lang='grc-lxx') for
+    get_interlinear — no lemma/Strong's/morphology in this source, surface form only.
+    Psalms remapped via the same _lxx_psalm_group logic already validated for
+    Brenton (same underlying LXX Psalm structure). Ezra/Nehemiah split the same way
+    Brenton's combined Esdras B was, but renumbered here since Swete's source (unlike
+    Brenton's) doesn't also ship a separately-numbered Nehemiah."""
+    add_document(
+        con, id="LXX-GRC", title="Septuagint (Greek, Swete edition)", layer="canon", language="grc",
+        translator="Henry Barclay Swete (ed.)",
+        source_url="https://github.com/nathans/lxx-swete",
+        license="CC BY-SA 4.0", license_tier="B",
+        notes="Cambridge, 1887-1894. Derived from the Open Greek and Latin Project's "
+              "First1KGreek transcription (github.com/nathans/lxx-swete), itself CC "
+              "BY-SA 4.0 — not the original 1887-1894 print edition's own status (that "
+              "text is public domain; this specific machine-readable transcription "
+              "carries its own share-alike license). Word-per-line source, no lemma/"
+              "Strong's/morphology — surface Greek only. Daniel/Susanna/Bel: Theodotion "
+              "text only (matches Brenton and common usage); Old Greek variants not "
+              "ingested. Ecclesiastes, Odes, and Psalms of Solomon not ingested this "
+              "pass (see ROADMAP.md). Psalms remapped to standard English/KJV numbering "
+              "(same method as the LXX/Brenton document); Jeremiah and other "
+              "structurally-divergent books retain native LXX chapter/verse structure.")
+    # Book number isn't zero-padded in the line content itself (Genesis is "1.1.1",
+    # not "01.1.1" — only the filename is zero-padded), unlike Brenton's source.
+    line_re = re.compile(r"^(\d{1,2})\.(\d+)\.(\d+)([a-z]?) (.+)$")
+
+    # Pass 1: read every word, resolving book/chapter (EZR/NEH split applied here,
+    # Psalms kept on their own native numbering for now) — (book, ch, verse, letter, word).
+    raw = []
+    src_dir = os.path.join(SRC, "lxx-swete")
+    for fname in sorted(os.listdir(src_dir)):
+        if not fname.endswith(".txt"):
+            continue
+        num = fname[:2]
+        if num not in SWETE_BOOK_MAP and num not in ("18", "27"):
+            continue
+        with open(os.path.join(src_dir, fname), encoding="utf-8") as f:
+            for line in f:
+                m = line_re.match(line.rstrip("\n"))
+                if not m:
+                    continue
+                _, ch, v, letter, word = m.groups()
+                ch, v = int(ch), int(v)
+                if num == "18":
+                    book = "Ezra" if ch <= 10 else "Neh"
+                    if book == "Neh":
+                        ch -= 10
+                elif num == "27":
+                    book = "Ps"
+                else:
+                    book = SWETE_BOOK_MAP[num]
+                raw.append((book, ch, v, letter, word))
+
+    # Pass 2: group consecutive same-verse words (source is already verse-ordered)
+    # into (book, chapter, verse, letter, [word, word, ...]).
+    verses = []
+    key = None
+    for book, ch, v, letter, word in raw:
+        k = (book, ch, v, letter)
+        if k != key:
+            verses.append([book, ch, v, letter, []])
+            key = k
+        verses[-1][4].append(word)
+
+    # Pass 3: emit. Non-Psalms go straight to passages/words; Psalms accumulate by
+    # their remapped (book, chapter) group first, same two-step as ingest_brenton.
+    passage_rows, word_rows, seq = [], [], 0
+    psa_groups = {}
+    seen_refs = set()
+
+    def emit(book, ch, v, letter, words):
+        nonlocal seq
+        seq += 1
+        ref = make_ref(book, ch, v) + letter
+        if ref in seen_refs:
+            # Rare (one known case: Song 7 relabels mid-chapter around the classic
+            # LXX/English 7-8 boundary split) — disambiguate rather than silently
+            # drop a verse's worth of text.
+            n = 2
+            while f"{ref}-{n}" in seen_refs:
+                n += 1
+            ref = f"{ref}-{n}"
+        seen_refs.add(ref)
+        passage_rows.append(("LXX-GRC", ref, book, ch, v, seq, " ".join(words)))
+        for pos, w in enumerate(words):
+            word_rows.append((ref, pos, "grc-lxx", w))
+
+    for book, ch, v, letter, words in verses:
+        if book == "Ps":
+            psa_groups.setdefault(_lxx_psalm_group(ch, v), []).append(words)
+        else:
+            emit(book, ch, v, letter, words)
+
+    for (book, ch), word_lists in psa_groups.items():
+        bsb_max = con.execute(
+            "SELECT MAX(verse) FROM passages WHERE doc_id='BSB' AND book='Ps' AND chapter=?",
+            (ch,)).fetchone()[0]
+        extra = len(word_lists) - bsb_max if bsb_max else 0
+        if extra > 0:
+            # superscription-as-extra-verse(s): merge the leading extras, same fix
+            # applied to Brenton's Psalms and for the same underlying reason.
+            merged = [w for grp in word_lists[:extra + 1] for w in grp]
+            word_lists = [merged] + word_lists[extra + 1:]
+        for i, words in enumerate(word_lists, start=1):
+            emit(book, ch, i, "", words)
+
+    con.executemany(
+        "INSERT INTO passages(doc_id,ref,book,chapter,verse,seq,text) VALUES(?,?,?,?,?,?,?)", passage_rows)
+    con.executemany(
+        "INSERT INTO words(ref,pos,lang,surface) VALUES(?,?,?,?)", word_rows)
+    print(f"  LXX-GRC: {len(passage_rows)} verses, {len(word_rows)} words")
+
+
 def ingest_crossrefs(con):
     """openbible.info cross_references.txt — 'From<TAB>To<TAB>Votes'."""
     path = os.path.join(SRC, "cross-references", "cross_references.txt")
@@ -523,6 +667,7 @@ def main():
     ingest_bsb(con)
     ingest_web(con)
     ingest_brenton(con)
+    ingest_swete_lxx_grc(con)
     ingest_crossrefs(con)
     ingest_theographic(con)
     ingest_macula(con)

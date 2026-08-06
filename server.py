@@ -338,7 +338,11 @@ def word_study(query: str, language: str = "", limit: int = 15) -> str:
 @mcp.tool()
 def get_interlinear(reference: str) -> str:
     """Word-by-word original language for a verse or short range: surface form,
-    lemma, Strong's, gloss, morphology. E.g. 'John 1:1' or 'Genesis 1:1-3'."""
+    lemma, Strong's, gloss, morphology (Hebrew/Aramaic OT, Greek NT). For OT verses
+    also shows Septuagint Greek surface text where available (Swete edition —
+    Genesis-Malachi plus Apocrypha, Theodotion Daniel/Susanna/Bel; no lemma/Strong's/
+    morphology in that source, surface form only). E.g. 'John 1:1' or
+    'Genesis 1:1-3'."""
     book, ch, v1, v2 = parse_ref(reference)
     if v1 is None:
         v1, v2 = 1, 3
@@ -349,8 +353,11 @@ def get_interlinear(reference: str) -> str:
         heb_refs = _heb_refs_for_display_verse(con, book, ch, v)
         rows = []
         for hr in heb_refs:
-            rows.extend(con.execute("SELECT * FROM words WHERE ref=? ORDER BY pos", (hr,)).fetchall())
-        if not rows:
+            rows.extend(con.execute(
+                "SELECT * FROM words WHERE ref=? AND lang!='grc-lxx' ORDER BY pos", (hr,)).fetchall())
+        lxx_rows = con.execute(
+            "SELECT * FROM words WHERE ref=? AND lang='grc-lxx' ORDER BY pos", (ref,)).fetchall()
+        if not rows and not lxx_rows:
             continue
         eng = con.execute("SELECT text FROM passages WHERE doc_id='BSB' AND ref=? "
                           "UNION SELECT text FROM passages WHERE doc_id='WEB' AND ref=? LIMIT 1",
@@ -368,8 +375,11 @@ def get_interlinear(reference: str) -> str:
             if w["morph"]:
                 bits.append(w["morph"])
             out.append("   " + " ".join(bits))
+        if lxx_rows:
+            out.append("   [LXX] " + " ".join(w["surface"] for w in lxx_rows))
     con.close()
-    return "\n".join(out) if out else f"No word-level data for {reference} (words cover Hebrew OT + Greek NT)."
+    return "\n".join(out) if out else \
+        f"No word-level data for {reference} (words cover Hebrew OT + Greek NT + Septuagint Greek OT)."
 
 
 @mcp.tool()

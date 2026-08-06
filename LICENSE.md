@@ -15,9 +15,11 @@ your rights to those sources at their origin:
 | World English Bible (text) | Public Domain ("World English Bible" is a trademark of eBible.org) |
 | Project Gutenberg texts (Confessions, Imitation, Pilgrim's Progress, Presence, Julian, Orthodoxy, Apostolic Fathers #77576) | Public Domain (PG boilerplate removed per Project Gutenberg's trademark terms) |
 | Wikisource Ante-Nicene Fathers Vol. I transcriptions (Irenaeus, Justin Martyr) | Public Domain |
+| Septuagint (Brenton Translation, 1851) | Public Domain |
 | MACULA Greek & Hebrew (Clear-Bible / Biblica) | CC BY 4.0 |
 | OpenBible.info cross-references | CC BY |
 | Theographic Bible Metadata | CC BY-SA 4.0 (this subset remains share-alike inside the database; a collection license does not override it) |
+| Septuagint, Greek text (Swete edition transcription, First1KGreek/Open Greek and Latin Project) | CC BY-SA 4.0 (transcription only — the 1887–1894 print edition itself is Public Domain; same share-alike treatment as Theographic above) |
 
 ## 2. Code
 
