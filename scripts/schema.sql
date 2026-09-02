@@ -84,6 +84,18 @@ CREATE INDEX IF NOT EXISTS idx_words_ref    ON words(ref);
 CREATE INDEX IF NOT EXISTS idx_words_lemma  ON words(lemma);
 CREATE INDEX IF NOT EXISTS idx_words_strong ON words(strong);
 
+-- Full lexicon entries, keyed by Strong's number (matches words.strong) rather than
+-- verse ref — BDB/Abbott-Smith-class scholarly entries, not word_study's short gloss.
+CREATE TABLE IF NOT EXISTS lexicon (
+  id       INTEGER PRIMARY KEY,
+  strong   TEXT NOT NULL,               -- G#### / H####, same zero-padded form as words.strong
+  source   TEXT NOT NULL,               -- BDB | StrongsHebrew | AbbottSmith
+  lang     TEXT NOT NULL,               -- hbo | arc | grc
+  headword TEXT,                        -- lemma / orthographic form as printed
+  entry    TEXT NOT NULL                -- flattened readable entry text
+);
+CREATE INDEX IF NOT EXISTS idx_lexicon_strong ON lexicon(strong);
+
 CREATE TABLE IF NOT EXISTS entity_mentions (
   entity_id TEXT NOT NULL REFERENCES entities(id),
   ref       TEXT NOT NULL,

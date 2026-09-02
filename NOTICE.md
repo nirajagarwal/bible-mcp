@@ -13,6 +13,8 @@ this instrument is a compilation of their generosity.
 - **Septuagint (Brenton Translation)** — Sir Lancelot C. L. Brenton, 1851, via https://ebible.org/eng-Brenton/. Public Domain.
 - **Septuagint (Greek, Swete edition)** — Henry Barclay Swete (ed.), Cambridge, 1887–1894; machine-readable transcription by the Open Greek and Latin Project's First1KGreek project, via https://github.com/nathans/lxx-swete. CC BY-SA 4.0 — note this license covers the transcription itself, not the (public domain) 1887–1894 print edition it transcribes; this subset remains CC BY-SA within the database, same treatment as Theographic above.
 - **STEPBible / Tyndale House** — the versification methodology conversation; bible-mcp's versemap is derived empirically in-corpus but keeps a TVTMS-compatible schema in anticipation of their CC BY data.
+- **Brown-Driver-Briggs Hebrew and English Lexicon (1906)** + **Strong's Hebrew Dictionary (1890, revised)** — structured markup by the OpenScriptures HebrewLexicon project, https://github.com/openscriptures/HebrewLexicon. CC BY 4.0 (markup); the underlying BDB and Strong's texts are Public Domain.
+- **Abbott-Smith's Manual Greek Lexicon of the New Testament** — G. Abbott-Smith, 1922, Public Domain; TEI transcription by the Open Greek and Latin Project's First1KGreek project, https://github.com/biblicalhumanities/Abbott-Smith (v0.15 release).
 - **BAAI bge-small-en-v1.5** — embedding model (MIT), run locally via fastembed.
 
 Scripture quotations in generated outputs are from the BSB and WEB as tagged per passage.

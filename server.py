@@ -272,7 +272,10 @@ def word_study(query: str, language: str = "", limit: int = 15) -> str:
     unpointed: 'חֶסֶד' or 'חסד', accented or bare Greek), Hebrew/Aramaic
     transliteration ('miqweh' finds מִקְוֶה, macrons optional), or English gloss
     ('lovingkindness'). Returns occurrence counts, gloss range, book distribution,
-    and sample verses. NOTE: homographs are split by letter-suffixed Strong's
+    a full scholarly lexicon entry for the top-matching word (BDB and/or Strong's
+    for Hebrew/Aramaic, Abbott-Smith for Greek, when available — richer than the
+    gloss, truncated to ~700 chars), and sample verses. NOTE: homographs are split
+    by letter-suffixed Strong's
     variants (e.g. H4723 'hope' vs H4723a 'gathering of waters' — same written
     form) — when a gloss range looks too narrow for a word you suspect is richer,
     probe the lettered variants; the output lists every variant lemma it finds
@@ -284,14 +287,24 @@ def word_study(query: str, language: str = "", limit: int = 15) -> str:
     where, args = None, None
     m = re.fullmatch(r"([GgHh])0*(\d+)([a-c]?)", q)
     if m:
-        # zero-pad to the 4-digit storage form; if a bare number has lettered
-        # variants, include them all so homographs are visible side by side.
-        base = f"{m.group(1).upper()}{int(m.group(2)):04d}"
-        if m.group(3):
-            where, args = "strong = ?", [base + m.group(3)]
+        prefix, num, letter = m.group(1).upper(), int(m.group(2)), m.group(3)
+        # Storage isn't consistently zero-padded across languages: MACULA Hebrew's
+        # source is always >=4 digits, but Greek's isn't (agape is stored as 'G26',
+        # not 'G0026') — match both the zero-padded and bare-integer forms rather
+        # than assume one; if a bare number has lettered variants, include them all
+        # so homographs are visible side by side.
+        forms = {f"{prefix}{num:04d}", f"{prefix}{num}"}
+        if letter:
+            where, args = "strong IN (" + ",".join("?" * len(forms)) + ")", \
+                          [f + letter for f in forms]
         else:
-            where, args = "(strong = ? OR (strong LIKE ? AND length(strong) = ?))", \
-                          [base, base + "_", len(base) + 1]
+            # Enumerate the letter suffixes explicitly (bounded by the same [a-c]
+            # the regex above allows) rather than a SQL LIKE wildcard — a wildcard
+            # here would also match unrelated numbers sharing the same prefix (e.g.
+            # 'G26_' matching 'G260'..'G269') once the unpadded form is in play.
+            candidates = [f for base in forms for f in (base, base + "a", base + "b", base + "c")]
+            where = "strong IN (" + ",".join("?" * len(candidates)) + ")"
+            args = candidates
     else:
         where, args = "lemma = ?", [q]
         if not con.execute(f"SELECT 1 FROM words WHERE {where} LIMIT 1", args).fetchone():
@@ -323,6 +336,26 @@ def word_study(query: str, language: str = "", limit: int = 15) -> str:
     out.append("Lemmas: " + "; ".join(f"{r['lemma']} ({r['strong']}, {r['lang']}, {r['c']}x)" for r in lemmas))
     out.append("Gloss range: " + "; ".join(f"{r['gloss']} ({r['c']})" for r in glosses if r["gloss"]))
     out.append("Distribution: " + ", ".join(f"{r['b']} {r['c']}" for r in books))
+    if lemmas:
+        # BDB's own homograph lettering doesn't always line up with words.strong's
+        # (see ingest_bdb) — match the bare number AND every lettered variant of it
+        # in one pass, rather than "fall back only if the bare number found nothing"
+        # (StrongsHebrew's bare entry would satisfy that and hide BDB's lettered ones).
+        # lexicon.strong is always stored zero-padded (ingest_bdb et al.), regardless
+        # of whether words.strong happened to be (MACULA Greek isn't) — normalize
+        # before querying, and enumerate letter suffixes explicitly rather than a
+        # LIKE wildcard (same collision risk as the words.strong match above).
+        sm = re.fullmatch(r"([GH])(\d+)([a-c]?)", lemmas[0]["strong"])
+        base_strong = f"{sm.group(1)}{int(sm.group(2)):04d}" if sm else lemmas[0]["strong"]
+        candidates = [base_strong, base_strong + "a", base_strong + "b", base_strong + "c"]
+        lex = con.execute(
+            "SELECT source, strong, entry FROM lexicon WHERE strong IN (" + ",".join("?" * len(candidates)) + ") "
+            "ORDER BY strong, source", candidates).fetchall()
+        for lx in lex:
+            entry = lx["entry"]
+            if len(entry) > 700:
+                entry = entry[:700].rsplit(" ", 1)[0] + "…"
+            out.append(f"Full entry ({lx['source']}, {lx['strong']}): {entry}")
     out.append("Sample verses:")
     for s in samples:
         display_ref = _display_ref_for_heb_ref(con, s["ref"])

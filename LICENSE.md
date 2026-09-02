@@ -20,6 +20,8 @@ your rights to those sources at their origin:
 | OpenBible.info cross-references | CC BY |
 | Theographic Bible Metadata | CC BY-SA 4.0 (this subset remains share-alike inside the database; a collection license does not override it) |
 | Septuagint, Greek text (Swete edition transcription, First1KGreek/Open Greek and Latin Project) | CC BY-SA 4.0 (transcription only — the 1887–1894 print edition itself is Public Domain; same share-alike treatment as Theographic above) |
+| Brown-Driver-Briggs Hebrew and English Lexicon (1906) + Strong's Hebrew Dictionary (1890, revised), markup by OpenScriptures HebrewLexicon | CC BY 4.0 (markup; underlying lexicon text is Public Domain) |
+| Abbott-Smith's Manual Greek Lexicon of the NT (1922), transcription by First1KGreek/Open Greek and Latin Project | Public Domain |
 
 ## 2. Code
 

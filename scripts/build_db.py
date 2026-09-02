@@ -487,6 +487,129 @@ def ingest_macula(con):
         print(f"  MACULA {label}: {n} words")
 
 
+def _flatten_xml_text(elem):
+    """Join an XML element's full text content (recursively, across all descendant
+    tags) into one readable, whitespace-normalized string. Degrades gracefully
+    across BDB's and Strong's differently-shaped schemas without needing per-tag
+    handling — loses some print formatting (italics, etc.) but keeps every word."""
+    import re as _re
+    text = "".join(elem.itertext())
+    return _re.sub(r"\s+", " ", text).strip()
+
+
+def ingest_bdb(con):
+    """OpenScriptures HebrewLexicon (data/sources/bdb/) — CC BY 4.0 structured markup
+    over the public-domain Brown-Driver-Briggs Hebrew and English Lexicon (1906) and
+    Strong's Hebrew Dictionary (1890). BDB entries are keyed by an internal id, not
+    Strong's numbers directly; LexicalIndex.xml bridges the two (<xref bdb=".." strong="..">),
+    which is how every other BDB digitization does this join too."""
+    import xml.etree.ElementTree as ET
+    src = os.path.join(SRC, "bdb")
+    NS = "{http://openscriptures.github.com/morphhb/namespace}"
+
+    add_document(con, id="BDB", title="Brown-Driver-Briggs Hebrew and English Lexicon", layer="reference",
+                 language="hbo", translator="Francis Brown, S. R. Driver, C. A. Briggs (1906)",
+                 source_url="https://github.com/openscriptures/HebrewLexicon",
+                 license="CC BY 4.0", license_tier="A",
+                 notes="1906. Full scholarly entries (etymology, sense divisions, verse citations) — "
+                       "richer than MACULA's contextual glosses. Markup CC BY 4.0 (OpenScriptures); "
+                       "the BDB text itself is public domain. Joined to Strong's numbers via the "
+                       "project's own LexicalIndex.xml bridge.")
+    add_document(con, id="StrongsHebrew", title="Strong's Hebrew Dictionary (OpenScriptures revision)",
+                 layer="reference", language="hbo",
+                 translator="James Strong (1890), rev. OpenScriptures",
+                 source_url="https://github.com/openscriptures/HebrewLexicon",
+                 license="CC BY 4.0", license_tier="A",
+                 notes="1890, with OpenScriptures corrections (duplicate entries recombined). "
+                       "Markup CC BY 4.0; the Strong's text itself is public domain.")
+
+    # LexicalIndex.xml: build strong-number -> bdb-entry-id map. Homographs carry
+    # their own 'aug' letter here (independent of, and not guaranteed to line up
+    # with, MACULA's own homograph lettering in words.strong) — keep it as its own
+    # key rather than guessing a remapping; word_study falls back to matching all
+    # letter variants of a base number, same as it already does for words.strong.
+    strong_to_bdbid = {}
+    for entry in ET.parse(os.path.join(src, "LexicalIndex.xml")).getroot().iter(f"{NS}entry"):
+        xref = entry.find(f"{NS}xref")
+        if xref is None:
+            continue
+        strong, bdb_id, aug = xref.get("strong"), xref.get("bdb"), xref.get("aug", "")
+        if strong and bdb_id and strong.isdigit():
+            strong_to_bdbid.setdefault(f"H{int(strong):04d}{aug}", bdb_id)
+
+    # BrownDriverBriggs.xml: build bdb-entry-id -> (headword, flattened text) map.
+    bdbid_to_entry = {}
+    for entry in ET.parse(os.path.join(src, "BrownDriverBriggs.xml")).getroot().iter(f"{NS}entry"):
+        eid = entry.get("id")
+        if not eid:
+            continue
+        w = entry.find(f"{NS}w")
+        headword = (w.text or "").strip() if w is not None else None
+        bdbid_to_entry[eid] = (headword, _flatten_xml_text(entry))
+
+    rows = []
+    for strong, bdb_id in strong_to_bdbid.items():
+        found = bdbid_to_entry.get(bdb_id)
+        if not found:
+            continue
+        headword, text = found
+        rows.append((strong, "BDB", "hbo", headword, text))
+    con.executemany(
+        "INSERT INTO lexicon(strong,source,lang,headword,entry) VALUES(?,?,?,?,?)", rows)
+    print(f"  BDB: {len(rows)} entries")
+
+    # HebrewStrong.xml: already keyed directly by Strong's number.
+    rows = []
+    for entry in ET.parse(os.path.join(src, "HebrewStrong.xml")).getroot().iter(f"{NS}entry"):
+        eid = entry.get("id")
+        if not eid or not eid.startswith("H"):
+            continue
+        strong = f"H{int(eid[1:]):04d}"
+        w = entry.find(f"{NS}w")
+        headword = (w.text or "").strip() if w is not None else None
+        lang = "arc" if (w is not None and w.get("{http://www.w3.org/XML/1998/namespace}lang") == "arc") else "hbo"
+        rows.append((strong, "StrongsHebrew", lang, headword, _flatten_xml_text(entry)))
+    con.executemany(
+        "INSERT INTO lexicon(strong,source,lang,headword,entry) VALUES(?,?,?,?,?)", rows)
+    print(f"  StrongsHebrew: {len(rows)} entries")
+
+
+def ingest_abbott_smith(con):
+    """Abbott-Smith's Manual Greek Lexicon of the New Testament (1922, public domain),
+    v0.15 TEI release from github.com/biblicalhumanities/Abbott-Smith (First1KGreek /
+    Open Greek and Latin Project transcription). Already keyed by Strong's number in
+    each entry's n='lemma|Gnum' attribute — no BDB-style id-bridging needed, and (unlike
+    BDB) no lettered homograph suffixes at the source level either."""
+    import xml.etree.ElementTree as ET
+    path = os.path.join(SRC, "abbott-smith", "abbott-smith.v0.15.xml")
+
+    add_document(con, id="AbbottSmith", title="A Manual Greek Lexicon of the New Testament",
+                 layer="reference", language="grc", translator="G. Abbott-Smith (1922)",
+                 source_url="https://github.com/biblicalhumanities/Abbott-Smith",
+                 license="Public Domain", license_tier="A",
+                 notes="1922. Full scholarly entries (etymology, sense divisions, verse citations) "
+                       "— richer than MACULA's contextual glosses. TEI markup from the Open Greek "
+                       "and Latin Project's First1KGreek transcription.")
+
+    root = ET.parse(path).getroot()
+    ns_uri = root.tag.split("}")[0].strip("{") if root.tag.startswith("{") else None
+    tag = f"{{{ns_uri}}}entry" if ns_uri else "entry"
+
+    rows = []
+    for entry in root.iter(tag):
+        n = entry.get("n", "")
+        if "|G" not in n:
+            continue
+        headword, strong_raw = n.rsplit("|G", 1)
+        if not strong_raw.isdigit():
+            continue
+        strong = f"G{int(strong_raw):04d}"
+        rows.append((strong, "AbbottSmith", "grc", headword.strip(), _flatten_xml_text(entry)))
+    con.executemany(
+        "INSERT INTO lexicon(strong,source,lang,headword,entry) VALUES(?,?,?,?,?)", rows)
+    print(f"  AbbottSmith: {len(rows)} entries")
+
+
 GUTENBERG_SHELF = [
     # (gutenberg_id, doc_id, title, author/translator, layer)
     (3296, "CONFESSIONS", "The Confessions of St. Augustine", "tr. E. B. Pusey", "patristic"),
@@ -671,6 +794,8 @@ def main():
     ingest_crossrefs(con)
     ingest_theographic(con)
     ingest_macula(con)
+    ingest_bdb(con)
+    ingest_abbott_smith(con)
     ingest_gutenberg(con)
     ingest_patristic_gutenberg(con)
     compute_psalm_offsets(con)
