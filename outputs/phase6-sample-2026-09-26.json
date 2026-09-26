@@ -1,0 +1,1558 @@
+[
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Jer 46:2/2 Kgs 23:29 name Necho II as a specific historical Pharaoh — an instance of the general Pharaoh title.",
+    "a": {
+      "id": "necho-ii",
+      "label": "Necho II",
+      "definition": "An Egyptian king, the son and successor of Psammetichus (B.C. 610-594), the contemporary of Josiah, king of Judah. For some reason he proclaimed war against the king of Assyria. He led forth a powerful army and marched northward, but was met by the king of Judah at Megiddo, who refused him a passage through his territory. Here a fierce battle was fought and Josiah was slain ([2 Chr. 35:20-24](/2ch"
+    },
+    "b": {
+      "id": "pharaoh",
+      "label": "Pharaoh",
+      "definition": "The official title borne by the Egyptian kings down to the time when that country was conquered by the Greeks. The name is a compound, as some think, of the words Ra, the “sun” or “sun-god,” and the article phe, “the,” prefixed; hence phera, “the sun,” or “the sun-god.” But others, perhaps more correctly, think the name derived from Perao, “the great house” = his majesty = in Turkish, “the Sublime"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:necho-ii",
+        "to_ref": "concept:pharaoh",
+        "type": "concept_broader",
+        "weight": 1.0
+      },
+      {
+        "from_ref": "concept:pharaoh",
+        "to_ref": "concept:necho-ii",
+        "type": "concept_narrower",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "2Chr.35.20",
+          "text": "After all this, when Josiah had prepared the temple, Neco king of Egypt went up to fight against Carchemish by the Euphrates, and Josiah went out against him."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Deut 4:19/2 Kgs 17:16 name moon and stars as members of the 'host of heaven' category.",
+    "a": {
+      "id": "host-of-heaven",
+      "label": "Host of heaven",
+      "definition": "The sun, moon, and stars are so designated ([Gen. 2:1](/gen#Gen.2.1)). When the Jews fell into idolatry they worshipped these ([Deut. 4:19](/deut#Deut.4.19); [2 Kings 17:16](/2kgs#2Kgs.17.16); [21:3](/2kgs#2Kgs.21.3), [5](/2kgs#2Kgs.21.5); [23:5](/2kgs#2Kgs.23.5); [Jer. 19:13](/jer#Jer.19.13); [Zeph. 1:5](/zeph#Zeph.1.5); [Acts 7:42](/acts#Acts.7.42))."
+    },
+    "b": {
+      "id": "moon",
+      "label": "Moon",
+      "definition": "Heb. yareah, from its paleness ([Ezra 6:15](/ezra#Ezra.6.15)), and lebanah, the “white” ([Cant. 6:10](/song#Song.6.10); [Isa. 24:23](/isa#Isa.24.23)), was appointed by the Creator to be with the sun “for signs, and for seasons, and for days, and years” ([Gen. 1:14-16](/gen#Gen.1.14)). A lunation was among the Jews the period of a month, and several of their festivals were held on the day of the ne"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:host-of-heaven",
+        "to_ref": "concept:moon",
+        "type": "concept_broader",
+        "weight": 2.0
+      },
+      {
+        "from_ref": "concept:moon",
+        "to_ref": "concept:host-of-heaven",
+        "type": "concept_narrower",
+        "weight": 2.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "2Kgs.23.5",
+          "text": "He got rid of the idolatrous priests whom the kings of Judah had ordained to burn incense in the high places in the cities of Judah and in the places around Jerusalem; those also who burned incense to Baal, to the sun, to the moon, to the planets, and to all the army of the sky."
+        },
+        {
+          "ref": "Deut.4.19",
+          "text": "When you look to the heavens and see the sun and moon and stars—all the host of heaven—do not be enticed to bow down and worship what the LORD your God has apportioned to all the nations under heaven."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Easton's own Pentecost entry calls it 'the day of the firstfruits' (Exod 34:22) — a specific festival occasion built on the broader first-fruits principle.",
+    "a": {
+      "id": "first-fruits",
+      "label": "First-fruits",
+      "definition": "The first-fruits of the ground were offered unto God just as the first-born of man and animals.\n\n The law required,\n\nThat on the morrow after the Passover Sabbath a sheaf of new corn should be waved by the priest before the altar ([Lev. 23:5](/lev#Lev.23.5), [6](/lev#Lev.23.6), [10](/lev#Lev.23.10), [12](/lev#Lev.23.12); 2:12).\n\nThat at the feast of Pentecost two loaves of leavened bread, made fro"
+    },
+    "b": {
+      "id": "pentecost",
+      "label": "Pentecost",
+      "definition": "I.e., “fiftieth”, found only in the New Testament ([Acts 2:1](/acts#Acts.2.1); [20:16](/acts#Acts.20.16); [1 Cor. 16:8](/1cor#1Cor.16.8)). The festival so named is first spoken of in [Ex. 23:16](/exod#Exod.23.16) as “the feast of harvest,” and again in [Ex. 34:22](/exod#Exod.34.22) as “the day of the firstfruits” ([Num. 28:26](/num#Num.28.26)). From the sixteenth of the month of Nisan (the second "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:first-fruits",
+        "to_ref": "concept:pentecost",
+        "type": "concept_broader",
+        "weight": 4.0
+      },
+      {
+        "from_ref": "concept:pentecost",
+        "to_ref": "concept:first-fruits",
+        "type": "concept_narrower",
+        "weight": 4.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Exod.23.16",
+          "text": "And the feast of harvest, the first fruits of your labors, which you sow in the field; and the feast of ingathering, at the end of the year, when you gather in your labors out of the field."
+        },
+        {
+          "ref": "Exod.34.22",
+          "text": "And you are to celebrate the Feast of Weeks with the firstfruits of the wheat harvest, and the Feast of Ingathering at the turn of the year."
+        },
+        {
+          "ref": "Lev.23.15",
+          "text": "From the day after the Sabbath, the day you brought the sheaf of the wave offering, you are to count off seven full weeks."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "1 Kgs 18:19/15:13 treat Baal-worship's images as a specific named form of idol, matching the Asherah/Idol and Golden-calf/Idol pattern.",
+    "a": {
+      "id": "baal",
+      "label": "Baal",
+      "definition": "Lord.\n\nThe name appropriated to the principal male god of the Phoenicians. It is found in several places in the plural BAALIM ([Judg. 2:11](/judg#Judg.2.11); [10:10](/judg#Judg.10.10); [1 Kings 18:18](/1kgs#1Kgs.18.18); [Jer. 2:23](/jer#Jer.2.23); [Hos. 2:17](/hos#Hos.2.17)). Baal is identified with Molech ([Jer. 19:5](/jer#Jer.19.5)). It was known to the Israelites as Baal-peor ([Num. 25:3](/num#"
+    },
+    "b": {
+      "id": "idol",
+      "label": "Idol",
+      "definition": "Heb. aven, “nothingness;” “vanity” ([Isa. 66:3](/isa#Isa.66.3); [41:29](/isa#Isa.41.29); [Deut. 32:21](/deut#Deut.32.21); [1 Kings 16:13](/1kgs#1Kgs.16.13); [Ps. 31:6](/ps#Ps.31.6); [Jer. 8:19](/jer#Jer.8.19), etc.).\n\n‘Elil, “a thing of naught” ([Ps. 97:7](/ps#Ps.97.7); [Isa. 19:3](/isa#Isa.19.3)); a word of contempt, used of the gods of Noph ([Ezek. 30:13](/ezek#Ezek.30.13)).\n\n‘Emah, “terror,” in"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:baal",
+        "to_ref": "concept:idol",
+        "type": "concept_narrower",
+        "weight": 10.0
+      },
+      {
+        "from_ref": "concept:idol",
+        "to_ref": "concept:baal",
+        "type": "concept_broader",
+        "weight": 10.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "cross_reference",
+      "items": [
+        {
+          "from_ref": "1Kgs.18.19",
+          "from_text": "Now summon all Israel to meet me on Mount Carmel, along with the four hundred and fifty prophets of Baal and the four hundred prophets of Asherah who eat at Jezebel’s table.”",
+          "to_ref": "1Kgs.15.13",
+          "to_text": "He also removed Maacah his mother from being queen, because she had made an abominable image for an Asherah. Asa cut down her image and burned it at the brook Kidron."
+        },
+        {
+          "from_ref": "Deut.4.3",
+          "from_text": "Your eyes have seen what Yahweh did because of Baal Peor; for Yahweh your God has destroyed all the men who followed Baal Peor from among you.",
+          "to_ref": "Hos.9.10",
+          "to_text": "I found Israel like grapes in the wilderness. I saw your fathers as the first ripe in the fig tree at its first season; but they came to Baal Peor, and consecrated themselves to the shameful thing, and became abominable like that which they loved."
+        },
+        {
+          "from_ref": "Num.25.3",
+          "from_text": "Israel joined himself to Baal Peor, and Yahweh’s anger burned against Israel.",
+          "to_ref": "Hos.9.10",
+          "to_text": "I found Israel like grapes in the wilderness. I saw your fathers as the first ripe in the fig tree at its first season; but they came to Baal Peor, and consecrated themselves to the shameful thing, and became abominable like that which they loved."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Blue is a specific instance of the general Colour category, matching the Black/Colour call.",
+    "a": {
+      "id": "blue",
+      "label": "Blue",
+      "definition": "Generally associated with purple ([Ex. 25:4](/exod#Exod.25.4); [26:1](/exod#Exod.26.1), [31](/exod#Exod.26.31), [36](/exod#Exod.26.36), etc.). It is supposed to have been obtained from a shellfish of the Mediterranean, the Helix ianthina of Linnaeus. The robe of the high priest’s ephod was to be all of this colour ([Ex. 28:31](/exod#Exod.28.31)), also the loops of the curtains (26:4) and the ribbo"
+    },
+    "b": {
+      "id": "colour",
+      "label": "Colour",
+      "definition": "The subject of colours holds an important place in the Scriptures.\n\n White occurs as the translation of various Hebrew words. It is applied to milk ([Gen. 49:12](/gen#Gen.49.12)), manna ([Ex. 16:31](/exod#Exod.16.31)), snow ([Isa. 1:18](/isa#Isa.1.18)), horses ([Zech. 1:8](/zech#Zech.1.8)), raiment ([Eccl. 9:8](/eccl#Eccl.9.8)). Another Hebrew word so rendered is applied to marble ([Esther 1:6](/e"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:blue",
+        "to_ref": "concept:colour",
+        "type": "concept_narrower",
+        "weight": 4.0
+      },
+      {
+        "from_ref": "concept:colour",
+        "to_ref": "concept:blue",
+        "type": "concept_broader",
+        "weight": 4.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Exod.26.1",
+          "text": "“Moreover you shall make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet, with cherubim. You shall make them with the work of a skillful workman."
+        },
+        {
+          "ref": "Exod.26.31",
+          "text": "Make a veil of blue, purple, and scarlet yarn, and finely spun linen, with cherubim skillfully worked into it."
+        },
+        {
+          "ref": "Exod.26.36",
+          "text": "For the entrance to the tent, you are to make a curtain embroidered with blue, purple, and scarlet yarn, and finely spun linen."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "1 Kgs 21:27/Isa 22:12 (sackcloth on the waist) show the girdle as one specific garment/accessory within dress generally.",
+    "a": {
+      "id": "dress",
+      "label": "Dress",
+      "definition": "Materials used. The earliest and simplest an apron of fig-leaves sewed together ([Gen. 3:7](/gen#Gen.3.7)); then skins of animals (3:21). Elijah’s dress was probably the skin of a sheep ([2 Kings 1:8](/2kgs#2Kgs.1.8)). The Hebrews were early acquainted with the art of weaving hair into cloth ([Ex. 26:7](/exod#Exod.26.7); [35:6](/exod#Exod.35.6)), which formed the sackcloth of mourners. This was th"
+    },
+    "b": {
+      "id": "girdle",
+      "label": "Girdle",
+      "definition": "Heb. hagor, a girdle of any kind worn by soldiers ([1 Sam. 18:4](/1sam#1Sam.18.4); [2 Sam. 20:8](/2sam#2Sam.20.8); [1 Kings 2:5](/1kgs#1Kgs.2.5); [2 Kings 3:21](/2kgs#2Kgs.3.21)) or women ([Isa. 3:24](/isa#Isa.3.24)).\n\nHeb. ‘ezor, something “bound,” worn by prophets ([2 Kings 1:8](/2kgs#2Kgs.1.8); [Jer. 13:1](/jer#Jer.13.1)), soldiers ([Isa. 5:27](/isa#Isa.5.27); [2 Sam. 20:8](/2sam#2Sam.20.8); [E"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:dress",
+        "to_ref": "concept:girdle",
+        "type": "concept_broader",
+        "weight": 3.0
+      },
+      {
+        "from_ref": "concept:girdle",
+        "to_ref": "concept:dress",
+        "type": "concept_narrower",
+        "weight": 3.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "2Kgs.1.8",
+          "text": "They answered him, “He was a hairy man, and wearing a leather belt around his waist.” He said, “It’s Elijah the Tishbite.”"
+        },
+        {
+          "ref": "Ezek.16.10",
+          "text": "I clothed you also with embroidered work and put leather sandals on you. I dressed you with fine linen and covered you with silk."
+        },
+        {
+          "ref": "Isa.3.24",
+          "text": "Instead of fragrance there will be a stench; instead of a belt, a rope; instead of styled hair, baldness; instead of fine clothing, sackcloth; instead of beauty, shame."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Josh 15:14/Num 13:33 name Ahiman as one of the sons of Anak — a specific giant.",
+    "a": {
+      "id": "ahiman",
+      "label": "Ahiman",
+      "definition": "Brother of a gift = liberal.\n\nOne of the three giant Anakim brothers whom Caleb and the spies saw in Mount Hebron ([Num. 13:22](/num#Num.13.22)) when they went in to explore the land. They were afterwards driven out and slain ([Josh. 15:14](/josh#Josh.15.14); [Judg. 1:10](/judg#Judg.1.10)).\n\nOne of the guardians of the temple after the Exile ([1 Chr. 9:17](/1chr#1Chr.9.17))."
+    },
+    "b": {
+      "id": "giants",
+      "label": "Giants",
+      "definition": "Heb. nephilim, meaning “violent” or “causing to fall” ([Gen. 6:4](/gen#Gen.6.4)). These were the violent tyrants of those days, those who fell upon others. The word may also be derived from a root signifying “wonder,” and hence “monsters” or “prodigies.” In [Num. 13:33](/num#Num.13.33) this name is given to a Canaanitish tribe, a race of large stature, “the sons of Anak.” The Revised Version, in t"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:ahiman",
+        "to_ref": "concept:giants",
+        "type": "concept_narrower",
+        "weight": 1.0
+      },
+      {
+        "from_ref": "concept:giants",
+        "to_ref": "concept:ahiman",
+        "type": "concept_broader",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Josh.15.14",
+          "text": "And Caleb drove out from there the three sons of Anak—the descendants of Sheshai, Ahiman, and Talmai, the children of Anak."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "1 Chr 13:8/1 Sam 10:5 list cymbals as one instrument within the broader practice of music.",
+    "a": {
+      "id": "cymbals",
+      "label": "Cymbals",
+      "definition": "(Heb. tzeltzelim, from a root meaning to “tinkle”), musical instruments, consisting of two convex pieces of brass one held in each hand, which were clashed together to produce a loud clanging sound; castanets; “loud cymbals.” “Highsounding cymbals” consisted of two larger plates, one held also in each hand ([2 Sam. 6:5](/2sam#2Sam.6.5); [Ps. 150:5](/ps#Ps.150.5); [1 Chr. 13:8](/1chr#1Chr.13.8); [1"
+    },
+    "b": {
+      "id": "music",
+      "label": "Music",
+      "definition": "Jubal was the inventor of musical instruments ([Gen. 4:21](/gen#Gen.4.21)). The Hebrews were much given to the cultivation of music. Their whole history and literature afford abundant evidence of this. After the Deluge, the first mention of music is in the account of Laban’s interview with Jacob ([Gen. 31:27](/gen#Gen.31.27)). After their triumphal passage of the Red Sea, Moses and the children of"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:cymbals",
+        "to_ref": "concept:music",
+        "type": "concept_narrower",
+        "weight": 1.0
+      },
+      {
+        "from_ref": "concept:music",
+        "to_ref": "concept:cymbals",
+        "type": "concept_broader",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "2Sam.6.5",
+          "text": "David and all the house of Israel played before Yahweh with all kinds of instruments made of cypress wood, with harps, with stringed instruments, with tambourines, with castanets, and with cymbals."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Jerusalem is one specific instance of a fortified/fenced city, per 2 Sam 5:6's siege narrative.",
+    "a": {
+      "id": "fenced-cities",
+      "label": "Fenced cities",
+      "definition": "There were in Palestine (1) cities, (2) unwalled villages, and (3) villages with castles or towers ([1 Chr. 27:25](/1chr#1Chr.27.25)). Cities, so called, had walls, and were thus fenced. The fortifications consisted of one or two walls, on which were towers or parapets at regular intervals ([2 Chr. 32:5](/2chr#2Chr.32.5); [Jer. 31:38](/jer#Jer.31.38)). Around ancient Jerusalem were three walls, on"
+    },
+    "b": {
+      "id": "jerusalem",
+      "label": "Jerusalem",
+      "definition": "Called also Salem, Ariel, Jebus, the “city of God,” the “holy city;” by the modern Arabs el-Khuds, meaning “the holy;” once “the city of Judah” ([2 Chr. 25:28](/2chr#2Chr.25.28)). This name is in the original in the dual form, and means “possession of peace,” or “foundation of peace.” The dual form probably refers to the two mountains on which it was built, viz., Zion and Moriah; or, as some suppo"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:fenced-cities",
+        "to_ref": "concept:jerusalem",
+        "type": "concept_broader",
+        "weight": 21.0
+      },
+      {
+        "from_ref": "concept:jerusalem",
+        "to_ref": "concept:fenced-cities",
+        "type": "concept_narrower",
+        "weight": 21.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "cross_reference",
+      "items": [
+        {
+          "from_ref": "2Sam.5.6",
+          "from_text": "Now the king and his men marched to Jerusalem against the Jebusites who inhabited the land. The Jebusites said to David: “You will never get in here. Even the blind and lame can repel you.” For they thought, “David cannot get in here.”",
+          "to_ref": "Gen.14.18",
+          "to_text": "Melchizedek king of Salem brought out bread and wine. He was priest of God Most High."
+        },
+        {
+          "from_ref": "Jer.31.38",
+          "from_text": "“Behold, the days come,” says Yahweh, “that the city will be built to Yahweh from the tower of Hananel to the gate of the corner.",
+          "to_ref": "Dan.9.25",
+          "to_text": "Know and understand this: From the issuance of the decree to restore and rebuild Jerusalem until the Messiah, the Prince, there will be seven weeks and sixty-two weeks. It will be rebuilt with streets and a trench, but in times of distress."
+        },
+        {
+          "from_ref": "Jer.31.38",
+          "from_text": "“Behold, the days come,” says Yahweh, “that the city will be built to Yahweh from the tower of Hananel to the gate of the corner.",
+          "to_ref": "2Kgs.14.13",
+          "to_text": "Jehoash king of Israel took Amaziah king of Judah, the son of Jehoash the son of Ahaziah, at Beth Shemesh and came to Jerusalem, then broke down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Isa 60:6 names the dromedary as a specific one-humped type within the general camel category, alongside 2 Chr 9:1's camels.",
+    "a": {
+      "id": "camel",
+      "label": "Camel",
+      "definition": "From the Hebrew gamal, “to repay” or “requite,” as the camel does the care of its master. There are two distinct species of camels, having, however, the common characteristics of being “ruminants without horns, without muzzle, with nostrils forming oblique slits, the upper lip divided and separately movable and extensile, the soles of the feet horny, with two toes covered by claws, the limbs long,"
+    },
+    "b": {
+      "id": "dromedary",
+      "label": "Dromedary",
+      "definition": "([Isa. 60:6](/isa#Isa.60.6)), an African or Arabian species of camel having only one hump, while the Bactrian camel has two. It is distinguished from the camel only as a trained saddle-horse is distinguished from a cart-horse. It is remarkable for its speed ([Jer. 2:23](/jer#Jer.2.23)). Camels are frequently spoken of in partriarchal times ([Gen. 12:16](/gen#Gen.12.16); [24:10](/gen#Gen.24.10); [3"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:camel",
+        "to_ref": "concept:dromedary",
+        "type": "concept_broader",
+        "weight": 6.0
+      },
+      {
+        "from_ref": "concept:dromedary",
+        "to_ref": "concept:camel",
+        "type": "concept_narrower",
+        "weight": 6.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Gen.12.16",
+          "text": "He dealt well with Abram for her sake. He had sheep, cattle, male donkeys, male servants, female servants, female donkeys, and camels."
+        },
+        {
+          "ref": "Gen.24.10",
+          "text": "The servant took ten of his master’s camels, and departed, having a variety of good things of his master’s with him. He arose, and went to Mesopotamia, to the city of Nahor."
+        },
+        {
+          "ref": "Gen.24.64",
+          "text": "And when Rebekah looked up and saw Isaac, she got down from her camel"
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Isa 11:8 names the adder as a specific venomous creature, matching the same pattern.",
+    "a": {
+      "id": "adder",
+      "label": "Adder",
+      "definition": "([Ps. 140:3](/ps#Ps.140.3); [Rom. 3:13](/rom#Rom.3.13), “asp”) is the rendering of,\n\nAkshub (“coiling” or “lying in wait”), properly an asp or viper, found only in this passage.\n\nPethen (“twisting”), a viper or venomous serpent identified with the cobra (Naja haje) ([Ps. 58:4](/ps#Ps.58.4); [91:13](/ps#Ps.91.13)); elsewhere “asp.”\n\nTziphoni (“hissing”) ([Prov. 23:32](/prov#Prov.23.32)); elsewhere "
+    },
+    "b": {
+      "id": "poison",
+      "label": "Poison",
+      "definition": "Heb. hemah, “heat,” the poison of certain venomous reptiles ([Deut. 32:24](/deut#Deut.32.24), [33](/deut#Deut.32.33); [Job 6:4](/job#Job.6.4); [Ps. 58:4](/ps#Ps.58.4)), causing inflammation.\n\nHeb. rosh, “a head,” a poisonous plant ([Deut. 29:18](/deut#Deut.29.18)), growing luxuriantly ([Hos. 10:4](/hos#Hos.10.4)), of a bitter taste ([Ps. 69:21](/ps#Ps.69.21); [Lam. 3:5](/lam#Lam.3.5)), and coupled"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:adder",
+        "to_ref": "concept:poison",
+        "type": "concept_narrower",
+        "weight": 2.0
+      },
+      {
+        "from_ref": "concept:poison",
+        "to_ref": "concept:adder",
+        "type": "concept_broader",
+        "weight": 2.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Ps.140.3",
+          "text": "They have sharpened their tongues like a serpent. Viper’s poison is under their lips. Selah."
+        },
+        {
+          "ref": "Ps.58.4",
+          "text": "Their poison is like the poison of a snake, like a deaf cobra that stops its ear,"
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Deut 29:18 names gall among substances producing bitter poison — a specific poisonous plant.",
+    "a": {
+      "id": "gall",
+      "label": "Gall",
+      "definition": "(1) Heb. mererah, meaning “bitterness” ([Job 16:13](/job#Job.16.13)); i.e., the bile secreted in the liver. This word is also used of the poison of asps (20:14), and of the vitals, the seat of life (25).\n\nHeb. rosh. In [Deut. 32:33](/deut#Deut.32.33) and [Job 20:16](/job#Job.20.16) it denotes the poison of serpents. In [Hos. 10:4](/hos#Hos.10.4) the Hebrew word is rendered “hemlock.” The original "
+    },
+    "b": {
+      "id": "poison",
+      "label": "Poison",
+      "definition": "Heb. hemah, “heat,” the poison of certain venomous reptiles ([Deut. 32:24](/deut#Deut.32.24), [33](/deut#Deut.32.33); [Job 6:4](/job#Job.6.4); [Ps. 58:4](/ps#Ps.58.4)), causing inflammation.\n\nHeb. rosh, “a head,” a poisonous plant ([Deut. 29:18](/deut#Deut.29.18)), growing luxuriantly ([Hos. 10:4](/hos#Hos.10.4)), of a bitter taste ([Ps. 69:21](/ps#Ps.69.21); [Lam. 3:5](/lam#Lam.3.5)), and coupled"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:gall",
+        "to_ref": "concept:poison",
+        "type": "concept_narrower",
+        "weight": 5.0
+      },
+      {
+        "from_ref": "concept:poison",
+        "to_ref": "concept:gall",
+        "type": "concept_broader",
+        "weight": 5.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Deut.29.18",
+          "text": "Make sure there is no man or woman, clan or tribe among you today whose heart turns away from the LORD our God to go and worship the gods of those nations. Make sure there is no root among you that bears such poisonous and bitter fruit,"
+        },
+        {
+          "ref": "Deut.32.33",
+          "text": "Their wine is the poison of serpents, the cruel venom of asps."
+        },
+        {
+          "ref": "Hos.10.4",
+          "text": "They make promises, swearing falsely in making covenants. Therefore judgment springs up like poisonous weeds in the furrows of the field."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Exod 30:13/Lev 27:25 present the shekel as the specific standard unit within the broader system of weights and valuations.",
+    "a": {
+      "id": "shekel",
+      "label": "Shekel",
+      "definition": "Weight, the common standard both of weight and value among the Hebrews. It is estimated at 220 English grains, or a little more than half an ounce avoirdupois. The “shekel of the sanctuary” ([Ex. 30:13](/exod#Exod.30.13); [Num. 3:47](/num#Num.3.47)) was equal to twenty gerahs ([Ezek. 45:12](/ezek#Ezek.45.12)). There were shekels of gold ([1 Chr. 21:25](/1chr#1Chr.21.25)), of silver ([1 Sam. 9:8](/"
+    },
+    "b": {
+      "id": "weights",
+      "label": "Weights",
+      "definition": "Reduced to English troy-weight, the Hebrew weights were:\n\nThe gerah ([Lev. 27:25](/lev#Lev.27.25); [Num. 3:47](/num#Num.3.47)), a Hebrew word, meaning a grain or kernel, and hence a small weight. It was the twentieth part of a shekel, and equal to 12 grains.\n\nBekah ([Ex. 38:26](/exod#Exod.38.26)), meaning “a half” i.e., “half a shekel,” equal to 5 pennyweight.\n\nShekel, “a weight,” only in the Old "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:shekel",
+        "to_ref": "concept:weights",
+        "type": "concept_narrower",
+        "weight": 3.0
+      },
+      {
+        "from_ref": "concept:weights",
+        "to_ref": "concept:shekel",
+        "type": "concept_broader",
+        "weight": 3.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Exod.30.13",
+          "text": "Everyone who crosses over to those counted must pay a half shekel, according to the sanctuary shekel, which weighs twenty gerahs. This half shekel is an offering to the LORD."
+        },
+        {
+          "ref": "Ezek.45.12",
+          "text": "The shekel shall be twenty gerahs. Twenty shekels plus twenty-five shekels plus fifteen shekels shall be your mina."
+        },
+        {
+          "ref": "Num.3.47",
+          "text": "you are to collect five shekels for each one, according to the sanctuary shekel of twenty gerahs."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "1 Chr 25:1/1 Sam 10:5 name the pipe as one instrument within the broader practice of music, matching the Harp/Music pattern.",
+    "a": {
+      "id": "music",
+      "label": "Music",
+      "definition": "Jubal was the inventor of musical instruments ([Gen. 4:21](/gen#Gen.4.21)). The Hebrews were much given to the cultivation of music. Their whole history and literature afford abundant evidence of this. After the Deluge, the first mention of music is in the account of Laban’s interview with Jacob ([Gen. 31:27](/gen#Gen.31.27)). After their triumphal passage of the Red Sea, Moses and the children of"
+    },
+    "b": {
+      "id": "pipe",
+      "label": "Pipe",
+      "definition": "([1 Sam. 10:5](/1sam#1Sam.10.5); [1 Kings 1:40](/1kgs#1Kgs.1.40); [Isa. 5:12](/isa#Isa.5.12); [30:29](/isa#Isa.30.29)). The Hebrew word halil, so rendered, means “bored through,” and is the name given to various kinds of wind instruments, as the fife, flute, Pan-pipes, etc. In [Amos 6:5](/amos#Amos.6.5) this word is rendered “instrument of music.” This instrument is mentioned also in the New Testa"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:music",
+        "to_ref": "concept:pipe",
+        "type": "concept_broader",
+        "weight": 2.0
+      },
+      {
+        "from_ref": "concept:pipe",
+        "to_ref": "concept:music",
+        "type": "concept_narrower",
+        "weight": 2.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "1Sam.10.5",
+          "text": "After that you will come to Gibeah of God, where the Philistines have an outpost. As you approach the city, you will meet a group of prophets coming down from the high place, preceded by harps, tambourines, flutes, and lyres, and they will be prophesying."
+        },
+        {
+          "ref": "Isa.5.12",
+          "text": "At their feasts are the lyre and harp, tambourines and flutes and wine. They disregard the actions of the LORD and fail to see the work of His hands."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "narrower",
+    "original_justification": "Cornet (shophar) is one specific instrument; Music,Instrumental's own entry catalogs it alongside harp and psaltery, confirmed by 1 Chr 15:28/13:8 listing it among other named instruments in the same performance.",
+    "a": {
+      "id": "cornet",
+      "label": "Cornet",
+      "definition": "Heb. shophar, “brightness,” with reference to the clearness of its sound ([1 Chr. 15:28](/1chr#1Chr.15.28); [2 Chr. 15:14](/2chr#2Chr.15.14); [Ps. 98:6](/ps#Ps.98.6); [Hos. 5:8](/hos#Hos.5.8)). It is usually rendered in the Authorized Version “trumpet.” It denotes the long and straight horn, about eighteen inches long. The words of Joel, “Blow the trumpet,” literally, “Sound the cornet,” refer to "
+    },
+    "b": {
+      "id": "music-instrumental",
+      "label": "Music, Instrumental",
+      "definition": "Among instruments of music used by the Hebrews a principal place is given to stringed instruments. These were,\n\nThe kinnor, the “harp.”\n\nThe nebel, “a skin bottle,” rendered “psaltery.”\n\nThe sabbeka, or “sackbut,” a lute or lyre.\n\nThe gittith, occurring in the title of [Ps. 8](/ps#Ps.8); [8](/ps#Ps.8); [84](/ps#Ps.84).\n\nMinnim ([Ps. 150:4](/ps#Ps.150.4)), rendered “stringed instruments;” in [Ps. 4"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:cornet",
+        "to_ref": "concept:music-instrumental",
+        "type": "concept_narrower",
+        "weight": 3.0
+      },
+      {
+        "from_ref": "concept:music-instrumental",
+        "to_ref": "concept:cornet",
+        "type": "concept_broader",
+        "weight": 3.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "2Sam.6.5",
+          "text": "David and all the house of Israel played before Yahweh with all kinds of instruments made of cypress wood, with harps, with stringed instruments, with tambourines, with castanets, and with cymbals."
+        },
+        {
+          "ref": "Dan.3.5",
+          "text": "As soon as you hear the sound of the horn, flute, zither, lyre, harp, pipes, and all kinds of music, you must fall down and worship the golden statue that King Nebuchadnezzar has set up."
+        },
+        {
+          "ref": "Ps.98.6",
+          "text": "With trumpets and sound of the ram’s horn, make a joyful noise before the King, Yahweh."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "1 Kings 21:27 and 2 Sam 1:12 both show fasting arising as an expression of grief/mourning ('mourned and wept and fasted... for Saul and Jonathan'), not the reverse.",
+    "a": {
+      "id": "fast",
+      "label": "Fast",
+      "definition": "The sole fast required by the law of Moses was that of the great Day of Atonement (q.v.), [Lev. 23:26-32](/lev#Lev.23.26). It is called “the fast” ([Acts 27:9](/acts#Acts.27.9)).\n\n The only other mention of a periodical fast in the Old Testament is in [Zech. 7:1-7](/zech#Zech.7.1); [8:19](/zech#Zech.8.19), from which it appears that during their captivity the Jews observed four annual fasts.\n\nThe "
+    },
+    "b": {
+      "id": "mourn",
+      "label": "Mourn",
+      "definition": "Frequent references are found in Scripture to,\n\nMourning for the dead. Abraham mourned for Sarah ([Gen. 23:2](/gen#Gen.23.2)); Jacob for Joseph (37:34, 35); the Egyptians for Jacob (50:3-10); Israel for Aaron ([Num. 20:29](/num#Num.20.29)), for Moses ([Deut. 34:8](/deut#Deut.34.8)), and for Samuel ([1 Sam. 25:1](/1sam#1Sam.25.1)); David for Abner ([2 Sam. 3:31](/2sam#2Sam.3.31), [35](/2sam#2Sam.3."
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:mourn",
+        "to_ref": "concept:fast",
+        "type": "concept_causes",
+        "weight": 7.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "1Sam.31.13",
+          "text": "Then they took their bones and buried them under the tamarisk tree in Jabesh, and they fasted seven days."
+        },
+        {
+          "ref": "1Sam.7.6",
+          "text": "They gathered together to Mizpah, and drew water, and poured it out before Yahweh, and fasted on that day, and said there, “We have sinned against Yahweh.” Samuel judged the children of Israel in Mizpah."
+        },
+        {
+          "ref": "2Sam.1.12",
+          "text": "They mourned and wept and fasted until evening for Saul and his son Jonathan, and for the people of the LORD and the house of Israel, because they had fallen by the sword."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Isa 40:19/Judg 17:4 both describe the physical craft (casting, overlaying with gold/silver) that produces the idol object — the graving process results in the idol existing.",
+    "a": {
+      "id": "graving",
+      "label": "Graving",
+      "definition": "Heb. hatsabh. [Job 19:24](/job#Job.19.24), rendered “graven,” but generally means hewn stone or wood, in quarry or forest.\n\nHeb. harush. [Jer. 17:1](/jer#Jer.17.1), rendered “graven,” and indicates generally artistic work in metal, wood, and stone, effected by fine instruments.\n\nHeb. haqaq. [Ezek. 4:1](/ezek#Ezek.4.1), engraving a plan or map, rendered “pourtray;” [Job 19:23](/job#Job.19.23), “wri"
+    },
+    "b": {
+      "id": "idol",
+      "label": "Idol",
+      "definition": "Heb. aven, “nothingness;” “vanity” ([Isa. 66:3](/isa#Isa.66.3); [41:29](/isa#Isa.41.29); [Deut. 32:21](/deut#Deut.32.21); [1 Kings 16:13](/1kgs#1Kgs.16.13); [Ps. 31:6](/ps#Ps.31.6); [Jer. 8:19](/jer#Jer.8.19), etc.).\n\n‘Elil, “a thing of naught” ([Ps. 97:7](/ps#Ps.97.7); [Isa. 19:3](/isa#Isa.19.3)); a word of contempt, used of the gods of Noph ([Ezek. 30:13](/ezek#Ezek.30.13)).\n\n‘Emah, “terror,” in"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:graving",
+        "to_ref": "concept:idol",
+        "type": "concept_causes",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Isa.40.19",
+          "text": "A workman has cast an image, and the goldsmith overlays it with gold, and casts silver chains for it."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Deut 28:8/2 Kgs 6:27 tie agricultural blessing/scarcity directly to wine's availability — farming produces the crop wine is made from.",
+    "a": {
+      "id": "agriculture",
+      "label": "Agriculture",
+      "definition": "Tilling the ground ([Gen. 2:15](/gen#Gen.2.15); [4:2](/gen#Gen.4.2), [3](/gen#Gen.4.3), [12](/gen#Gen.4.12)) and rearing cattle were the chief employments in ancient times. The Egyptians excelled in agriculture. And after the Israelites entered into the possession of the Promised Land, their circumstances favoured in the highest degree a remarkable development of this art. Agriculture became indee"
+    },
+    "b": {
+      "id": "wine",
+      "label": "Wine",
+      "definition": "The common Hebrew word for wine is yayin, from a root meaning “to boil up,” “to be in a ferment.” Others derive it from a root meaning “to tread out,” and hence the juice of the grape trodden out. The Greek word for wine is oinos_, and the Latin _vinun. But besides this common Hebrew word, there are several others which are thus rendered.\n\nAshishah ([2 Sam. 6:19](/2sam#2Sam.6.19); [1 Chr. 16:3](/1"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:agriculture",
+        "to_ref": "concept:wine",
+        "type": "concept_causes",
+        "weight": 2.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Deut.23.24",
+          "text": "When you come into your neighbor’s vineyard, then you may eat your fill of grapes at your own pleasure; but you shall not put any in your container."
+        },
+        {
+          "ref": "Prov.3.10",
+          "text": "so your barns will be filled with plenty, and your vats will overflow with new wine."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Deut 15:1/Exod 21:2 (debt cancellation, loan-servitude law) show a loan as what creates a debt obligation.",
+    "a": {
+      "id": "debt",
+      "label": "Debt",
+      "definition": "The Mosaic law encouraged the practice of lending ([Deut. 15:7](/deut#Deut.15.7); [Ps. 37:26](/ps#Ps.37.26); [Matt. 5:42](/matt#Matt.5.42)); but it forbade the exaction of interest except from foreigners. Usury was strongly condemned ([Prov. 28:8](/prov#Prov.28.8); [Ezek. 18:8](/ezek#Ezek.18.8), [13](/ezek#Ezek.18.13), [17](/ezek#Ezek.18.17); 22:12; [Ps. 15:5](/ps#Ps.15.5)). On the Sabbatical year"
+    },
+    "b": {
+      "id": "loan",
+      "label": "Loan",
+      "definition": "The Mosaic law required that when an Israelite needed to borrow, what he asked was to be freely lent to him, and no interest was to be charged, although interest might be taken of a foreigner ([Ex. 22:25](/exod#Exod.22.25); [Deut. 23:19](/deut#Deut.23.19), [20](/deut#Deut.23.20); [Lev. 25:35-38](/lev#Lev.25.35)). At the end of seven years all debts were remitted. Of a foreigner the loan might, how"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:loan",
+        "to_ref": "concept:debt",
+        "type": "concept_causes",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Ps.15.5",
+          "text": "he who doesn’t lend out his money for usury, nor take a bribe against the innocent. He who does these things shall never be shaken."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Gen 1:1's own wording ('God created the heavens and the earth') directly ties the act of creation to heaven's origin.",
+    "a": {
+      "id": "creation",
+      "label": "Creation",
+      "definition": "“In the beginning” God created, i.e., called into being, all things out of nothing. This creative act on the part of God was absolutely free, and for infinitely wise reasons. The cause of all things exists only in the will of God. The work of creation is attributed (1) to the Godhead ([Gen. 1:1](/gen#Gen.1.1), [26](/gen#Gen.1.26)); (2) to the Father ([1 Cor. 8:6](/1cor#1Cor.8.6)); (3) to the Son ("
+    },
+    "b": {
+      "id": "heaven",
+      "label": "Heaven",
+      "definition": "Definitions. The phrase “heaven and earth” is used to indicate the whole universe ([Gen. 1:1](/gen#Gen.1.1); [Jer. 23:24](/jer#Jer.23.24); [Acts 17:24](/acts#Acts.17.24)). According to the Jewish notion there were three heavens,\n\n (a) The firmament, as “fowls of the heaven” ([Gen. 2:19](/gen#Gen.2.19); [7:3](/gen#Gen.7.3), [23](/gen#Gen.7.23); [Ps. 8:8](/ps#Ps.8.8), etc.), “the eagles of heaven” ("
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:creation",
+        "to_ref": "concept:heaven",
+        "type": "concept_causes",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Gen.1.1",
+          "text": "In the beginning God created the heavens and the earth."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Dan 9:2/Zech 7:5 tie captivity-period fasting directly to the exile, matching the Exile/Fast causal pattern.",
+    "a": {
+      "id": "captivity",
+      "label": "Captivity",
+      "definition": "Of Israel. The kingdom of the ten tribes was successively invaded by several Assyrian kings. Pul (q.v.) imposed a tribute on Menahem of a thousand talents of silver ([2 Kings 15:19](/2kgs#2Kgs.15.19), [20](/2kgs#2Kgs.15.20); [1 Chr. 5:26](/1chr#1Chr.5.26)) (B.C. 762), and Tiglath-pileser, in the days of Pekah (B.C. 738), carried away the trans-Jordanic tribes and the inhabitants of Galilee into As"
+    },
+    "b": {
+      "id": "fast",
+      "label": "Fast",
+      "definition": "The sole fast required by the law of Moses was that of the great Day of Atonement (q.v.), [Lev. 23:26-32](/lev#Lev.23.26). It is called “the fast” ([Acts 27:9](/acts#Acts.27.9)).\n\n The only other mention of a periodical fast in the Old Testament is in [Zech. 7:1-7](/zech#Zech.7.1); [8:19](/zech#Zech.8.19), from which it appears that during their captivity the Jews observed four annual fasts.\n\nThe "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:captivity",
+        "to_ref": "concept:fast",
+        "type": "concept_causes",
+        "weight": 12.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "cross_reference",
+      "items": [
+        {
+          "from_ref": "Dan.9.2",
+          "from_text": "in the first year of his reign I, Daniel, understood by the books the number of the years about which Yahweh’s word came to Jeremiah the prophet for the accomplishing of the desolations of Jerusalem, even seventy years.",
+          "to_ref": "Zech.7.5",
+          "to_text": "“Ask all the people of the land and the priests, ‘When you fasted and mourned in the fifth and seventh months for these seventy years, was it really for Me that you fasted?"
+        },
+        {
+          "from_ref": "Jer.36.9",
+          "from_text": "Now in the fifth year of Jehoiakim the son of Josiah, king of Judah, in the ninth month, all the people in Jerusalem and all the people who came from the cities of Judah to Jerusalem, proclaimed a fast before Yahweh.",
+          "to_ref": "Neh.9.1",
+          "to_text": "Now in the twenty-fourth day of this month the children of Israel were assembled with fasting, with sackcloth, and dirt on them."
+        },
+        {
+          "from_ref": "Jer.36.9",
+          "from_text": "Now in the fifth year of Jehoiakim the son of Josiah, king of Judah, in the ninth month, all the people in Jerusalem and all the people who came from the cities of Judah to Jerusalem, proclaimed a fast before Yahweh.",
+          "to_ref": "2Chr.20.3",
+          "to_text": "Jehoshaphat was alarmed and set his face to seek the LORD. And he proclaimed a fast throughout Judah."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Ps 51:7's 'purify me with hyssop' directly ties the herb to the purification rite as its ritual instrument.",
+    "a": {
+      "id": "hyssop",
+      "label": "Hyssop",
+      "definition": "(Heb. ‘ezob; LXX. hyssopos), first mentioned in [Ex. 12:22](/exod#Exod.12.22) in connection with the institution of the Passover. We find it afterwards mentioned in [Lev. 14:4](/lev#Lev.14.4), [6](/lev#Lev.14.6), [52](/lev#Lev.14.52); [Num. 19:6](/num#Num.19.6), [18](/num#Num.19.18); [Heb. 9:19](/heb#Heb.9.19). It is spoken of as a plant “springing out of the wall” ([1 Kings 4:33](/1kgs#1Kgs.4.33)"
+    },
+    "b": {
+      "id": "purification",
+      "label": "Purification",
+      "definition": "The process by which a person unclean, according to the Levitical law, and thereby cut off from the sanctuary and the festivals, was restored to the enjoyment of all these privileges.\n\n The great annual purification of the people was on the Day of Atonement (q.v.).\n\n But in the details of daily life there were special causes of cermonial uncleanness which were severally provided for by ceremonial "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:hyssop",
+        "to_ref": "concept:purification",
+        "type": "concept_causes",
+        "weight": 10.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "cross_reference",
+      "items": [
+        {
+          "from_ref": "1Kgs.4.33",
+          "from_text": "He spoke of trees, from the cedar in Lebanon to the hyssop growing in the wall, and he taught about animals, birds, reptiles, and fish.",
+          "to_ref": "Ps.51.7",
+          "to_text": "Purify me with hyssop, and I will be clean. Wash me, and I will be whiter than snow."
+        },
+        {
+          "from_ref": "Exod.12.22",
+          "from_text": "Take a cluster of hyssop, dip it into the blood in the basin, and brush the blood on the top and sides of the doorframe. None of you shall go out the door of his house until morning.",
+          "to_ref": "Ps.51.7",
+          "to_text": "Purify me with hyssop, and I will be clean. Wash me, and I will be whiter than snow."
+        },
+        {
+          "from_ref": "Lev.14.4",
+          "from_text": "the priest shall order that two live clean birds, cedar wood, scarlet yarn, and hyssop be brought for the one to be cleansed.",
+          "to_ref": "Ps.51.7",
+          "to_text": "Purify me with hyssop, and I will be clean. Wash me, and I will be whiter than snow."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Jer 48:33/Hag 2:16 tie the wine-press's operation to wine's production — pressing produces the wine, matching the Weaving-produces-Linen pattern.",
+    "a": {
+      "id": "wine",
+      "label": "Wine",
+      "definition": "The common Hebrew word for wine is yayin, from a root meaning “to boil up,” “to be in a ferment.” Others derive it from a root meaning “to tread out,” and hence the juice of the grape trodden out. The Greek word for wine is oinos_, and the Latin _vinun. But besides this common Hebrew word, there are several others which are thus rendered.\n\nAshishah ([2 Sam. 6:19](/2sam#2Sam.6.19); [1 Chr. 16:3](/1"
+    },
+    "b": {
+      "id": "wine-press",
+      "label": "Wine-press",
+      "definition": "Consisted of two vats or receptacles, (1) a trough (Heb. gath, Gr. lenos) into which the grapes were thrown and where they were trodden upon and bruised ([Isa. 16:10](/isa#Isa.16.10); [Lam. 1:15](/lam#Lam.1.15); [Joel 3:13](/joel#Joel.3.13)); and (2) a trough or vat (Heb. yekebh, Gr. hypolenion) into which the juice ran from the trough above, the gath ([Neh. 13:15](/neh#Neh.13.15); [Job 24:11](/jo"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:wine-press",
+        "to_ref": "concept:wine",
+        "type": "concept_causes",
+        "weight": 3.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Hag.2.16",
+          "text": "Through all that time, when one came to a heap of twenty measures, there were only ten. When one came to the wine vat to draw out fifty, there were only twenty."
+        },
+        {
+          "ref": "Job.24.11",
+          "text": "They crush olives within their walls; they tread the winepresses, but go thirsty."
+        },
+        {
+          "ref": "Joel.2.24",
+          "text": "The threshing floors will be full of grain, and the vats will overflow with new wine and oil."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Ezek 27:17/Deut 32:14 (agricultural trade goods; farm produce) support agriculture as what produces food, matching the Agriculture-causes-Wine pattern.",
+    "a": {
+      "id": "agriculture",
+      "label": "Agriculture",
+      "definition": "Tilling the ground ([Gen. 2:15](/gen#Gen.2.15); [4:2](/gen#Gen.4.2), [3](/gen#Gen.4.3), [12](/gen#Gen.4.12)) and rearing cattle were the chief employments in ancient times. The Egyptians excelled in agriculture. And after the Israelites entered into the possession of the Promised Land, their circumstances favoured in the highest degree a remarkable development of this art. Agriculture became indee"
+    },
+    "b": {
+      "id": "food",
+      "label": "Food",
+      "definition": "Originally the Creator granted the use of the vegetable world for food to man ([Gen. 1:29](/gen#Gen.1.29)), with the exception mentioned (2:17). The use of animal food was probably not unknown to the antediluvians. There is, however, a distinct law on the subject given to Noah after the Deluge ([Gen. 9:2-5](/gen#Gen.9.2)). Various articles of food used in the patriarchal age are mentioned in [Gen."
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:agriculture",
+        "to_ref": "concept:food",
+        "type": "concept_causes",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Deut.23.25",
+          "text": "When you come into your neighbor’s standing grain, then you may pluck the ears with your hand; but you shall not use a sickle on your neighbor’s standing grain."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "causes",
+    "original_justification": "Amos 8:10/Jer 6:26 show hair-related acts (baldness) as a mourning expression, matching the same causal pattern.",
+    "a": {
+      "id": "hair",
+      "label": "Hair",
+      "definition": "The Egyptians let the hair of their head and beard grow only when they were in mourning, shaving it off at other times. “So particular were they on this point that to have neglected it was a subject of reproach and ridicule; and whenever they intended to convey the idea of a man of low condition, or a slovenly person, the artists represented him with a beard.” Joseph shaved himself before going in"
+    },
+    "b": {
+      "id": "mourn",
+      "label": "Mourn",
+      "definition": "Frequent references are found in Scripture to,\n\nMourning for the dead. Abraham mourned for Sarah ([Gen. 23:2](/gen#Gen.23.2)); Jacob for Joseph (37:34, 35); the Egyptians for Jacob (50:3-10); Israel for Aaron ([Num. 20:29](/num#Num.20.29)), for Moses ([Deut. 34:8](/deut#Deut.34.8)), and for Samuel ([1 Sam. 25:1](/1sam#1Sam.25.1)); David for Abner ([2 Sam. 3:31](/2sam#2Sam.3.31), [35](/2sam#2Sam.3."
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:mourn",
+        "to_ref": "concept:hair",
+        "type": "concept_causes",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "2Sam.14.2",
+          "text": "Joab sent to Tekoa and brought a wise woman from there, and said to her, “Please act like a mourner, and put on mourning clothing, please, and don’t anoint yourself with oil; but be as a woman who has mourned a long time for the dead."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "1 Chr 28:11/1 Kgs 6:3 place the mercy-seat's plans within Solomon's temple construction.",
+    "a": {
+      "id": "mercy-seat",
+      "label": "Mercy-seat",
+      "definition": "(Heb. kapporeth, a “covering;” LXX. and N.T., hilasterion; Vulg., propitiatorium), the covering or lid of the ark of the covenant (q.v.). It was of acacia wood, overlaid with gold, or perhaps rather a plate of solid gold, 2 1/2 cubits long and 1 1/2 broad ([Ex. 25:17](/exod#Exod.25.17); [30:6](/exod#Exod.30.6); [31:7](/exod#Exod.31.7)). It is compared to the throne of grace ([Heb. 9:5](/heb#Heb.9."
+    },
+    "b": {
+      "id": "temple-solomon-s",
+      "label": "Temple, Solomon’s",
+      "definition": "Before his death David had “with all his might” provided materials in great abundance for the building of the temple on the summit of Mount Moriah ([1 Chr. 22:14](/1chr#1Chr.22.14); [29:4](/1chr#1Chr.29.4); [2 Chr. 3:1](/2chr#2Chr.3.1)), on the east of the city, on the spot where Abraham had offered up Isaac ([Gen. 22:1-14](/gen#Gen.22.1)). In the beginning of his reign Solomon set about giving ef"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:mercy-seat",
+        "to_ref": "concept:temple-solomon-s",
+        "type": "concept_part_of",
+        "weight": 18.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "cross_reference",
+      "items": [
+        {
+          "from_ref": "1Chr.28.11",
+          "from_text": "Then David gave his son Solomon the plans for the portico of the temple, its buildings, storehouses, upper rooms, inner rooms, and the room for the mercy seat.",
+          "to_ref": "1Kgs.6.3",
+          "to_text": "The porch in front of the temple of the house had a length of twenty cubits, which was along the width of the house. Ten cubits was its width in front of the house."
+        },
+        {
+          "from_ref": "Lev.16.2",
+          "from_text": "And the LORD said to Moses: “Tell your brother Aaron not to enter freely into the Most Holy Place behind the veil in front of the mercy seat on the ark, or else he will die, because I appear in the cloud above the mercy seat.",
+          "to_ref": "1Kgs.8.6",
+          "to_text": "The priests brought in the ark of Yahweh’s covenant to its place, into the inner sanctuary of the house, to the most holy place, even under the cherubim’s wings."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Judg 16:3/Ps 107:16 show gates as a structural component of fortified/fenced cities.",
+    "a": {
+      "id": "fenced-cities",
+      "label": "Fenced cities",
+      "definition": "There were in Palestine (1) cities, (2) unwalled villages, and (3) villages with castles or towers ([1 Chr. 27:25](/1chr#1Chr.27.25)). Cities, so called, had walls, and were thus fenced. The fortifications consisted of one or two walls, on which were towers or parapets at regular intervals ([2 Chr. 32:5](/2chr#2Chr.32.5); [Jer. 31:38](/jer#Jer.31.38)). Around ancient Jerusalem were three walls, on"
+    },
+    "b": {
+      "id": "gate",
+      "label": "Gate",
+      "definition": "Of cities, as of Jerusalem ([Jer. 37:13](/jer#Jer.37.13); [Neh. 1:3](/neh#Neh.1.3); [2:3](/neh#Neh.2.3); [3:3](/neh#Neh.3.3)), of Sodom ([Gen. 19:1](/gen#Gen.19.1)), of Gaza ([Judg. 16:3](/judg#Judg.16.3)).\n\nOf royal palaces ([Neh. 2:8](/neh#Neh.2.8)).\n\nOf the temple of Solomon ([1 Kings 6:34](/1kgs#1Kgs.6.34), [35](/1kgs#1Kgs.6.35); [2 Kings 18:16](/2kgs#2Kgs.18.16)); of the holy place ([1 Kings "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:gate",
+        "to_ref": "concept:fenced-cities",
+        "type": "concept_part_of",
+        "weight": 3.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Judg.16.3",
+          "text": "But Samson lay there only until midnight, when he got up, took hold of the doors of the city gate and both gateposts, and pulled them out, bar and all. Then he put them on his shoulders and took them to the top of the mountain overlooking Hebron."
+        },
+        {
+          "ref": "Neh.2.8",
+          "text": "And may I have a letter to Asaph, keeper of the king’s forest, so that he will give me timber to make beams for the gates of the citadel to the temple, for the city wall, and for the house I will occupy.” And because the gracious hand of my God was upon me, the king granted my requests."
+        },
+        {
+          "ref": "Neh.3.3",
+          "text": "The Fish Gate was rebuilt by the sons of Hassenaah. They laid its beams and installed its doors, bolts, and bars."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Exod 22:17/1 Sam 18:25 show the dowry/bride-price as a required component of the marriage transaction.",
+    "a": {
+      "id": "dowry",
+      "label": "Dowry",
+      "definition": "(mohar; i.e., price paid for a wife, [Gen. 34:12](/gen#Gen.34.12); [Ex. 22:17](/exod#Exod.22.17); [1 Sam. 18:25](/1sam#1Sam.18.25)), a nuptial present; some gift, as a sum of money, which the bridegroom offers to the father of his bride as a satisfaction before he can receive her. Jacob had no dowry to give for his wife, but he gave his services ([Gen. 29:18](/gen#Gen.29.18); [30:20](/gen#Gen.30.2"
+    },
+    "b": {
+      "id": "marriage",
+      "label": "Marriage",
+      "definition": "Was instituted in Paradise when man was in innocence ([Gen. 2:18-24](/gen#Gen.2.18)). Here we have its original charter, which was confirmed by our Lord, as the basis on which all regulations are to be framed ([Matt. 19:4](/matt#Matt.19.4), [5](/matt#Matt.19.5)). It is evident that monogamy was the original law of marriage ([Matt. 19:5](/matt#Matt.19.5); [1 Cor. 6:16](/1cor#1Cor.6.16)). This law w"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:dowry",
+        "to_ref": "concept:marriage",
+        "type": "concept_part_of",
+        "weight": 2.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "1Sam.18.25",
+          "text": "Saul replied, “Say to David, ‘The king desires no other dowry but a hundred Philistine foreskins as revenge on his enemies.’” But Saul intended to cause David’s death at the hands of the Philistines."
+        },
+        {
+          "ref": "Exod.22.17",
+          "text": "If her father absolutely refuses to give her to him, the man still must pay an amount comparable to the bridal price of a virgin."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Lev 16:12 names the pan (censer) as one of the altar's utensils, per Exod 27:3's utensil list.",
+    "a": {
+      "id": "altar",
+      "label": "Altar",
+      "definition": "(Heb. mizbe’ah, from a word meaning “to slay”), any structure of earth ([Ex. 20:24](/exod#Exod.20.24)) or unwrought stone (20:25) on which sacrifices were offered. Altars were generally erected in conspicuous places ([Gen. 22:9](/gen#Gen.22.9); [Ezek. 6:3](/ezek#Ezek.6.3); [2 Kings 23:12](/2kgs#2Kgs.23.12); [16:4](/2kgs#2Kgs.16.4); [23:8](/2kgs#2Kgs.23.8); [Acts 14:13](/acts#Acts.14.13)). The word"
+    },
+    "b": {
+      "id": "pan",
+      "label": "Pan",
+      "definition": "A vessel of metal or earthenware used in culinary operations; a cooking-pan or frying-pan frequently referred to in the Old Testament ([Lev. 2:5](/lev#Lev.2.5); [6:21](/lev#Lev.6.21); [Num. 11:8](/num#Num.11.8); [1 Sam. 2:14](/1sam#1Sam.2.14), etc.).\n\n The “ash-pans” mentioned in [Ex. 27:3](/exod#Exod.27.3) were made of copper, and were used in connection with the altar of burnt-offering. The “iro"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:pan",
+        "to_ref": "concept:altar",
+        "type": "concept_part_of",
+        "weight": 3.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "1Sam.2.14",
+          "text": "and he stabbed it into the pan, or kettle, or cauldron, or pot. The priest took all that the fork brought up for himself. They did this to all the Israelites who came there to Shiloh."
+        },
+        {
+          "ref": "Exod.27.3",
+          "text": "Make all its utensils of bronze—its pots for removing ashes, its shovels, its sprinkling bowls, its meat forks, and its firepans."
+        },
+        {
+          "ref": "Lev.16.12",
+          "text": "He shall take a censer full of coals of fire from off the altar before Yahweh, and two handfuls of sweet incense beaten small, and bring it within the veil."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Linen is one material dress was made from (2 Sam 6:14's linen ephod) — now expressible as part_of rather than forced into associated.",
+    "a": {
+      "id": "dress",
+      "label": "Dress",
+      "definition": "Materials used. The earliest and simplest an apron of fig-leaves sewed together ([Gen. 3:7](/gen#Gen.3.7)); then skins of animals (3:21). Elijah’s dress was probably the skin of a sheep ([2 Kings 1:8](/2kgs#2Kgs.1.8)). The Hebrews were early acquainted with the art of weaving hair into cloth ([Ex. 26:7](/exod#Exod.26.7); [35:6](/exod#Exod.35.6)), which formed the sackcloth of mourners. This was th"
+    },
+    "b": {
+      "id": "linen",
+      "label": "Linen",
+      "definition": "Heb., pishet, pishtah, denotes “flax,” of which linen is made ([Isa. 19:9](/isa#Isa.19.9)); wrought flax, i.e., “linen cloth”, [Lev. 13:47](/lev#Lev.13.47), [48](/lev#Lev.13.48), [52](/lev#Lev.13.52), [59](/lev#Lev.13.59); [Deut. 22:11](/deut#Deut.22.11).\n\n Flax was early cultivated in Egypt ([Ex. 9:31](/exod#Exod.9.31)), and also in Palestine ([Josh. 2:6](/josh#Josh.2.6); [Hos. 2:9](/hos#Hos.2.9)"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:linen",
+        "to_ref": "concept:dress",
+        "type": "concept_part_of",
+        "weight": 9.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "1Chr.4.21",
+          "text": "The sons of Shelah son of Judah: Er the father of Lecah, Laadah the father of Mareshah and the clans of the linen workers at Beth-ashbea,"
+        },
+        {
+          "ref": "Deut.22.11",
+          "text": "Do not wear clothes of wool and linen woven together."
+        },
+        {
+          "ref": "Exod.26.1",
+          "text": "“Moreover you shall make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet, with cherubim. You shall make them with the work of a skillful workman."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Exod 26:1 specifies the tabernacle's ten curtains as its covering — a structural component.",
+    "a": {
+      "id": "curtain",
+      "label": "Curtain",
+      "definition": "Ten curtains, each twenty-eight cubits long and four wide, made of fine linen, also eleven made of goat’s hair, covered the tabernacle ([Ex. 26:1-13](/exod#Exod.26.1); [36:8-17](/exod#Exod.36.8)).\n\nThe sacred curtain, separating the holy of holies from the sanctuary, is designated by a different Hebrew word (peroketh). It is described as a “veil of blue, and purple, and scarlet, and fine twined li"
+    },
+    "b": {
+      "id": "tabernacle",
+      "label": "Tabernacle",
+      "definition": "A house or dwelling-place ([Job 5:24](/job#Job.5.24); [18:6](/job#Job.18.6), etc.).\n\nA portable shrine (comp. [Acts 19:24](/acts#Acts.19.24)) containing the image of Moloch ([Amos 5:26](/amos#Amos.5.26); marg. and R.V., “Siccuth”).\n\nThe human body ([2 Cor. 5:1](/2cor#2Cor.5.1), [4](/2cor#2Cor.5.4)); a tent, as opposed to a permanent dwelling.\n\nThe sacred tent (Heb. mishkan, “the dwelling-place”); "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:curtain",
+        "to_ref": "concept:tabernacle",
+        "type": "concept_part_of",
+        "weight": 2.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Exod.26.1",
+          "text": "“Moreover you shall make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet, with cherubim. You shall make them with the work of a skillful workman."
+        },
+        {
+          "ref": "Exod.36.8",
+          "text": "All the skilled craftsmen among the workmen made the ten curtains for the tabernacle. They were made of finely spun linen, as well as blue, purple, and scarlet yarn, with cherubim skillfully worked into them."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "1 Kgs 10:26/4:26 show horses as part of Solomon's military buildup, matching the Army/Chariot pattern.",
+    "a": {
+      "id": "army",
+      "label": "Army",
+      "definition": "The Israelites marched out of Egypt in military order ([Ex. 13:18](/exod#Exod.13.18), “harnessed;” marg., “five in a rank”). Each tribe formed a battalion, with its own banner and leader ([Num. 2:2](/num#Num.2.2); [10:14](/num#Num.10.14)). In war the army was divided into thousands and hundreds under their several captains ([Num. 31:14](/num#Num.31.14)), and also into families ([Num. 2:34](/num#Nu"
+    },
+    "b": {
+      "id": "horse",
+      "label": "Horse",
+      "definition": "Always referred to in the Bible in connection with warlike operations, except [Isa. 28:28](/isa#Isa.28.28). The war-horse is described [Job 39:19-25](/job#Job.39.19). For a long period after their settlement in Canaan the Israelites made no use of horses, according to the prohibition, [Deut. 17:16](/deut#Deut.17.16). David was the first to form a force of cavalry ([2 Sam. 8:4](/2sam#2Sam.8.4)). Bu"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:horse",
+        "to_ref": "concept:army",
+        "type": "concept_part_of",
+        "weight": 4.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "1Kgs.10.26",
+          "text": "Solomon accumulated 1,400 chariots and 12,000 horses, which he stationed in the chariot cities and also with him in Jerusalem."
+        },
+        {
+          "ref": "1Kgs.10.29",
+          "text": "A chariot could be imported from Egypt for six hundred shekels of silver, and a horse for a hundred and fifty. Likewise, they exported them to all the kings of the Hittites and to the kings of Aram."
+        },
+        {
+          "ref": "2Sam.8.4",
+          "text": "David captured from him a thousand chariots, seven thousand charioteers, and twenty thousand foot soldiers, and he hamstrung all the horses except a hundred he kept for the chariots."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "2 Sam 6:14/Gen 41:42 (linen ephod; robes of fine linen) support linen as one of apparel's materials, matching the Dress/Linen pattern.",
+    "a": {
+      "id": "apparel",
+      "label": "Apparel",
+      "definition": "In Old Testament times the distinction between male and female attire was not very marked. The statute forbidding men to wear female apparel ([Deut. 22:5](/deut#Deut.22.5)) referred especially to ornaments and head-dresses. Both men and women wore (1) an under garment or tunic, which was bound by a girdle. One who had only this tunic on was spoken of as “naked” ([1 Sam. 19:24](/1sam#1Sam.19.24); ["
+    },
+    "b": {
+      "id": "linen",
+      "label": "Linen",
+      "definition": "Heb., pishet, pishtah, denotes “flax,” of which linen is made ([Isa. 19:9](/isa#Isa.19.9)); wrought flax, i.e., “linen cloth”, [Lev. 13:47](/lev#Lev.13.47), [48](/lev#Lev.13.48), [52](/lev#Lev.13.52), [59](/lev#Lev.13.59); [Deut. 22:11](/deut#Deut.22.11).\n\n Flax was early cultivated in Egypt ([Ex. 9:31](/exod#Exod.9.31)), and also in Palestine ([Josh. 2:6](/josh#Josh.2.6); [Hos. 2:9](/hos#Hos.2.9)"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:linen",
+        "to_ref": "concept:apparel",
+        "type": "concept_part_of",
+        "weight": 15.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "cross_reference",
+      "items": [
+        {
+          "from_ref": "1Sam.18.4",
+          "from_text": "And Jonathan removed the robe he was wearing and gave it to David, along with his tunic, his sword, his bow, and his belt.",
+          "to_ref": "Gen.41.42",
+          "to_text": "Pharaoh took off his signet ring from his hand, and put it on Joseph’s hand, and arrayed him in robes of fine linen, and put a gold chain about his neck."
+        },
+        {
+          "from_ref": "1Sam.19.24",
+          "from_text": "He also stripped off his clothes. He also prophesied before Samuel and lay down naked all that day and all that night. Therefore they say, “Is Saul also among the prophets?”",
+          "to_ref": "2Sam.6.14",
+          "to_text": "And David, wearing a linen ephod, danced with all his might before the LORD,"
+        },
+        {
+          "from_ref": "2Kgs.5.5",
+          "from_text": "The king of Syria said, “Go now, and I will send a letter to the king of Israel.” He departed, and took with him ten talents of silver, six thousand pieces of gold, and ten changes of clothing.",
+          "to_ref": "Judg.14.12",
+          "to_text": "Samson said to them, “Let me tell you a riddle now. If you can tell me the answer within the seven days of the feast, and find it out, then I will give you thirty linen garments and thirty changes of clothing;"
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Deut 12:5/2 Chr 7:12 describe the temple as the chosen sanctuary within Jerusalem, matching the established Jerusalem/Temple part_of pattern from an earlier chunk.",
+    "a": {
+      "id": "jerusalem",
+      "label": "Jerusalem",
+      "definition": "Called also Salem, Ariel, Jebus, the “city of God,” the “holy city;” by the modern Arabs el-Khuds, meaning “the holy;” once “the city of Judah” ([2 Chr. 25:28](/2chr#2Chr.25.28)). This name is in the original in the dual form, and means “possession of peace,” or “foundation of peace.” The dual form probably refers to the two mountains on which it was built, viz., Zion and Moriah; or, as some suppo"
+    },
+    "b": {
+      "id": "temple",
+      "label": "Temple",
+      "definition": "First used of the tabernacle, which is called “the temple of the Lord” ([1 Sam. 1:9](/1sam#1Sam.1.9)). In the New Testament the word is used figuratively of Christ’s human body ([John 2:19](/john#John.2.19), [21](/john#John.2.21)). Believers are called “the temple of God” ([1 Cor. 3:16](/1cor#1Cor.3.16), [17](/1cor#1Cor.3.17)). The Church is designated “an holy temple in the Lord” ([Eph. 2:21](/ep"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:temple",
+        "to_ref": "concept:jerusalem",
+        "type": "concept_part_of",
+        "weight": 10.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "cross_reference",
+      "items": [
+        {
+          "from_ref": "Deut.12.5",
+          "from_text": "But to the place which Yahweh your God shall choose out of all your tribes, to put his name there, you shall seek his habitation, and you shall come there.",
+          "to_ref": "2Chr.7.12",
+          "to_text": "Then Yahweh appeared to Solomon by night, and said to him, “I have heard your prayer, and have chosen this place for myself for a house of sacrifice."
+        },
+        {
+          "from_ref": "Ps.68.16",
+          "from_text": "Why do you gaze in envy, O mountains of many peaks? This is the mountain God chose for His dwelling, where the LORD will surely dwell forever.",
+          "to_ref": "Isa.2.2",
+          "to_text": "In the last days the mountain of the house of the LORD will be established as the chief of the mountains; it will be raised above the hills, and all nations will stream to it."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "1 Kgs 8:6/2 Sam 6:17 show the ark being brought into and housed within the tabernacle — a furnishing, not a coordinate structure.",
+    "a": {
+      "id": "ark",
+      "label": "Ark",
+      "definition": "Noah’s ark, a building of gopher-wood, and covered with pitch, 300 cubits long, 50 cubits broad, and 30 cubits high ([Gen. 6:14-16](/gen#Gen.6.14)); an oblong floating house of three stories, with a door in the side and a window in the roof. It was 100 years in building ([Gen. 5:32](/gen#Gen.5.32); [7:6](/gen#Gen.7.6)). It was intended to preserve certain persons and animals from the deluge which "
+    },
+    "b": {
+      "id": "tabernacle",
+      "label": "Tabernacle",
+      "definition": "A house or dwelling-place ([Job 5:24](/job#Job.5.24); [18:6](/job#Job.18.6), etc.).\n\nA portable shrine (comp. [Acts 19:24](/acts#Acts.19.24)) containing the image of Moloch ([Amos 5:26](/amos#Amos.5.26); marg. and R.V., “Siccuth”).\n\nThe human body ([2 Cor. 5:1](/2cor#2Cor.5.1), [4](/2cor#2Cor.5.4)); a tent, as opposed to a permanent dwelling.\n\nThe sacred tent (Heb. mishkan, “the dwelling-place”); "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:ark",
+        "to_ref": "concept:tabernacle",
+        "type": "concept_part_of",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Exod.25.22",
+          "text": "And I will meet with you there above the mercy seat, between the two cherubim that are over the ark of the Testimony; I will speak with you about all that I command you regarding the Israelites."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Esth 1:6/Exod 26:1 name linen among the tabernacle's construction materials.",
+    "a": {
+      "id": "linen",
+      "label": "Linen",
+      "definition": "Heb., pishet, pishtah, denotes “flax,” of which linen is made ([Isa. 19:9](/isa#Isa.19.9)); wrought flax, i.e., “linen cloth”, [Lev. 13:47](/lev#Lev.13.47), [48](/lev#Lev.13.48), [52](/lev#Lev.13.52), [59](/lev#Lev.13.59); [Deut. 22:11](/deut#Deut.22.11).\n\n Flax was early cultivated in Egypt ([Ex. 9:31](/exod#Exod.9.31)), and also in Palestine ([Josh. 2:6](/josh#Josh.2.6); [Hos. 2:9](/hos#Hos.2.9)"
+    },
+    "b": {
+      "id": "tabernacle",
+      "label": "Tabernacle",
+      "definition": "A house or dwelling-place ([Job 5:24](/job#Job.5.24); [18:6](/job#Job.18.6), etc.).\n\nA portable shrine (comp. [Acts 19:24](/acts#Acts.19.24)) containing the image of Moloch ([Amos 5:26](/amos#Amos.5.26); marg. and R.V., “Siccuth”).\n\nThe human body ([2 Cor. 5:1](/2cor#2Cor.5.1), [4](/2cor#2Cor.5.4)); a tent, as opposed to a permanent dwelling.\n\nThe sacred tent (Heb. mishkan, “the dwelling-place”); "
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:linen",
+        "to_ref": "concept:tabernacle",
+        "type": "concept_part_of",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Exod.26.1",
+          "text": "“Moreover you shall make the tabernacle with ten curtains of fine twined linen, and blue, and purple, and scarlet, with cherubim. You shall make them with the work of a skillful workman."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "part_of",
+    "original_justification": "Judg 4:3/Josh 17:16 name iron as the reinforcing material of chariots ('chariots of iron').",
+    "a": {
+      "id": "chariot",
+      "label": "Chariot",
+      "definition": "A vehicle generally used for warlike purposes. Sometimes, though but rarely, it is spoken of as used for peaceful purposes.\n\n The first mention of the chariot is when Joseph, as a mark of distinction, was placed in Pharaoh’s second state chariot ([Gen. 41:43](/gen#Gen.41.43)); and the next, when he went out in his own chariot to meet his father Jacob (46:29). Chariots formed part of the funeral pr"
+    },
+    "b": {
+      "id": "iron",
+      "label": "Iron",
+      "definition": "Tubal-Cain is the first-mentioned worker in iron ([Gen. 4:22](/gen#Gen.4.22)). The Egyptians wrought it at Sinai before the Exodus. David prepared it in great abundance for the temple ([1 Chr. 22:3](/1chr#1Chr.22.3): 29:7). The merchants of Dan and Javan brought it to the market of Tyre ([Ezek. 27:19](/ezek#Ezek.27.19)). Various instruments are mentioned as made of iron ([Deut. 27:5](/deut#Deut.27"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:iron",
+        "to_ref": "concept:chariot",
+        "type": "concept_part_of",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Josh.17.18",
+          "text": "because the hill country will be yours as well. It is a forest; clear it, and its farthest limits will be yours. Although the Canaanites have iron chariots and although they are strong, you can drive them out.”"
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "symbol_of",
+    "original_justification": "Exod 16:10 and Easton's own Shechinah entry ('he went before them in a pillar of a cloud... the symbol of his presence') establish the cloud as the visible form the Shechinah took.",
+    "a": {
+      "id": "cloud",
+      "label": "Cloud",
+      "definition": "The Hebrew so rendered means “a covering,” because clouds cover the sky. The word is used as a symbol of the Divine presence, as indicating the splendour of that glory which it conceals ([Ex. 16:10](/exod#Exod.16.10); [33:9](/exod#Exod.33.9); [Num. 11:25](/num#Num.11.25); [12:5](/num#Num.12.5); [Job 22:14](/job#Job.22.14); [Ps. 18:11](/ps#Ps.18.11)). A “cloud without rain” is a proverbial saying, "
+    },
+    "b": {
+      "id": "shechinah",
+      "label": "Shechinah",
+      "definition": "A Chaldee word meaning resting-place, not found in Scripture, but used by the later Jews to designate the visible symbol of God’s presence in the tabernacle, and afterwards in Solomon’s temple. When the Lord led Israel out of Egypt, he went before them “in a pillar of a cloud.” This was the symbol of his presence with his people. For references made to it during the wilderness wanderings, see [Ex."
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:cloud",
+        "to_ref": "concept:shechinah",
+        "type": "concept_symbol_of",
+        "weight": 3.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "1Kgs.8.10",
+          "text": "And when the priests came out of the Holy Place, the cloud filled the house of the LORD"
+        },
+        {
+          "ref": "2Chr.5.14",
+          "text": "so that the priests could not stand there to minister because of the cloud. For the glory of the LORD filled the house of God."
+        },
+        {
+          "ref": "Exod.40.34",
+          "text": "Then the cloud covered the Tent of Meeting, and Yahweh’s glory filled the tabernacle."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "symbol_of",
+    "original_justification": "1 Kings 18:38/Lev 9:24 show fire, like the cloud, as a visible form the divine presence (Shechinah) took.",
+    "a": {
+      "id": "fire",
+      "label": "Fire",
+      "definition": "For sacred purposes. The sacrifices were consumed by fire ([Gen. 8:20](/gen#Gen.8.20)). The ever-burning fire on the altar was first kindled from heaven ([Lev. 6:9](/lev#Lev.6.9), [13](/lev#Lev.6.13); 9:24), and afterwards rekindled at the dedication of Solomon’s temple ([2 Chr. 7:1](/2chr#2Chr.7.1), [3](/2chr#2Chr.7.3)). The expressions “fire from heaven” and “fire of the Lord” generally denote l"
+    },
+    "b": {
+      "id": "shechinah",
+      "label": "Shechinah",
+      "definition": "A Chaldee word meaning resting-place, not found in Scripture, but used by the later Jews to designate the visible symbol of God’s presence in the tabernacle, and afterwards in Solomon’s temple. When the Lord led Israel out of Egypt, he went before them “in a pillar of a cloud.” This was the symbol of his presence with his people. For references made to it during the wilderness wanderings, see [Ex."
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:fire",
+        "to_ref": "concept:shechinah",
+        "type": "concept_symbol_of",
+        "weight": 1.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "2Chr.7.1",
+          "text": "Now when Solomon had finished praying, fire came down from heaven and consumed the burnt offering and the sacrifices; and Yahweh’s glory filled the house."
+        }
+      ]
+    }
+  },
+  {
+    "verb_claimed": "contrasts",
+    "original_justification": "Gen 16:2 (Sarai's barrenness as a divine restraint) and Ps 127:3 (children as a heritage/blessing) frame barrenness and having a child as the two poles of a real theological reproach/blessing opposition — the clearest genuine antonym pair in this batch.",
+    "a": {
+      "id": "barren",
+      "label": "Barren",
+      "definition": "For a woman to be barren was accounted a severe punishment among the Jews ([Gen. 16:2](/gen#Gen.16.2); [30:1-23](/gen#Gen.30.1); [1 Sam. 1:6](/1sam#1Sam.1.6), [27](/1sam#1Sam.1.27); [Isa. 47:9](/isa#Isa.47.9); [49:21](/isa#Isa.49.21); [Luke 1:25](/luke#Luke.1.25)). Instances of barrenness are noticed ([Gen. 11:30](/gen#Gen.11.30); [25:21](/gen#Gen.25.21); [29:31](/gen#Gen.29.31); [Judg. 13:2](/jud"
+    },
+    "b": {
+      "id": "child",
+      "label": "Child",
+      "definition": "This word has considerable latitude of meaning in Scripture. Thus Joseph is called a child at the time when he was probably about sixteen years of age ([Gen. 37:3](/gen#Gen.37.3)); and Benjamin is so called when he was above thirty years (44:20). Solomon called himself a little child when he came to the kingdom ([1 Kings 3:7](/1kgs#1Kgs.3.7)).\n\n The descendants of a man, however remote, are called"
+    },
+    "stored_edges": [
+      {
+        "from_ref": "concept:barren",
+        "to_ref": "concept:child",
+        "type": "concept_contrasts",
+        "weight": 2.0
+      }
+    ],
+    "fresh_evidence": {
+      "kind": "shared_verse",
+      "items": [
+        {
+          "ref": "Gen.11.30",
+          "text": "But Sarai was barren; she had no children."
+        },
+        {
+          "ref": "Gen.30.1",
+          "text": "When Rachel saw that she bore Jacob no children, Rachel envied her sister. She said to Jacob, “Give me children, or else I will die.”"
+        }
+      ]
+    }
+  }
+]
