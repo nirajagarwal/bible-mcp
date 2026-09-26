@@ -113,13 +113,33 @@ new `concept_*` types are additive and cannot leak into their output.
 instead of a citation list**: mechanical candidate edges first (shared verse mentions,
 shared entity mentions, existing cross-reference chains — zero fabrication risk,
 `confidence`/`weight` = an overlap count), then a *bounded* LLM pass assigns a verb
-from a fixed vocabulary (`broader`/`narrower`/`contrasts`/`causes`/`associated`) to an
-already-evidenced pair and must cite the real shared verse; a justification that
-doesn't reference the given evidence falls back to `associated` rather than being
-trusted. The LLM may also propose new concept nodes Easton doesn't separate (e.g.
-splitting "Sacrifice"), written with `source='llm'` and `confidence<1.0`, never
-auto-wired into `concept_instance_of` edges until reviewed. This mirrors §4's rule:
-never auto-promote a low-confidence guess.
+from a fixed vocabulary to an already-evidenced pair and must cite the real shared
+verse; a justification that doesn't reference the given evidence falls back to
+`associated` rather than being trusted. The LLM may also propose new concept nodes
+Easton doesn't separate (e.g. splitting "Sacrifice"), written with `source='llm'`
+and `confidence<1.0`, never auto-wired into `concept_instance_of` edges until
+reviewed. This mirrors §4's rule: never auto-promote a low-confidence guess.
+
+**Verb vocabulary** (as `links.type`, prefixed `concept_`):
+
+| verb | direction stored | meaning |
+|---|---|---|
+| `broader` / `narrower` | both, mirrored | taxonomic hierarchy |
+| `causes` | one direction (cause→effect) | narrative/theological causation |
+| `part_of` | one direction (part/material→whole/product) | composition or physical part-whole — e.g. Wine `part_of` Drink-offering, Lamp `part_of` Candlestick |
+| `symbol_of` | one direction (symbol→symbolized) | a visible sign standing for something else — e.g. Cloud `symbol_of` Shechinah |
+| `contrasts` | one row (either column matches) | symmetric opposition |
+| `associated` | one row (either column matches) | fallback: real evidence, no sharper verb earned or warranted |
+
+`part_of`/`symbol_of` were added after the first Phase 5 batch (50 top-weighted
+edges) found real, evidenced relationships the original five verbs had no honest
+slot for — material composition and part-whole kept getting force-fitted toward
+`associated` even when the evidence was clear, which was itself the correct call
+at the time (per the fallback rule) but a vocabulary gap, not a judgment failure.
+Unlike `broader`/`narrower`, these two store only one direction: the verb name
+itself fixes the semantic reading (`part_of` always means "from is part of to"),
+so a single row answers both "what is X part of" (`from_ref=X`) and "what are the
+parts of Y" (`to_ref=Y`) without needing a mirrored inverse type.
 
 **Scope**: the 39 protocanonical OT books for v1 (Deuterocanon/Apocrypha concepts
 deferred, not discarded — Easton covers the whole Bible). No new MCP tools yet; this

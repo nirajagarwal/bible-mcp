@@ -1,0 +1,13 @@
+{
+  "batch_file": "phase5-batch-2026-09-26.json",
+  "model": "claude-in-session (Sonnet 5) — reclassification after adding part_of/symbol_of to the verb vocabulary (DESIGN.md #5)",
+  "note": "These 6 pairs were judged 'associated' in the original Phase 5 batch specifically because the fixed vocabulary had no honest slot for the relationship the evidence actually showed. No new evidence was consulted — same citations as the original pass, now expressible with the extended vocabulary.",
+  "judgments": [
+    {"pair": ["dress","linen"], "verb": "part_of", "part": "linen", "whole": "dress", "justification": "Linen is one material dress was made from (2 Sam 6:14's linen ephod) — now expressible as part_of rather than forced into associated."},
+    {"pair": ["drink-offering","wine"], "verb": "part_of", "part": "wine", "whole": "drink-offering", "justification": "Exod 29:40/Num 15:7 confirm wine as the drink-offering's material component."},
+    {"pair": ["candlestick","lamp"], "verb": "part_of", "part": "lamp", "whole": "candlestick", "justification": "Easton's own Lamp entry calls it 'that part of the candle-sticks... which bore the light' — an explicit part-whole relation."},
+    {"pair": ["head-dress","linen"], "verb": "part_of", "part": "linen", "whole": "head-dress", "justification": "Exod 39:28/Ezek 44:18 explicitly name linen as the head-dress's material."},
+    {"pair": ["cloud","shechinah"], "verb": "symbol_of", "symbol": "cloud", "symbolized": "shechinah", "justification": "Exod 16:10 and Easton's own Shechinah entry ('he went before them in a pillar of a cloud... the symbol of his presence') establish the cloud as the visible form the Shechinah took."},
+    {"pair": ["fire","shechinah"], "verb": "symbol_of", "symbol": "fire", "symbolized": "shechinah", "justification": "1 Kings 18:38/Lev 9:24 show fire, like the cloud, as a visible form the divine presence (Shechinah) took."}
+  ]
+}
