@@ -1,0 +1,1240 @@
+{
+  "batch_file": "phase5-batch-2026-09-26-w10.json",
+  "model": "claude-in-session (Sonnet 5) — chunk 4 of the weight>=10 batch (indices 450-599)",
+  "judgments": [
+    {
+      "pair": [
+        "amos",
+        "uzziah"
+      ],
+      "justification": "Amos 1:1/2 Kgs 14:21 place Amos's ministry during Uzziah's reign — temporal co-occurrence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "governor",
+        "jeshua"
+      ],
+      "justification": "Hag 1:1/Neh 7:7 co-list Jeshua among post-exilic leaders alongside a governor reference.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adore",
+        "goldsmith"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ezra",
+        "jeshua"
+      ],
+      "justification": "Neh 12:1/12:10 co-list Ezra-era and Jeshua-lineage names in a priestly genealogy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "idol",
+        "prophecy"
+      ],
+      "justification": "Jer 50:38/51:7 condemn Babylon's idols within a prophetic oracle — thematic co-occurrence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adultery",
+        "solomon-song-of"
+      ],
+      "justification": "Ezek 16:32/Jer 3:20 discuss adultery in the prophetic marriage-metaphor; no direct textual link to Song of Solomon in the cited evidence.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "flute",
+        "sackbut"
+      ],
+      "justification": "Dan 3:10/3:15 list flute and sackbut as sibling instruments, neither subsuming the other.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "flute",
+        "psaltery"
+      ],
+      "justification": "Dan 3:10/3:15 list flute and psaltery as sibling instruments.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "psaltery",
+        "sackbut"
+      ],
+      "justification": "Dan 3:10/3:15 list psaltery and sackbut as sibling instruments.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "deuteronomy",
+        "pentateuch"
+      ],
+      "justification": "Stale duplicate of the pair already judged narrower in chunk1 (from its higher-weight occurrence) — kept as a no-op associated rather than re-inserting a redundant edge; see module docstring.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "proselyte",
+        "seven"
+      ],
+      "justification": "Deut 5:14/Gen 2:2 tie the Sabbath's application to sojourners numerically, not taxonomically, to 'seven.'",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "proselyte",
+        "week"
+      ],
+      "justification": "Same evidence as Proselyte/Seven — a calendrical coincidence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sabbatical-year",
+        "seven"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cush",
+        "put-phut"
+      ],
+      "justification": "Ezek 38:5/30:5 list Cush and Put as coordinate peoples.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cush",
+        "pul"
+      ],
+      "justification": "Ezek 38:5/27:10 (Cush and Put; Persia/Lydia/Put as warriors) — weak/unrelated link to 'Pul' specifically.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "anoint",
+        "prophecy"
+      ],
+      "justification": "Dan 9:25/Isa 9:6 present messianic prophecy, matching the Christ/Prophecy fallback.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "leaf"
+      ],
+      "justification": "Gen 4:12/Lev 26:36 (the curse on tilling; a covenant-curse of faintness) — weak/unrelated evidence for an agriculture-leaf relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "giants",
+        "nephilim"
+      ],
+      "justification": "Num 13:33 identifies the Nephilim as the ancestral/named category behind the Anakim giants the spies encountered, matching the Emims/Zamzummims specific-giant-group pattern.",
+      "verb": "narrower",
+      "narrower": "nephilim",
+      "broader": "giants"
+    },
+    {
+      "pair": [
+        "giants",
+        "philistines"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "copper",
+        "giants"
+      ],
+      "justification": "2 Sam 21:16/Gen 14:5 (a giant's bronze-tipped spear; unrelated Rephaim narrative) — weak, not a copper-composition claim about the Giants concept itself.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "clean",
+        "food"
+      ],
+      "justification": "Exod 29:13/Lev 9:19 don't establish a clean/food hierarchy beyond general sacrificial-fat context, matching Caul/Food.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "clean",
+        "fire"
+      ],
+      "justification": "Exod 29:13/29:18 don't establish a clean/fire hierarchy beyond general sacrificial context.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "grove",
+        "high-place"
+      ],
+      "justification": "2 Chr 15:16/Exod 34:13 show groves and high places torn down together in cultic reform, matching the Altar/Grove and Altar/High-place pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "altar",
+        "basin"
+      ],
+      "justification": "1 Kgs 7:48/2 Chr 4:8 list basins among the temple's general furnishings, not specifically the altar's own utensils (unlike the firepan/pan cases).",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "city",
+        "murder"
+      ],
+      "justification": "Exod 21:12/Gen 9:6 address murder's penalty broadly; the cities-of-refuge institution is a specific application this pair's evidence doesn't directly establish.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "murder",
+        "redemption"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "drunk",
+        "wine"
+      ],
+      "justification": "Gen 9:21 directly ties drinking wine to becoming drunk — the wine is what causes the drunkenness.",
+      "verb": "causes",
+      "cause": "wine",
+      "effect": "drunk"
+    },
+    {
+      "pair": [
+        "sabeans",
+        "seba"
+      ],
+      "justification": "Gen 10:7/Ps 72:10 name Seba as Cush's son; kept associated as an eponym relation rather than asserting taxonomic hierarchy, matching the Havoth-jair/Jair pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brimstone",
+        "gomorrah"
+      ],
+      "justification": "Ezek 38:22/Gen 19:24 show brimstone raining on Gomorrah — an instrument-of-judgment relation, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "plain",
+        "zeboim"
+      ],
+      "justification": "Gen 14:2 places Zeboim among the cities of the plain Deut 34:3 also describes, matching the Gomorrah/Plain geographic-containment pattern.",
+      "verb": "narrower",
+      "narrower": "zeboim",
+      "broader": "plain"
+    },
+    {
+      "pair": [
+        "grove",
+        "shechem"
+      ],
+      "justification": "Deut 11:30/Gen 12:6 (Shechem's mountains; Abram's journey) — weak/unrelated link to 'grove' specifically.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ai",
+        "bethel"
+      ],
+      "justification": "Ezra 2:28/Josh 8:17 co-list Ai and Bethel as neighboring cities, siblings.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fenced-cities",
+        "plain"
+      ],
+      "justification": "1 Chr 27:25/2 Chr 26:10 (a royal storehouse official; wilderness towers) — weak/unrelated link to 'plain.'",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "kirjathaim",
+        "nebo"
+      ],
+      "justification": "Gen 14:5/Jer 48:1 co-list Kirjathaim and Nebo as neighboring Moabite towns, siblings.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bashan",
+        "edrei"
+      ],
+      "justification": "Josh 12:4 names Edrei as one of Og of Bashan's cities, matching the geographic-containment pattern.",
+      "verb": "narrower",
+      "narrower": "edrei",
+      "broader": "bashan"
+    },
+    {
+      "pair": [
+        "amorites",
+        "aroer"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "calf",
+        "covenant"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brook",
+        "river-of-egypt"
+      ],
+      "justification": "Josh 15:4/Num 34:5 use 'brook of Egypt' and 'river of Egypt' as alternate names for the same boundary feature, matching the Edom/Seir naming-equivalence pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "river",
+        "wine"
+      ],
+      "justification": "Gen 15:18/Exod 3:8 (the Euphrates covenant-boundary; the deliverance promise) — weak/unrelated link between river and wine.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "prayer"
+      ],
+      "justification": "Gen 16:10/17:20 (an angel's promise to Hagar; a blessing on Ishmael) — weak/unrelated link to prayer specifically.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "butter",
+        "wheat"
+      ],
+      "justification": "Deut 32:14/Ps 81:16 list butter and wheat as coordinate abundance items.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "goat",
+        "milk"
+      ],
+      "justification": "Deut 32:14/Isa 7:22 tie goat's milk directly to the goat as its source — the animal produces the milk.",
+      "verb": "causes",
+      "cause": "goat",
+      "effect": "milk"
+    },
+    {
+      "pair": [
+        "burial",
+        "mourn"
+      ],
+      "justification": "1 Sam 25:1/Deut 34:8 show burial and communal mourning as companion practices, matching the Funeral/Mourn call.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "caleb",
+        "kirjath-arba"
+      ],
+      "justification": "1 Sam 25:3/Josh 15:13 show Caleb given Kirjath-arba (Hebron) as inheritance, matching the Caleb/Hebron pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "shekel",
+        "weights"
+      ],
+      "justification": "Exod 30:13/Lev 27:25 present the shekel as the specific standard unit within the broader system of weights and valuations.",
+      "verb": "narrower",
+      "narrower": "shekel",
+      "broader": "weights"
+    },
+    {
+      "pair": [
+        "camel",
+        "ephah"
+      ],
+      "justification": "2 Chr 9:1/Isa 60:6 (the queen of Sheba's camels; a prophecy of camel caravans) — weak/unrelated link to the ephah measure.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "food",
+        "wine"
+      ],
+      "justification": "2 Kgs 4:42/Deut 32:14 list food and wine/milk as coordinate provision items.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "food",
+        "goat"
+      ],
+      "justification": "2 Kgs 4:42/Deut 32:14 don't specifically establish goat as a food-subtype in the cited text — kept associated rather than overreaching.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "anoint",
+        "wine"
+      ],
+      "justification": "Deut 28:40/Mic 6:15 list olive-oil anointing and wine-pressing as coordinate agricultural blessings/curses, not a direct anoint-wine relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "first-born",
+        "jacob"
+      ],
+      "justification": "1 Chr 5:1/Deut 21:17 discuss Jacob obtaining the firstborn birthright — a narrative event involving a person, not a taxonomic first-born/Jacob relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pillar",
+        "stone"
+      ],
+      "justification": "1 Sam 15:12/7:12 (Saul's monument; Samuel's memorial stone) support the pillar as a specific standing-stone form within the general stone category.",
+      "verb": "narrower",
+      "narrower": "pillar",
+      "broader": "stone"
+    },
+    {
+      "pair": [
+        "dowry",
+        "marriage"
+      ],
+      "justification": "Exod 22:17/1 Sam 18:25 show the dowry/bride-price as a required component of the marriage transaction.",
+      "verb": "part_of",
+      "part": "dowry",
+      "whole": "marriage"
+    },
+    {
+      "pair": [
+        "divination",
+        "idolatry"
+      ],
+      "justification": "2 Chr 33:6/1 Sam 15:23 list divination and idolatry-adjacent rebellion as coordinate forbidden-practice categories, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "beard",
+        "dress"
+      ],
+      "justification": "2 Sam 19:24/15:30 (Mephibosheth's unkempt beard; David's mourning journey) — weak/unrelated evidence for a beard-as-dress-type claim.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "goat",
+        "wine"
+      ],
+      "justification": "Deut 32:14/Gen 49:11 list goat and wine as coordinate abundance items.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "beyond",
+        "plain"
+      ],
+      "justification": "Deut 1:1/Josh 9:1 (Moses' location beyond Jordan; an unrelated news report) — weak/unrelated link to 'plain.'",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "desert",
+        "hill"
+      ],
+      "justification": "Exod 3:1/24:13 (Moses shepherding; Moses ascending a mountain) — different narratives, no clean desert-hill relation established.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "prophecy"
+      ],
+      "justification": "Amos 1:3/1:6 (parallel oracle formulas against different nations) — weak/unrelated evidence for an agriculture-prophecy relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eleazar",
+        "nadab"
+      ],
+      "justification": "Josh 24:33/Exod 6:23 record Eleazar and Nadab as brothers, sons of Aaron — genealogical, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fly",
+        "plague"
+      ],
+      "justification": "Exod 8:21/Ps 78:45 present the plague of flies as one specific instance within the general category of plagues.",
+      "verb": "narrower",
+      "narrower": "fly",
+      "broader": "plague"
+    },
+    {
+      "pair": [
+        "burnt-offering",
+        "tabernacle"
+      ],
+      "justification": "1 Kgs 8:5/1 Chr 16:1 show burnt offerings performed at the tabernacle, matching the Altar/Burnt-offering location-practice pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "convocation",
+        "trumpets"
+      ],
+      "justification": "Lev 23:2/Ps 81:3 tie a holy convocation to the Feast of Trumpets' calendar, matching the Convocation/First-fruits co-occurrence pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chariot",
+        "iron"
+      ],
+      "justification": "Judg 4:3/Josh 17:16 name iron as the reinforcing material of chariots ('chariots of iron').",
+      "verb": "part_of",
+      "part": "iron",
+      "whole": "chariot"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "chaff"
+      ],
+      "justification": "Isa 17:13/Ps 1:4 use chaff in unrelated poetic judgment images — weak specific link to agriculture as a concept.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dance",
+        "prophet"
+      ],
+      "justification": "1 Sam 18:6/Exod 15:20 show Miriam the prophetess dancing — person-role co-occurrence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dance",
+        "linen"
+      ],
+      "justification": "2 Sam 6:14/1 Sam 2:18 (David dancing in a linen ephod; Samuel's linen garment) — narrative co-occurrence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dance",
+        "ephod"
+      ],
+      "justification": "2 Sam 6:14/1 Sam 2:18 show David dancing while wearing an ephod — narrative detail, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "earthquake",
+        "thunder"
+      ],
+      "justification": "1 Kgs 19:11/Exod 19:16 list earthquake and thunder as coordinate theophany phenomena, siblings.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "foreigner"
+      ],
+      "justification": "Deut 24:19/Lev 23:22 tie gleaning law to provision for foreigners, matching the Agriculture/Poor pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "freedom",
+        "loan"
+      ],
+      "justification": "Lev 25:39/Exod 21:2 (debt-servitude release law; Hebrew-servant law) — related legal concepts, not a clean freedom-loan hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "witch",
+        "wizard"
+      ],
+      "justification": "Deut 18:10/1 Sam 28:3 use witch and wizard as near-synonymous occult-practitioner terms, matching the established practitioner-pair pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "citizenship",
+        "widows"
+      ],
+      "justification": "Deut 10:18/Exod 22:22 list citizen-protections and widow-protections as coordinate categories owed justice.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "passover",
+        "pentateuch"
+      ],
+      "justification": "Num 9:5/Josh 5:10 record Passover observance within Pentateuch narrative — the book records the practice, not a hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "convocation",
+        "tabernacles-feast-of"
+      ],
+      "justification": "Num 28:26/Exod 23:16 tie a convocation to the Feast of Tabernacles' calendar, matching the Convocation/Pentecost pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blue",
+        "dress"
+      ],
+      "justification": "Exod 25:4/Ezek 16:10 name blue as a descriptive dye-color in clothing description, matching the Colour/Dress pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "frankincense",
+        "oil"
+      ],
+      "justification": "Exod 30:34/25:6 list frankincense and anointing oil as coordinate spice/ritual ingredients, siblings.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ark",
+        "cloud"
+      ],
+      "justification": "Lev 16:2/2 Chr 5:14 show the cloud appearing near the ark's dwelling-place — co-occurring phenomenon, not a structural relation, matching the Cloud/Tabernacle call.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cloud",
+        "mercy-seat"
+      ],
+      "justification": "Exod 29:42/25:22 show the cloud associated with the meeting-place above the mercy-seat — co-occurrence, matching the Cloud/Tabernacle call.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bread",
+        "cake"
+      ],
+      "justification": "Exod 25:30/1 Chr 23:29 name cake among baked-goods offerings — cake is a specific type of bread/baked good.",
+      "verb": "narrower",
+      "narrower": "cake",
+      "broader": "bread"
+    },
+    {
+      "pair": [
+        "curtain",
+        "veil-vail"
+      ],
+      "justification": "Exod 26:1/26:31 name curtain and veil as distinct tabernacle fabric elements, siblings rather than one part of the other.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "tabernacle",
+        "veil-vail"
+      ],
+      "justification": "Exod 26:31 specifies the veil as a distinct woven component of the tabernacle's overall structure.",
+      "verb": "part_of",
+      "part": "veil-vail",
+      "whole": "tabernacle"
+    },
+    {
+      "pair": [
+        "ark",
+        "blue"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "altar",
+        "flesh-hook"
+      ],
+      "justification": "Exod 27:3/38:3 name flesh-hooks among the altar's bronze utensils, matching the Altar/Pan and Altar/Firepan pattern.",
+      "verb": "part_of",
+      "part": "flesh-hook",
+      "whole": "altar"
+    },
+    {
+      "pair": [
+        "girdle",
+        "mitre"
+      ],
+      "justification": "Exod 28:40/28:4 co-list girdle and mitre as distinct priestly-garment items, siblings.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gold",
+        "ruby"
+      ],
+      "justification": "Job 28:19/Exod 28:17 compare gold and gemstones (ruby) in value — coordinate precious materials, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fire",
+        "food"
+      ],
+      "justification": "Lev 3:5/Exod 29:13 don't clearly establish fire and food as hierarchically related beyond general sacrificial context.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "food",
+        "sheep"
+      ],
+      "justification": "Exod 29:13/Lev 9:19 don't establish a sheep-specific food hierarchy beyond general sacrificial-fat context, matching Fat/Sheep and Food/Goat.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "frankincense",
+        "wine"
+      ],
+      "justification": "Song 4:14/Gen 43:11 (spice list; unrelated gift-giving narrative) — weak/unrelated link between frankincense and wine.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bullock",
+        "idol"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "asherah",
+        "high-place"
+      ],
+      "justification": "1 Kgs 16:33/Exod 34:13 show Asherah poles and high places as coordinate cultic-reform targets, matching the Idol/High-place pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "frankincense",
+        "pan"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "high-place",
+        "tithe"
+      ],
+      "justification": "Deut 12:11/12:5 (the chosen place for offerings; the chosen place generally) — both concern worship centralization, not a direct high-place/tithe hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "loan",
+        "wages"
+      ],
+      "justification": "Deut 24:13/24:15 address pledge-return and wage-timeliness as adjacent but distinct labor/finance laws, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "enchantments",
+        "witchcraft"
+      ],
+      "justification": "Deut 18:10/2 Chr 33:6 list enchantments and witchcraft as sibling forbidden practices, neither subsuming the other.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "divination",
+        "gehenna"
+      ],
+      "justification": "2 Chr 33:6/28:3 (child sacrifice; incense in the valley of Hinnom) — both idolatrous practices in the same valley, not a divination-Gehenna hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "astrologer",
+        "familiar-spirit"
+      ],
+      "justification": "Dan 2:2/Isa 8:19 show an astrologer and familiar-spirit consultation as coordinate occult-practitioner terms.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "astrologer",
+        "wizard"
+      ],
+      "justification": "Dan 1:20/Isa 19:3 show an astrologer and unrelated Egyptian-spirit failure — weak link, but kept consistent with the practitioner-pair fallback.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "enchantments",
+        "wizard"
+      ],
+      "justification": "Deut 18:10/1 Sam 28:3 show enchantments and a wizard as practice-and-practitioner, matching the established fallback.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "familiar-spirit",
+        "witchcraft"
+      ],
+      "justification": "2 Chr 33:6/1 Sam 15:23 list familiar-spirit consultation and witchcraft as sibling forbidden practices.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "trumpets",
+        "trumpets-feast-of"
+      ],
+      "justification": "Lev 25:9/Num 10:10 tie trumpet-blowing to the Feast of Trumpets specifically, matching the First-fruits/Pentecost pattern of a feast named for its central practice.",
+      "verb": "narrower",
+      "narrower": "trumpets-feast-of",
+      "broader": "trumpets"
+    },
+    {
+      "pair": [
+        "kinsman",
+        "redeemer"
+      ],
+      "justification": "Isa 41:14/Ps 19:14 use kinsman and redeemer near-synonymously as overlapping legal-theological role terms.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "christ",
+        "covenant"
+      ],
+      "justification": "Isa 11:2/59:21 present Christ's relation to the covenant — a messianic-fulfillment relation this vocabulary has no verb for, matching the Christ/Prophecy fallback.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eleazar",
+        "merarites"
+      ],
+      "justification": "1 Chr 23:21/23:6 (Merarite genealogy; Levitical divisions) — weak/unrelated specific link to Eleazar.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "valley"
+      ],
+      "justification": "Isa 32:2/41:18 (a hiding place from wind; rivers on bare heights) — weak/unrelated link between agriculture and valley.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bashan",
+        "jeroboam"
+      ],
+      "justification": "2 Kgs 13:25/14:25 (territory restoration; Jeroboam II's border) — narrative/political co-occurrence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "city",
+        "edrei"
+      ],
+      "justification": "Josh 12:4 names Edrei among the sixty cities of Bashan captured, matching the Fenced-cities/Jerusalem specific-city pattern.",
+      "verb": "narrower",
+      "narrower": "edrei",
+      "broader": "city"
+    },
+    {
+      "pair": [
+        "divination",
+        "teraphim"
+      ],
+      "justification": "2 Chr 33:6/2 Kgs 23:24 list divination and teraphim as coordinate objects/practices of the same reform, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baal-meon",
+        "nebo"
+      ],
+      "justification": "Jer 48:23/Num 32:38 co-list Baal-meon and Nebo as neighboring Moabite towns, siblings.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bashan-havoth-jair",
+        "havoth-jair"
+      ],
+      "justification": "1 Kgs 4:13/Num 32:41 use Bashan-havoth-jair as a fuller/alternate form of Havoth-jair, matching the Edom/Seir naming-equivalence pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bashan-havoth-jair",
+        "jair"
+      ],
+      "justification": "Num 32:41 names the region after the person Jair — an eponym relation, matching the Havoth-jair/Jair pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "beg",
+        "widows"
+      ],
+      "justification": "Deut 12:12/16:14 (festival rejoicing law) doesn't specifically address begging — weak/unrelated evidence.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hemlock",
+        "wormwood"
+      ],
+      "justification": "Amos 6:12/5:7 pair hemlock and wormwood as coordinate bitterness metaphors, matching the Gall/Hemlock pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "desert",
+        "valley"
+      ],
+      "justification": "Isa 43:19/41:18 use desert and valley in parallel blessing/transformation imagery, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "maachah",
+        "rehob"
+      ],
+      "justification": "1 Chr 19:7/2 Sam 10:6 list Maachah and Rehob as allied Aramean kingdoms, siblings.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "astrologer",
+        "soothsayer"
+      ],
+      "justification": "Dan 2:10/2:27 show astrologer and Daniel's own role as interpreter — a practitioner-comparison, matching the established fallback.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abiel",
+        "kish"
+      ],
+      "justification": "1 Chr 8:33/1 Sam 9:1 record Abiel as Kish's ancestor — genealogical, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abiel",
+        "eshbaal"
+      ],
+      "justification": "1 Chr 8:33/2 Sam 2:8 record Abiel as an ancestor in Abner and Eshbaal's line — genealogical, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "asaph",
+        "music"
+      ],
+      "justification": "1 Chr 25:1/2 Kgs 3:15 show Asaph appointed for music and a musician summoned elsewhere — person-practice relation, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "asaph",
+        "music-instrumental"
+      ],
+      "justification": "1 Chr 25:1/1 Sam 10:5 show Asaph's musical appointment near an instrumental-music narrative — person-practice relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "barefoot",
+        "dress"
+      ],
+      "justification": "2 Sam 15:30/Esth 6:12 (David's barefoot mourning walk; Haman's separate account) — weak/unrelated evidence for a barefoot-dress relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sheep",
+        "wine"
+      ],
+      "justification": "1 Sam 25:36/Nah 1:10 list sheep and wine as coordinate feast provisions, matching the Banquet/Wine pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "building",
+        "hiram"
+      ],
+      "justification": "2 Sam 5:11/1 Chr 14:1 show Hiram supplying materials for building, matching the Cedar/Hiram provider-resource pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cedar",
+        "colour"
+      ],
+      "justification": "Isa 35:2/Song 7:5 (blooming/rejoicing imagery; a hair-color description) — weak/unrelated link between cedar and colour.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "benaiah",
+        "philistines"
+      ],
+      "justification": "1 Chr 11:22/2 Sam 8:18 (Benaiah's exploits; his command over Cherethites) — narrative/administrative proximity to Philistine-adjacent context, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "seal",
+        "writing"
+      ],
+      "justification": "Esth 3:12/1 Kgs 21:8 show a seal used to authenticate written decrees — an instrument-for-practice relation, not composition.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ark",
+        "zadok"
+      ],
+      "justification": "2 Kgs 12:10/2 Sam 8:17 (a money chest; unrelated priestly genealogy) — weak/unrelated link between the ark and Zadok.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "azariah",
+        "zadok"
+      ],
+      "justification": "2 Chr 26:17/1 Chr 12:28 (a priest named Azariah; a separate Zadok reference) — weak/unrelated specific link.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "house",
+        "temple-solomon-s"
+      ],
+      "justification": "1 Kgs 7:9/5:17 describe building-stone construction generally; kept associated rather than asserting 'house' as a clean broader category over 'temple' from this evidence.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "altar",
+        "prayer"
+      ],
+      "justification": "1 Kgs 8:22/Exod 9:33 show Solomon praying at the altar, matching the Altar/Sacrifice location-practice pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "algum",
+        "hiram"
+      ],
+      "justification": "1 Kgs 10:11/2 Chr 8:18 show Hiram's fleet supplying algum wood, matching the Cedar/Hiram provider-resource pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "almug",
+        "hiram"
+      ],
+      "justification": "1 Kgs 10:11/2 Chr 8:18 show Hiram's fleet supplying almug wood, matching the same pattern.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "burial",
+        "jeroboam"
+      ],
+      "justification": "1 Kgs 15:8/14:1 (Abijam's burial notice; an unrelated illness of Jeroboam's son) — coincidental textual proximity, not a real relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "amaziah",
+        "jehoash"
+      ],
+      "justification": "2 Chr 25:27/2 Kgs 14:19 show Jehoash's conspiracy against Amaziah — narrative co-occurrence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "isaiah",
+        "tiglath-pileser-iii"
+      ],
+      "justification": "1 Chr 5:26/5:6 name Tiglath-pileser and a captivity context near Isaiah's era — historical co-occurrence, not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "moon",
+        "queen-of-heaven"
+      ],
+      "justification": "Jer 44:17/7:18 discuss 'queen of heaven' worship without clearly identifying it as a hierarchy with the moon specifically in the cited text.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "necho-ii",
+        "pharaoh"
+      ],
+      "justification": "Jer 46:2/2 Kgs 23:29 name Necho II as a specific historical Pharaoh — an instance of the general Pharaoh title.",
+      "verb": "narrower",
+      "narrower": "pharaoh",
+      "broader": "necho-ii"
+    },
+    {
+      "pair": [
+        "jaaz-aniah",
+        "johanan"
+      ],
+      "justification": "Jer 40:8/2 Kgs 25:23 co-list Jaazaniah and Johanan among military captains after Jerusalem's fall.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "music-instrumental",
+        "wine"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "deuteronomy",
+        "scribes"
+      ],
+      "justification": "2 Chr 34:14/Ezra 7:10 show scribes handling the law, matching the Pentateuch/Scribes role relation.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "convocation",
+        "pentateuch"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "exile",
+        "wine"
+      ],
+      "justification": "2 Chr 36:10/Dan 5:2 (temple vessels taken to Babylon; Belshazzar's feast) — same narrative arc but not a direct exile-wine hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "darkness",
+        "eclipse"
+      ],
+      "justification": "Joel 3:15's darkened sun and moon describes an eclipse-like event as a specific instance of darkness generally.",
+      "verb": "narrower",
+      "narrower": "eclipse",
+      "broader": "darkness"
+    },
+    {
+      "pair": [
+        "edom",
+        "owl"
+      ],
+      "justification": "No verse evidence was recovered for this pair — kept as associated per the no-evidence-no-upgrade rule.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "frost",
+        "ice"
+      ],
+      "justification": "Job 38:29/6:16 use frost and ice in parallel winter-phenomena imagery, siblings rather than one causing the other in the cited text.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gold",
+        "honey"
+      ],
+      "justification": "Ps 19:10/119:103 compare gold and honey in value within a poetic parallelism, coordinate not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dragon",
+        "nettle"
+      ],
+      "justification": "Isa 13:22/34:13 mention dragon (jackal) and nettle-adjacent thorn imagery in adjacent desolation oracles, coordinate not hierarchy.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adder",
+        "basilisk"
+      ],
+      "justification": "Isa 11:8/59:5 use adder and basilisk near-synonymously as venomous-serpent terms.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dross",
+        "refiner"
+      ],
+      "justification": "Isa 1:25/Mal 3:3 show the refiner acting upon dross to purify metal — an agent-object relation the fixed vocabulary's causes verb doesn't cleanly fit (refining removes dross, it doesn't produce it).",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "armour",
+        "prophecy"
+      ],
+      "justification": "Isa 59:17/9:7 use armor imagery near a messianic-increase prophecy — poetic parallel, not hierarchy, matching the Christ/Prophecy-adjacent fallback.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adore",
+        "psaltery"
+      ],
+      "justification": "Dan 3:5/3:7 show worship triggered by instrument sounds including the psaltery, matching the Adore/Cornet pattern.",
+      "verb": "associated"
+    }
+  ]
+}

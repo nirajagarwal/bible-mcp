@@ -13,6 +13,7 @@ Usage: python3 scripts/phase5_prepare.py [N] [min_weight]
 
 Output: outputs/phase5-batch-<date>.json
 """
+import glob
 import json
 import os
 import sqlite3
@@ -21,11 +22,28 @@ from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+OUTPUTS = os.path.join(ROOT, "outputs")
 DB = os.environ.get("BIBLE_DB_PATH", os.path.join(ROOT, "db", "bible.db"))
-OUT = os.path.join(ROOT, "outputs", f"phase5-batch-{date.today().isoformat()}.json")
+OUT = os.path.join(OUTPUTS, f"phase5-batch-{date.today().isoformat()}-{{tag}}.json")
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 50
 MIN_WEIGHT = float(sys.argv[2]) if len(sys.argv) > 2 else 0
+TAG = sys.argv[3] if len(sys.argv) > 3 else "batch"
+
+
+def already_judged_pairs():
+    """Every pair that already has a logged judgment (any prior concept-build-log
+    file), so re-running prepare for a wider weight net doesn't re-litigate pairs
+    already reviewed under a narrower one."""
+    seen = set()
+    for path in glob.glob(os.path.join(OUTPUTS, "concept-build-log-*.jsonl")):
+        for line in open(path):
+            line = line.strip()
+            if not line:
+                continue
+            rec = json.loads(line)
+            seen.add(frozenset(rec["pair"]))
+    return seen
 
 
 def concept(con, cid):
@@ -74,14 +92,20 @@ def gather_evidence(con, a_id, b_id, source, limit=3):
 def main():
     con = sqlite3.connect(DB)
     con.row_factory = sqlite3.Row
+    seen = already_judged_pairs()
     rows = con.execute(
         "SELECT from_ref, to_ref, weight, source FROM links "
-        "WHERE type='concept_associated' AND weight >= ? ORDER BY weight DESC LIMIT ?",
-        (MIN_WEIGHT, N)).fetchall()
+        "WHERE type='concept_associated' AND weight >= ? ORDER BY weight DESC",
+        (MIN_WEIGHT,)).fetchall()
 
-    batch = []
+    batch, skipped = [], 0
     for r in rows:
+        if len(batch) >= N:
+            break
         a_id, b_id = r["from_ref"].split(":", 1)[1], r["to_ref"].split(":", 1)[1]
+        if frozenset((a_id, b_id)) in seen:
+            skipped += 1
+            continue
         ca, cb = concept(con, a_id), concept(con, b_id)
         if not ca or not cb:
             continue
@@ -91,9 +115,13 @@ def main():
             "b": {"id": cb["id"], "label": cb["label"], "definition": (cb["definition"] or "")[:500]},
             "evidence": gather_evidence(con, a_id, b_id, r["source"]),
         })
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    json.dump(batch, open(OUT, "w"), indent=2, ensure_ascii=False)
-    print(f"Wrote {len(batch)} candidate pairs to {OUT}")
+    out_path = OUT.format(tag=TAG)
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    json.dump(batch, open(out_path, "w"), indent=2, ensure_ascii=False)
+    total_at_or_above = con.execute(
+        "SELECT COUNT(*) c FROM links WHERE type='concept_associated' AND weight>=?", (MIN_WEIGHT,)).fetchone()[0]
+    print(f"Wrote {len(batch)} candidate pairs to {out_path} "
+          f"(skipped {skipped} already-judged; {total_at_or_above} total at weight>={MIN_WEIGHT})")
 
 
 if __name__ == "__main__":
