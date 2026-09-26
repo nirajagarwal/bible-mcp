@@ -185,6 +185,18 @@ def phase2b_link_keywords(con):
         if norm:
             by_headword[norm].add(r["strong"])
     by_headword = {k: sorted(v) for k, v in by_headword.items()}
+
+    # A keyword node's own label: the original-script lemma (majority vote across
+    # its occurrences), not the English theme's label — reusing the theme's label
+    # (e.g. "Idol") for every one of its keyword children made "Idol -> Idol" the
+    # displayed edge, hiding which Hebrew/Greek word each one actually was.
+    # words.lemma has 100% coverage here, unlike lexicon.headword (~69%, and ~0%
+    # for Greek beyond Abbott-Smith's 517 entries), so it's the right source.
+    lemma_counts = defaultdict(Counter)
+    for r in con.execute("SELECT strong, lemma FROM words WHERE strong IS NOT NULL AND lemma IS NOT NULL"):
+        lemma_counts[r["strong"]][r["lemma"]] += 1
+    strong_to_lemma = {s: c.most_common(1)[0][0] for s, c in lemma_counts.items()}
+
     concepts = con.execute("SELECT id, label FROM concepts WHERE type='theme'").fetchall()
     kw_rows, edge_rows, seen_kw = [], [], set()
     for c in concepts:
@@ -192,7 +204,9 @@ def phase2b_link_keywords(con):
             kw_id = f"kw-{strong.lower()}"
             if kw_id not in seen_kw:
                 seen_kw.add(kw_id)
-                kw_rows.append((kw_id, "keyword", c["label"], strong, None, "easton", 1.0,
+                lemma = strong_to_lemma.get(strong)
+                kw_label = f"{lemma} ({strong})" if lemma else strong
+                kw_rows.append((kw_id, "keyword", kw_label, strong, None, "easton", 1.0,
                                  json.dumps({"derived_from_concept": c["id"]})))
             edge_rows.append((f"concept:{c['id']}", f"concept:{kw_id}",
                                "concept_derived_from", 1.0, "easton_lexicon_exact"))
