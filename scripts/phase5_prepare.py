@@ -12,6 +12,12 @@ Usage: python3 scripts/phase5_prepare.py [N] [min_weight]
   min_weight only consider edges with weight >= this (default 0, i.e. no floor beyond N)
 
 Output: outputs/phase5-batch-<date>.json
+
+CONFIDENCE FLOOR (settled 2026-09-26, see DESIGN.md #5): do not call this with
+min_weight < 10. Weight 1-9 is 83,450 pairs, 85% of it single-citation evidence —
+a deliberate, permanent policy decision left that whole tier `associated` rather
+than review it. Revisit the decision (don't just override it here) before ever
+pointing this script below weight 10 again.
 """
 import glob
 import json

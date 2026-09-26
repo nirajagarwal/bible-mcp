@@ -141,6 +141,17 @@ itself fixes the semantic reading (`part_of` always means "from is part of to"),
 so a single row answers both "what is X part of" (`from_ref=X`) and "what are the
 parts of Y" (`to_ref=Y`) without needing a mirrored inverse type.
 
+**Confidence floor (settled 2026-09-26)**: `concept_associated` edges below weight 10
+stay `associated` permanently, as a matter of policy, not backlog. That tier is
+83,450 pairs — roughly 100x the weight≥10 batch that took a full session to hand-
+review — and 85% of it (weight 1-2, 70,712 pairs) is single-citation evidence (one
+shared verse or one cross-reference hop), too weak a signal to warrant the same
+per-pair scrutiny that produced real, checkable upgrades at weight≥10. This is a
+deliberate scope boundary, not an oversight: Phase 5 does not run on weight<10
+edges, and no future pass should silently start reviewing them without first
+revisiting this decision (e.g. by wiring up a real batched LLM API pass, the
+option this decision explicitly declined for now).
+
 **Scope**: the 39 protocanonical OT books for v1 (Deuterocanon/Apocrypha concepts
 deferred, not discarded — Easton covers the whole Bible). No new MCP tools yet; this
 is a dataset-only milestone, validated (sampled against source verses, following the
