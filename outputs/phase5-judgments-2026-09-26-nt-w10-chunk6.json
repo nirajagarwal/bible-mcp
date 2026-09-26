@@ -1,0 +1,1618 @@
+{
+  "batch_file": "phase5-batch-2026-09-26-nt-w10.json",
+  "model": "claude-in-session (Sonnet 5) — NT-expansion chunk 6 (indices 1000-1199)",
+  "judgments": [
+    {
+      "pair": [
+        "kingly-office-of-christ",
+        "mediator"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.1.18/Matt.28.18) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "purification",
+        "resurrection-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.6.2/Col.2.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "immortality",
+        "resurrection-of-the-dead"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Thess.4.13/Dan.12.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "heaven",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.12.22/Joel.2.32) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abba",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gal.4.6/Eph.2.18) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chaldee-language",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Dan.2.28/Matt.6.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "providence",
+        "regeneration"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.2.10/2Cor.5.17) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dwell",
+        "sanctification"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.3.16/1Cor.6.19) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "perseverance-of-the-saints",
+        "shepherd"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.53.6/1Pet.2.25) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bless",
+        "shepherd"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Thess.3.16/Heb.13.20) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hand",
+        "prophecy"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Jer.50.15/Jer.51.36) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "prayer",
+        "purification"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Tim.2.8/Ps.26.6) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dragon",
+        "serpent"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Ezek.29.3/Rev.20.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "intercession-of-christ",
+        "predestination"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "predestination",
+        "resurrection-of-the-dead"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.17.26/1Cor.15.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "book",
+        "spirit"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.10.20/Heb.12.23) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cup",
+        "fire"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.51.17/Rev.14.10) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "heaven",
+        "judgment-the-final"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Tim.4.18/Jude.1.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "father",
+        "predestination"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.1.3/1Pet.1.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "corner",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Matt.6.5/Luke.18.13) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "grace",
+        "humility"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.15.10/Rom.12.3) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fruit",
+        "meekness"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.5.9/1Tim.6.11) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "judgment-the-final",
+        "spirit"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Jude.1.1/Rom.1.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "judgment-the-final"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Thess.1.9/Rev.20.11) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "harlot",
+        "solomon-song-of"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.6.15/Eph.5.23) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "babe",
+        "child"
+      ],
+      "justification": "1 Cor 3:1/14:20 use 'babes' as a more specific, earlier developmental stage than 'children' generally in the spiritual-maturity metaphor.",
+      "verb": "narrower",
+      "narrower": "babe",
+      "broader": "child"
+    },
+    {
+      "pair": [
+        "dayspring",
+        "glory"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.60.2/John.1.14) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "nativity-of-christ",
+        "son-of-god"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gal.4.4/Rom.1.3) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "incarnation",
+        "nativity-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Tim.3.16/Isa.7.14) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "branch",
+        "kingly-office-of-christ"
+      ],
+      "justification": "Jer 23:5, the cited evidence's target verse, ties the 'Branch' title directly to kingship ('a King shall reign and prosper') — a specific messianic title within the broader kingly office.",
+      "verb": "narrower",
+      "narrower": "branch",
+      "broader": "kingly-office-of-christ"
+    },
+    {
+      "pair": [
+        "kingly-office-of-christ",
+        "son-of-god"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.1.18/John.1.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.3.1/Ps.110.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "edom",
+        "wine-press"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.34.6/Isa.63.3) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "a",
+        "key"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.12.2/Rev.1.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bible",
+        "covenant"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Matt.5.17/Isa.42.21) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "israel"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.1.30/Isa.45.17) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "comforter",
+        "covenant"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1John.2.1/2Cor.5.21) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hope",
+        "perseverance-of-the-saints"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.13.13/1John.3.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "perseverance-of-the-saints",
+        "son-of-god"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Pet.1.5/1John.3.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "nativity-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.1.30/Dan.9.24) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "nativity-of-christ",
+        "redemption"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.2.7/Gal.4.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "anoint",
+        "resurrection-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.17.3/Acts.1.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "messiah"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bible",
+        "messiah"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.24.44/Gen.3.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mary",
+        "son-of-god"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.1.32/Rom.1.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "mediator"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.2.11/Rom.8.29) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pharisees",
+        "tradition"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.11.39/Gal.1.14) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fishing-the-art-of",
+        "john"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Mark.1.16/Matt.10.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "john",
+        "net"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.5.3/Matt.4.18) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "james",
+        "salome"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.15.13/Mark.15.40) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "gehenna"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Matt.5.22/Luke.12.5) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gehenna",
+        "sanhedrim"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Jas.3.6/Matt.5.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "judgment-the-final",
+        "persecution"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.4.5/Rom.14.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "centurion",
+        "citizenship"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.10.1/Acts.22.25) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "daemon",
+        "daemoniac"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Jas.2.19/Matt.8.29) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "custom",
+        "levi"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "lamp",
+        "solomon-song-of"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Matt.25.1/Matt.9.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "coming-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (John.14.16/John.14.18) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "foreknowledge-of-god"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gal.2.16/1Pet.1.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "babe",
+        "predestination"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.10.21/Eph.1.11) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blasphemy",
+        "sin"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Luke.12.10/1John.5.16) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mystery",
+        "predestination"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.15.51/1Cor.2.7) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "mystery"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.1.20/Eph.1.10) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jesus",
+        "synagogue"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (John.6.42/Luke.4.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "essenes",
+        "tradition"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.2.18/Col.2.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "church",
+        "saul"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.13.1/Acts.9.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cup",
+        "humiliation-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.2.9/Gal.4.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "death",
+        "eternal-death"
+      ],
+      "justification": "'Eternal death' is a specific, theologically qualified form of 'death' generally, not a coordinate topic — Heb 9:14's contrast with ordinary death ('how much more') supports the distinction.",
+      "verb": "narrower",
+      "narrower": "eternal-death",
+      "broader": "death"
+    },
+    {
+      "pair": [
+        "angel",
+        "eternal-life"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Thess.1.7/2Tim.2.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-life",
+        "justification"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Matt.19.29/Phil.3.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "propitiation",
+        "ransom"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "ransom"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Pet.5.1/Acts.20.28) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "fruit"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.4.16/Gal.5.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-death",
+        "redemption"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.9.14/1Pet.1.19) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alabaster",
+        "banquet"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Matt.26.7/Eccl.9.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alabaster",
+        "mary"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hyssop",
+        "sponge"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (John.19.29/Matt.27.48) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "creation",
+        "mediator"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.8.6/Matt.28.18) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "galatians-epistle-to"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.9.1/Gal.1.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "messiah"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.10.43/Acts.26.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "assurance",
+        "resurrection-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Tim.1.12/Phil.3.21) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "sadducees"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "humiliation-of-christ"
+      ],
+      "justification": "Heb 9:15/1 Pet 5:10 (in the wider kenosis-exaltation pattern) reflect Phil 2's sequence: Christ's humiliation is followed by, and gives rise to, His glorification, matching the Humiliation-of-Christ/Resurrection-of-Christ causal pattern.",
+      "verb": "causes",
+      "cause": "humiliation-of-christ",
+      "effect": "glory"
+    },
+    {
+      "pair": [
+        "fellowship",
+        "luke-gospel-according-to"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Thess.5.17/Luke.18.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "messiah",
+        "scripture"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.16.31/Gal.3.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "flesh",
+        "incarnation"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Tim.3.16/Acts.20.28) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "grace",
+        "regeneration"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.2.5/Eph.2.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "reconcilation",
+        "regeneration"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.2.16/Rom.8.7) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "call",
+        "regeneration"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "mediator"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.20.32/Heb.9.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "mediator"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.26.18/Heb.9.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mediator",
+        "sin"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gal.3.19/Rom.4.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "advocate",
+        "comforter"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1John.2.1/Rom.8.34) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jacob",
+        "predestination"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Rom.9.11/2Tim.1.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fishing-the-art-of",
+        "sabbath"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.1.3/John.20.26) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "hope"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Pet.5.1/1John.3.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "scripture"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Thess.2.13/2Tim.3.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "conversion",
+        "faith"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.15.3/Acts.13.48) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alms",
+        "sabbath"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "assurance",
+        "election-of-grace"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1John.3.14/Eph.2.5) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "philippians-epistle-to"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.20.31/2Thess.3.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "high-priest",
+        "ransom"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.9.12/Titus.2.14) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "son-of-god"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.1.10/Gal.4.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "affection",
+        "sin"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.3.5/Gal.5.24) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "atonement",
+        "humiliation-of-christ"
+      ],
+      "justification": "Rom 3:25/Acts 2:23 tie Christ's atoning sacrifice to His delivering-up (humiliation/death), matching the established Death-causes-Atonement pattern.",
+      "verb": "causes",
+      "cause": "humiliation-of-christ",
+      "effect": "atonement"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "reconcilation"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.2.13/2Cor.5.19) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "death",
+        "sanctification"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.2.13/Rom.6.13) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "heir"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.1.10/Heb.1.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "heaven",
+        "mediator"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1John.3.2/Rom.8.29) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "holiness",
+        "regeneration"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.4.23/Titus.3.5) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "passover"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Eph.1.10/Gal.4.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dispensation",
+        "ephesians-epistle-to"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.9.17/Col.1.25) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "example",
+        "type"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Pet.5.3/1Tim.4.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ambassador",
+        "ephesians-epistle-to"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Cor.5.20/Eph.6.20) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "philippians-epistle-to"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bowels",
+        "ephesians-epistle-to"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.3.12/Eph.4.32) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cherub",
+        "creation"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.37.16/Col.1.16) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "creation",
+        "heir"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.1.16/Heb.1.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "a",
+        "creation"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.41.4/Isa.40.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "astronomy",
+        "covenant"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.1.14/Jer.33.20) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bless",
+        "man"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Thess.3.16/1Thess.5.23) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "man"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Pet.1.24/Ps.103.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "holiness",
+        "man"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Cor.7.1/1Pet.1.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "man",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Chr.14.11/Ps.18.6) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dung",
+        "host-of-heaven"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Jer.8.2/2Kgs.23.5) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "man",
+        "resurrection-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Thess.5.23/Heb.13.20) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eden",
+        "haran"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Kgs.19.12/Isa.37.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "week"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.2.15/Gen.2.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "prophet"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.2.17/Gen.20.7) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "sin"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Sam.24.16/Gen.6.6) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "christ",
+        "humiliation-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.3.15/Heb.2.18) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "christ",
+        "glory"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.11.10/Isa.59.19) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bethlehem",
+        "governor"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Sam.17.12/Mic.5.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "nettle",
+        "thistle"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Hos.9.6/Hos.10.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "death",
+        "pardon"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Col.2.13/Isa.55.7) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "coat",
+        "dress"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Sam.15.32/2Sam.15.30) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "cherub"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Chr.21.16/Gen.3.24) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cherub",
+        "divination"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.37.16/Exod.25.22) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cherub",
+        "shepherd"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Sam.4.4/Ps.80.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fire",
+        "lamb"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Exod.29.18/1Sam.7.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hell",
+        "immortality"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Ezek.31.17/Isa.14.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "deluge",
+        "flesh"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.6.3/Ps.78.39) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "flesh",
+        "grace"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.6.12/Gen.6.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "altar",
+        "ark"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.8.20/Gen.7.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fire",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Chr.7.3/Ps.95.6) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fire",
+        "priest"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.8.20/1Pet.2.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "heart",
+        "sanctification"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.8.21/Prov.20.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blood",
+        "clean"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Sam.14.32/Lev.19.26) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "arphaxad",
+        "lud"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Chr.1.17/Ezek.27.10) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bake",
+        "bread"
+      ],
+      "justification": "Hos 7:4/7:6's baker-and-oven imagery reflects that baking is the process that produces bread.",
+      "verb": "causes",
+      "cause": "bake",
+      "effect": "bread"
+    },
+    {
+      "pair": [
+        "brother",
+        "tithe"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "calf",
+        "wine"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.15.18/Exod.3.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "desert",
+        "river-of-egypt"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Deut.11.24/2Chr.9.26) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "light"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.16.10/1Tim.6.16) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "baptism-christian"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Tim.5.21/Matt.28.20) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baptism-christian",
+        "works-good"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (John.21.15/Gal.5.6) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "cross"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.17.10/Gal.6.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "gate"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.18.2/Gen.19.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "fellowship"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.18.2/Rom.12.13) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "hand"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Cor.1.1/1Cor.6.11) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mercy",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Exod.34.6/Exod.22.27) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dream",
+        "ladder"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.20.3/Gen.28.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "christ",
+        "heaven"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.11.10/1Pet.5.10) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "taxes",
+        "weights"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Exod.30.13/Lev.27.25) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "gold"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Pet.3.3/Ps.45.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "earrings"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Pet.3.3/Gen.24.47) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adoption",
+        "heir"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.3.21/Rom.4.13) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "colour",
+        "grizzled"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.30.32/Gen.31.10) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "humiliation-of-christ",
+        "prayer"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Phil.2.8/Matt.26.39) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gardens",
+        "joseph"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (John.19.41/Luke.23.53) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gerizim",
+        "shechem"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.33.19/Acts.7.16) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "camel",
+        "sheba"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Chr.9.1/Matt.12.42) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "fast"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Kgs.6.30/1Kgs.21.27) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baldness",
+        "dress"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Isa.3.24/1Pet.3.3) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "dust"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Acts.18.6/Acts.13.51) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "divination",
+        "fire"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Kgs.19.12/1Kgs.18.38) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "sandals"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "ring"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Ezek.16.10/Gen.41.42) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "banquet",
+        "cup"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.43.34/Prov.31.6) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "providence"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "prophet",
+        "providence"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Kgs.2.15/2Cor.12.9) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "governor",
+        "nativity-of-christ"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Dan.10.21/Dan.9.25) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "embalming",
+        "funeral"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.50.2/John.12.7) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "embalming",
+        "joseph"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.50.2/Gen.50.26) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "embalming",
+        "perfumes"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.50.2/Mark.14.8) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "embalming",
+        "sabbath"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Gen.50.2/Luke.24.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "burial",
+        "embalming"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (2Chr.21.19/2Chr.16.14) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "moses"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.9.15/Heb.3.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "child",
+        "milk"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.14.20/1Pet.2.2) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehovah",
+        "lord"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Exod.3.14/Exod.6.3) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "amminadab",
+        "ram"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Exod.6.23/Matt.1.4) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "goat",
+        "passover"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (no evidence recovered) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baptism-christian",
+        "goat"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Heb.9.19/Heb.9.12) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "first-fruits",
+        "leaven"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Lev.23.17/Matt.13.33) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "murmuring"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.10.10/Ps.106.25) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "day",
+        "watches"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Sam.11.11/Exod.14.24) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sabbath",
+        "spices"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.16.2/Luke.24.1) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "book",
+        "covenant"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Exod.17.14/Exod.34.27) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "banquet",
+        "proselyte"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (Deut.16.11/Deut.16.14) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "drunk",
+        "theft"
+      ],
+      "justification": "Dense but generic co-citation in the NT cross-reference cluster (1Cor.6.10/1Pet.4.15) — no specific textual claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    }
+  ]
+}

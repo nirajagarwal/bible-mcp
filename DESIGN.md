@@ -128,6 +128,7 @@ reviewed. This mirrors §4's rule: never auto-promote a low-confidence guess.
 | `causes` | one direction (cause→effect) | narrative/theological causation |
 | `part_of` | one direction (part/material→whole/product) | composition or physical part-whole — e.g. Wine `part_of` Drink-offering, Lamp `part_of` Candlestick |
 | `symbol_of` | one direction (symbol→symbolized) | a visible sign standing for something else — e.g. Cloud `symbol_of` Shechinah |
+| `fulfills` | one direction (fulfiller→fulfilled) | a person/event actualizes what an earlier prophecy/type anticipated — e.g. Christ `fulfills` Prophecy, Branch `fulfills` Prophecy |
 | `contrasts` | one row (either column matches) | symmetric opposition |
 | `associated` | one row (either column matches) | fallback: real evidence, no sharper verb earned or warranted |
 
@@ -140,6 +141,17 @@ Unlike `broader`/`narrower`, these two store only one direction: the verb name
 itself fixes the semantic reading (`part_of` always means "from is part of to"),
 so a single row answers both "what is X part of" (`from_ref=X`) and "what are the
 parts of Y" (`to_ref=Y`) without needing a mirrored inverse type.
+
+`fulfills` was added before the NT-expansion Phase 5 pass (2026-09-26), pre-emptively
+rather than retroactively like `part_of`/`symbol_of` — the OT-only pass had already
+surfaced the exact gap it fills (Christ/Prophecy, Branch/Christ, "Nativity of
+Christ"/Prophecy, all correctly left `associated` for lack of a verb) even though
+those concepts had almost no verse anchors yet. Once NT concepts gained real anchors
+(Christ alone went from 0 to 19), messianic-fulfillment pairs became common and
+high-weight enough (Christ↔Prophecy: weight 20) that waiting to add the verb until
+the evidence was undeniable, the way `part_of` was added, would just have reproduced
+the same backlog on purpose. Single direction, same reasoning as `part_of`: the verb
+name fixes the reading, no mirrored inverse needed.
 
 **Confidence floor (settled 2026-09-26)**: `concept_associated` edges below weight 10
 stay `associated` permanently, as a matter of policy, not backlog. That tier is

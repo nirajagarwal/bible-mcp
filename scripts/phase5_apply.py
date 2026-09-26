@@ -85,6 +85,15 @@ def main():
             con.execute("INSERT INTO links(from_ref,to_ref,type,weight,source) VALUES(?,?,?,?,?)",
                         (f"concept:{symbol}", f"concept:{symbolized}", "concept_symbol_of", w, "llm_verb"))
             counts["symbol_of"] = counts.get("symbol_of", 0) + 1
+        elif j["verb"] == "fulfills":
+            # Single direction only, same reasoning as part_of/symbol_of (see
+            # DESIGN.md #5): from=fulfiller (typically an NT person/event),
+            # to=fulfilled (typically an OT prophecy/type).
+            delete_associated(con, a, b)
+            fulfiller, fulfilled = j["fulfiller"], j["fulfilled"]
+            con.execute("INSERT INTO links(from_ref,to_ref,type,weight,source) VALUES(?,?,?,?,?)",
+                        (f"concept:{fulfiller}", f"concept:{fulfilled}", "concept_fulfills", w, "llm_verb"))
+            counts["fulfills"] = counts.get("fulfills", 0) + 1
         log_f.write(json.dumps({
             "batch": data.get("batch_file"), "model": data.get("model"),
             "pair": j["pair"], "verb": j["verb"], "justification": j["justification"],
