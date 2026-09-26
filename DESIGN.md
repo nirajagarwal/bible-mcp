@@ -92,6 +92,40 @@ Validation: sample against Biblindex counts for a few well-studied Fathers.
 
 ---
 
+## 5. OT concept graph (research design — building now)
+
+Abstract theological concepts (Covenant, Sacrifice, Sabbath, Holiness, ...) and lexical
+keywords, distinct from the existing `entities` table (named people/places/events).
+Seeded from Easton's Bible Dictionary (`data/sources/theographic-json/easton.json`,
+already in the repo, previously unused) rather than hand-curated or LLM-brainstormed:
+its ~3,700 `matchType='unmatched'` entries are exactly the abstract-concept vocabulary,
+each with real 1890s definition text and inline markdown scripture links that parse
+directly into verse anchors.
+
+**Storage**: SQLite, not a new datastore. New `concepts`/`concept_mentions` tables
+(mirror `entities`/`entity_mentions`). Edges reuse the existing `links` table —
+`from_ref`/`to_ref` accept `concept:{id}` or `entity:{id}` alongside bare OSIS refs;
+`idx_links_from`/`idx_links_to` already give inbound/outbound queries for free.
+`get_cross_references`/`get_citations` filter `links` by an explicit `type=`, so the
+new `concept_*` types are additive and cannot leak into their output.
+
+**Generation discipline — same three-tier confidence model as §4, applied to a graph
+instead of a citation list**: mechanical candidate edges first (shared verse mentions,
+shared entity mentions, existing cross-reference chains — zero fabrication risk,
+`confidence`/`weight` = an overlap count), then a *bounded* LLM pass assigns a verb
+from a fixed vocabulary (`broader`/`narrower`/`contrasts`/`causes`/`associated`) to an
+already-evidenced pair and must cite the real shared verse; a justification that
+doesn't reference the given evidence falls back to `associated` rather than being
+trusted. The LLM may also propose new concept nodes Easton doesn't separate (e.g.
+splitting "Sacrifice"), written with `source='llm'` and `confidence<1.0`, never
+auto-wired into `concept_instance_of` edges until reviewed. This mirrors §4's rule:
+never auto-promote a low-confidence guess.
+
+**Scope**: the 39 protocanonical OT books for v1 (Deuterocanon/Apocrypha concepts
+deferred, not discarded — Easton covers the whole Bible). No new MCP tools yet; this
+is a dataset-only milestone, validated (sampled against source verses, following the
+project's own "checkable claims" discipline) before anything queries it live.
+
 ## Dependency policy
 
 Core server: stdlib only. Semantic tier: numpy + fastembed (lazy). Never torch in the

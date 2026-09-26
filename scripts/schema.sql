@@ -102,3 +102,29 @@ CREATE TABLE IF NOT EXISTS entity_mentions (
   PRIMARY KEY (entity_id, ref)
 );
 CREATE INDEX IF NOT EXISTS idx_mentions_ref ON entity_mentions(ref);
+
+-- Concept graph: abstract themes and lexical keywords, distinct from named entities
+-- above. Edges live in `links` (from_ref/to_ref prefixed 'concept:{id}' or
+-- 'entity:{id}'; a bare ref is a verse, unchanged) — see DESIGN.md for the type
+-- vocabulary and the confidence/source discipline edges must carry.
+CREATE TABLE IF NOT EXISTS concepts (
+  id          TEXT PRIMARY KEY,          -- slug, e.g. 'covenant', 'h1285-berith'
+  type        TEXT NOT NULL,             -- 'theme' | 'keyword'
+  label       TEXT NOT NULL,             -- English display label
+  strong      TEXT,                      -- Strong's number for type='keyword'; NULL for themes
+  definition  TEXT,                      -- short gloss (Easton's dictText, trimmed, or LLM-drafted)
+  source      TEXT NOT NULL,             -- 'easton' | 'llm' | 'curated'
+  confidence  REAL NOT NULL DEFAULT 1.0, -- 1.0 = easton/corpus-derived; lower = llm-proposed, pending review
+  data        TEXT                       -- JSON: full Easton record, alt labels, etc.
+);
+CREATE INDEX IF NOT EXISTS idx_concepts_label  ON concepts(label);
+CREATE INDEX IF NOT EXISTS idx_concepts_strong ON concepts(strong);
+
+-- Verse anchors for concepts (mirrors entity_mentions)
+CREATE TABLE IF NOT EXISTS concept_mentions (
+  concept_id TEXT NOT NULL REFERENCES concepts(id),
+  ref        TEXT NOT NULL,              -- OSIS verse ref
+  source     TEXT NOT NULL,              -- 'easton_parsed' | 'derived'
+  PRIMARY KEY (concept_id, ref)
+);
+CREATE INDEX IF NOT EXISTS idx_concept_mentions_ref ON concept_mentions(ref);
