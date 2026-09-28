@@ -165,9 +165,36 @@ revisiting this decision (e.g. by wiring up a real batched LLM API pass, the
 option this decision explicitly declined for now).
 
 **Scope**: the 39 protocanonical OT books for v1 (Deuterocanon/Apocrypha concepts
-deferred, not discarded — Easton covers the whole Bible). No new MCP tools yet; this
-is a dataset-only milestone, validated (sampled against source verses, following the
-project's own "checkable claims" discipline) before anything queries it live.
+deferred, not discarded — Easton covers the whole Bible).
+
+**MCP tools (added v0.14)**: three tools, mirroring the existing entity-graph
+shape rather than inventing a new one. `get_concept(name, concept_type="")` mirrors
+`get_entity` — label/id/Strong's lookup with the same tiered fallback (exact →
+substring → prefix-stem), definition, verse anchors, and (new) instantiating
+entities via `concept_instance_of`. `concepts_in_passage(reference)` mirrors
+`entities_in_passage` exactly (same grouped-by-type shape, entity_mentions swapped
+for concept_mentions). `get_concept_relations(name, verb="", limit=20)` is the one
+genuinely new shape — the typed concept↔concept edges have no entity-graph analogue
+— structured like `get_cross_references`/`get_citations` (a `links`-table query by
+type, weight-ranked, limited). It excludes `concept_associated` by default (~139,000
+mechanical edges vs. ~430 hand-reviewed typed ones) so a naive call doesn't return a
+useless flood; `verb="associated"` opts back in. `concept_derived_from` (theme↔
+keyword provenance) and `concept_instance_of` (entity→concept) are deliberately
+excluded from `get_concept_relations`'s verb vocabulary — they're structural
+metadata, already surfaced inline by `get_concept`, not part of the reviewed
+theological-relation graph Phase 5/6 built.
+
+One direction-handling subtlety worth documenting: `broader`/`narrower` are stored
+as mirrored pairs (both rows exist), so querying only `from_ref` for a concept's own
+label is complete — querying `to_ref` too would double the same relationship from
+the other side. `causes`/`part_of`/`symbol_of`/`fulfills` are single-direction, so
+both `from_ref` and `to_ref` must be checked and phrased accordingly (e.g. "part of"
+vs. "has part"). `contrasts`/`associated` are symmetric single rows, checked via
+`from_ref OR to_ref`. `get_concept`'s inline relation-count summary reuses this exact
+per-verb direction logic (`_concept_relation_counts`) rather than a blanket `(from_ref=?
+OR to_ref=?)` count — the earlier draft of that summary double-counted mirrored
+`broader`/`narrower` pairs (advertising a `narrower` edge that `get_concept_relations`
+would then fail to reproduce, since the "narrower" row lived on the *other* concept).
 
 ## Dependency policy
 

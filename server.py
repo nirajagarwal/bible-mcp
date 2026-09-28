@@ -212,6 +212,234 @@ def entities_in_passage(reference: str) -> str:
     return "\n".join(out)
 
 
+def _concept_label(con, ref):
+    """'concept:idol' -> 'Idol'; 'entity:recAbc' -> the entity's name; falls back
+    to the raw ref if the id isn't found (shouldn't happen, but links rows are
+    generated data, not hand-entered)."""
+    kind, _, cid = ref.partition(":")
+    if kind == "concept":
+        row = con.execute("SELECT label FROM concepts WHERE id=?", (cid,)).fetchone()
+        return row["label"] if row else ref
+    if kind == "entity":
+        row = con.execute("SELECT name FROM entities WHERE id=?", (cid,)).fetchone()
+        return row["name"] if row else ref
+    return ref
+
+
+def _resolve_concepts(con, name, concept_type="", limit=5):
+    """Tiered lookup by label, id-slug, or Strong's number — same fallback shape as
+    get_entity: exact label/slug/Strong's match, then substring, then prefix-stem
+    for spelling variants. Returns up to `limit` concepts rows."""
+    q = name.strip()
+    type_sql = " AND type=?" if concept_type else ""
+    type_args = [concept_type] if concept_type else []
+    m = re.fullmatch(r"([GgHh])0*(\d+)", q)
+    if m:
+        prefix, num = m.group(1).upper(), int(m.group(2))
+        rows = con.execute(
+            f"SELECT * FROM concepts WHERE strong IN (?,?){type_sql} LIMIT ?",
+            [f"{prefix}{num:04d}", f"{prefix}{num}"] + type_args + [limit]).fetchall()
+        if rows:
+            return rows
+    rows = con.execute(
+        f"SELECT * FROM concepts WHERE (label=? OR id=?){type_sql} ORDER BY confidence DESC LIMIT ?",
+        [q, q.lower().replace(" ", "-")] + type_args + [limit]).fetchall()
+    if not rows:
+        rows = con.execute(
+            f"SELECT * FROM concepts WHERE label LIKE ?{type_sql} ORDER BY confidence DESC LIMIT ?",
+            [f"%{q}%"] + type_args + [limit]).fetchall()
+    if not rows and len(q) >= 4:
+        rows = con.execute(
+            f"SELECT * FROM concepts WHERE label LIKE ?{type_sql} ORDER BY confidence DESC LIMIT ?",
+            [q[:4] + "%"] + type_args + [limit]).fetchall()
+    return rows
+
+
+_CONCEPT_MIRRORED = {"broader": "is broader than", "narrower": "is narrower than"}
+_CONCEPT_ONE_WAY = {
+    "causes": ("causes", "is caused by"),
+    "part_of": ("is part of", "has part"),
+    "symbol_of": ("is a symbol of", "is symbolized by"),
+    "fulfills": ("fulfills", "is fulfilled by"),
+}
+_CONCEPT_SYMMETRIC = {"contrasts": "contrasts with", "associated": "is associated with"}
+_CONCEPT_VERBS = list(_CONCEPT_MIRRORED) + list(_CONCEPT_ONE_WAY) + list(_CONCEPT_SYMMETRIC)
+
+
+def _concept_relation_counts(con, cref):
+    """Per-verb edge counts for a concept, in the same direction semantics
+    get_concept_relations actually queries — e.g. a mirrored 'broader' pair only
+    counts once, from the from_ref side, so this never advertises a verb/count
+    that get_concept_relations(verb=...) would then fail to reproduce."""
+    counts = {}
+    for v in _CONCEPT_VERBS:
+        ttype = f"concept_{v}"
+        if v in _CONCEPT_MIRRORED:
+            sql = "SELECT COUNT(*) c FROM links WHERE type=? AND from_ref=?"
+            args = (ttype, cref)
+        elif v in _CONCEPT_ONE_WAY:
+            sql = "SELECT COUNT(*) c FROM links WHERE type=? AND (from_ref=? OR to_ref=?)"
+            args = (ttype, cref, cref)
+        else:
+            sql = "SELECT COUNT(*) c FROM links WHERE type=? AND (from_ref=? OR to_ref=?)"
+            args = (ttype, cref, cref)
+        c = con.execute(sql, args).fetchone()["c"]
+        if c:
+            counts[v] = c
+    return counts
+
+
+@mcp.tool()
+def get_concept(name: str, concept_type: str = "") -> str:
+    """Look up a theological concept or lexical keyword in the OT+NT concept graph
+    (5,673 nodes seeded from Easton's Bible Dictionary — see DESIGN.md #5). Returns
+    its definition (with a pointer to the full Easton entry), verse anchors, and
+    entities that instantiate it (e.g. Abraham for Covenant). concept_type
+    optional: theme | keyword. A Strong's number ('G225') also resolves directly
+    to its keyword node. For typed relations to OTHER concepts (broader/narrower/
+    causes/part_of/symbol_of/fulfills/associated), use get_concept_relations(name)."""
+    con = _db()
+    rows = _resolve_concepts(con, name, concept_type)
+    if not rows:
+        con.close()
+        return f"No concept found matching {name!r}."
+    out = []
+    for r in rows:
+        data = json.loads(r["data"] or "{}")
+        head = f"{r['label']} ({r['type']}, id={r['id']}" + (f", strong={r['strong']}" if r["strong"] else "") + ")"
+        block = head + f"\n  source={r['source']}, confidence={r['confidence']:g}"
+        defn = (r["definition"] or "").strip()
+        if len(defn) > 400:
+            defn = defn[:400].rsplit(" ", 1)[0] + "…"
+        if defn:
+            block += f"\n  {defn}"
+        elif r["type"] == "keyword" and r["strong"]:
+            block += f"\n  No definition stored on the keyword node itself — see word_study({r['strong']!r}) for the lexicon entry."
+        easton_ref = data.get("easton_ref")
+        if easton_ref:
+            seq = easton_ref.split(".")[1]
+            block += f"\n  Full entry: [{easton_ref}] — read_work('EASTON', chapter={seq})"
+        parent = data.get("derived_from_concept")
+        if parent:
+            prow = con.execute("SELECT label FROM concepts WHERE id=?", (parent,)).fetchone()
+            if prow:
+                block += f"\n  Parent theme: {prow['label']} — get_concept({prow['label']!r})"
+        n = con.execute("SELECT COUNT(*) c FROM concept_mentions WHERE concept_id=?", (r["id"],)).fetchone()["c"]
+        if n:
+            mentions = con.execute(
+                "SELECT ref FROM concept_mentions WHERE concept_id=? LIMIT 12", (r["id"],)).fetchall()
+            refs = ", ".join(m["ref"] for m in mentions)
+            block += f"\n  Mentions ({n} total): {refs}{'…' if n > 12 else ''}"
+        cref = f"concept:{r['id']}"
+        instances = con.execute(
+            "SELECT from_ref, weight FROM links WHERE type='concept_instance_of' AND to_ref=? "
+            "ORDER BY weight DESC LIMIT 8", (cref,)).fetchall()
+        if instances:
+            ents = ", ".join(f"{_concept_label(con, e['from_ref'])} ({e['weight']:g})" for e in instances)
+            block += f"\n  Entities: {ents}"
+        rel_counts = _concept_relation_counts(con, cref)
+        if rel_counts:
+            summary = ", ".join(f"{v} ({c})" for v, c in rel_counts.items())
+            block += f"\n  Relations: {summary} — see get_concept_relations({r['label']!r})"
+        out.append(block)
+    con.close()
+    return "\n\n".join(out)
+
+
+@mcp.tool()
+def concepts_in_passage(reference: str) -> str:
+    """List theological concepts and lexical keywords linked to a verse or chapter
+    via the OT+NT concept graph (seeded from Easton's Bible Dictionary), e.g.
+    'Genesis 14' or 'John 3:16'. Complements entities_in_passage (people/places/
+    events) with abstract themes and keyword nodes."""
+    book, ch, v1, v2 = parse_ref(reference)
+    con = _db()
+    if v1 is None:
+        refs_rows = con.execute(
+            "SELECT DISTINCT ref FROM passages WHERE book=? AND chapter=?", (book, ch)).fetchall()
+    else:
+        refs_rows = [{"ref": f"{book}.{ch}.{v}"} for v in range(v1, (v2 or v1) + 1)]
+    refs = [r["ref"] for r in refs_rows]
+    if not refs:
+        con.close()
+        return f"No passages found for {reference}."
+    q = ",".join("?" * len(refs))
+    rows = con.execute(
+        f"SELECT c.type, c.label, COUNT(*) n FROM concept_mentions m JOIN concepts c ON c.id=m.concept_id "
+        f"WHERE m.ref IN ({q}) GROUP BY c.id ORDER BY c.type, n DESC", refs).fetchall()
+    con.close()
+    if not rows:
+        return f"No linked concepts for {reference}."
+    out = [f"Concepts in {reference}:"]
+    cur = None
+    for r in rows:
+        if r["type"] != cur:
+            cur = r["type"]
+            out.append(f"\n{cur.upper()}S:")
+        out.append(f"  {r['label']} ({r['n']} verse{'s' if r['n'] > 1 else ''})")
+    return "\n".join(out)
+
+
+@mcp.tool()
+def get_concept_relations(name: str, verb: str = "", limit: int = 20) -> str:
+    """Typed relations for a concept in the OT+NT concept graph: broader/narrower
+    (taxonomy), causes, part_of, symbol_of, fulfills, contrasts — ~430 edges,
+    hand-reviewed against cited evidence (Phase 5/6, weight>=10 only, see
+    DESIGN.md #5). Excludes the much larger 'associated' fallback tier by default
+    (~139,000 mechanical shared-evidence edges, unreviewed) — pass
+    verb='associated' to include it. verb optional: restrict to one verb
+    (broader | narrower | causes | part_of | symbol_of | fulfills | contrasts |
+    associated)."""
+    con = _db()
+    rows = _resolve_concepts(con, name, limit=1)
+    if not rows:
+        con.close()
+        return f"No concept found matching {name!r}."
+    concept = rows[0]
+    cref = f"concept:{concept['id']}"
+    limit = max(1, min(int(limit), 100))
+    verbs = [verb] if verb else [v for v in _CONCEPT_VERBS if v != "associated"]
+    unknown = [v for v in verbs if v not in _CONCEPT_VERBS]
+    if unknown:
+        con.close()
+        return f"Unknown verb {unknown[0]!r}. Choose from: {', '.join(_CONCEPT_VERBS)}."
+    edges = []  # (phrase, other_ref, weight)
+    for v in verbs:
+        ttype = f"concept_{v}"
+        if v in _CONCEPT_MIRRORED:
+            rows = con.execute(
+                "SELECT to_ref o, weight FROM links WHERE type=? AND from_ref=? "
+                "ORDER BY weight DESC LIMIT ?", (ttype, cref, limit)).fetchall()
+            edges += [(_CONCEPT_MIRRORED[v], r["o"], r["weight"]) for r in rows]
+        elif v in _CONCEPT_ONE_WAY:
+            fwd_phrase, rev_phrase = _CONCEPT_ONE_WAY[v]
+            fwd = con.execute(
+                "SELECT to_ref o, weight FROM links WHERE type=? AND from_ref=? "
+                "ORDER BY weight DESC LIMIT ?", (ttype, cref, limit)).fetchall()
+            rev = con.execute(
+                "SELECT from_ref o, weight FROM links WHERE type=? AND to_ref=? "
+                "ORDER BY weight DESC LIMIT ?", (ttype, cref, limit)).fetchall()
+            edges += [(fwd_phrase, r["o"], r["weight"]) for r in fwd]
+            edges += [(rev_phrase, r["o"], r["weight"]) for r in rev]
+        else:
+            phrase = _CONCEPT_SYMMETRIC[v]
+            sym = con.execute(
+                "SELECT CASE WHEN from_ref=? THEN to_ref ELSE from_ref END o, weight FROM links "
+                "WHERE type=? AND (from_ref=? OR to_ref=?) ORDER BY weight DESC LIMIT ?",
+                (cref, ttype, cref, cref, limit)).fetchall()
+            edges += [(phrase, r["o"], r["weight"]) for r in sym]
+    if not edges:
+        con.close()
+        return f"No {(verb + ' ') if verb else 'typed '}relations found for {concept['label']}."
+    edges.sort(key=lambda e: e[2] or 0, reverse=True)
+    edges = edges[:limit]
+    out = [f"Relations for {concept['label']} ({concept['id']}):"]
+    for phrase, other, weight in edges:
+        out.append(f"  {phrase} {_concept_label(con, other)} (weight={weight:g})")
+    con.close()
+    return "\n".join(out)
+
+
 @mcp.tool()
 def compare_versions(reference: str) -> str:
     """Show a verse or short range in both BSB and WEB side by side."""
@@ -665,11 +893,18 @@ def corpus_info() -> str:
         if d["notes"]:
             out.append(f"    {d['notes']}")
     for label, sql in [
-        ("cross-reference links", "SELECT COUNT(*) c FROM links"),
+        ("cross-reference links", "SELECT COUNT(*) c FROM links WHERE type='cross_reference'"),
+        ("patristic citations", "SELECT COUNT(*) c FROM links WHERE type='citation'"),
         ("entities", "SELECT COUNT(*) c FROM entities"),
         ("entity-verse mentions", "SELECT COUNT(*) c FROM entity_mentions"),
         ("original-language words (Greek)", "SELECT COUNT(*) c FROM words WHERE lang='grc'"),
         ("original-language words (Hebrew/Aramaic)", "SELECT COUNT(*) c FROM words WHERE lang IN ('hbo','arc')"),
+        ("concepts (concept graph)", "SELECT COUNT(*) c FROM concepts"),
+        ("concept-verse mentions", "SELECT COUNT(*) c FROM concept_mentions"),
+        ("concept-graph edges (typed, hand-reviewed)",
+         "SELECT COUNT(*) c FROM links WHERE type LIKE 'concept_%' "
+         "AND type NOT IN ('concept_associated','concept_instance_of','concept_derived_from')"),
+        ("concept-graph edges (associated, mechanical)", "SELECT COUNT(*) c FROM links WHERE type='concept_associated'"),
     ]:
         out.append(f"- {label}: {con.execute(sql).fetchone()['c']}")
     con.close()

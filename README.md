@@ -2,7 +2,7 @@
 
 An MCP server for Christian scholarship and research. Non-commercial, aiming to become a public resource. See `corpus-survey.md` for the full source/license landscape and `ROADMAP.md` for direction.
 
-## What's in it (v0.13)
+## What's in it (v0.14)
 
 | Data | Source | License |
 |---|---|---|
@@ -24,7 +24,7 @@ An MCP server for Christian scholarship and research. Non-commercial, aiming to 
 | **Research outputs layer** (`layer='output'`): Layer 0 corpus surveys + Layer 2 research briefs for potter-and-clay, living water, wilderness — searchable, embedded, with `draws_on` links back to their grounding refs | generated in-project | — |
 | ~112,400 embeddings (verse/window/paragraph) for semantic + hybrid search across every layer | bge-small-en-v1.5, generated locally | — |
 | **Easton's Bible Dictionary** (1897 3rd edition, 2,491 entries) — a full corpus document like the PD classics above: searchable (`search(version="EASTON")`), readable (`read_work("EASTON", ...)`), embedded for semantic search | Theographic's structured JSON re-derivation | Public Domain |
-| **OT+NT concept graph**: 5,673 concept nodes (theological themes + lexical keywords, seeded from Easton's Bible Dictionary) and 171,000+ typed/associated edges (`broader`/`narrower`/`causes`/`part_of`/`symbol_of`/`fulfills`/`associated`) linking concepts to each other, to entities, and to verse anchors across both Testaments; 2,338 edges hand-reviewed against cited evidence (Phase 5/6). The graph itself is dataset-only for now — no MCP tool queries it live yet, see DESIGN.md §5 (distinct from the Easton document row above, which is fully queryable today) | derived from corpus + Easton's Bible Dictionary | — |
+| **OT+NT concept graph**: 5,673 concept nodes (theological themes + lexical keywords, seeded from Easton's Bible Dictionary) and 171,000+ typed/associated edges (`broader`/`narrower`/`causes`/`part_of`/`symbol_of`/`fulfills`/`associated`) linking concepts to each other, to entities, and to verse anchors across both Testaments; ~430 typed edges hand-reviewed against cited evidence (Phase 5/6), the rest mechanical `associated` overlap counts. Live via `get_concept`/`concepts_in_passage`/`get_concept_relations`, see DESIGN.md §5 | derived from corpus + Easton's Bible Dictionary | — |
 
 All in one SQLite file (`db/bible.db`, ~400MB) with FTS5 full-text search. Prose works are addressed as `WORK.chapter.paragraph`. See DESIGN.md for the architecture rationale.
 
@@ -40,7 +40,10 @@ All in one SQLite file (`db/bible.db`, ~400MB) with FTS5 full-text search. Prose
 - `get_citations(reference, limit=20)` — Where a verse is cited by name in the patristic corpus, extracted from the translators' own footnotes (tier 1). Complements `get_cross_references` (scripture→scripture); this is patristic text→scripture. Coverage is sparse by design — an empty result doesn't mean uncited; full-text `search` within the patristic works is the thorough probe.
 - `get_entity(name, entity_type="")` — Look up a biblical person, place, event, or people group by name (Theographic knowledge graph); returns details and where they appear. `entity_type` optional: person | place | event | people_group.
 - `entities_in_passage(reference)` — People, places, and events linked to a verse or chapter, e.g. `Genesis 14`.
-- `read_work(work, chapter=1, start=1, end=5)` — Read a prose work by paragraph range (CONFESSIONS, IMITATION, PILGRIM, PRESENCE, JULIAN, ORTHODOXY, 1CLEMENT, BARNABAS, and others — see `corpus_info()` for the full list). Use `search(version=<WORK>)` to find passages first.
+- `get_concept(name, concept_type="")` — Look up a theological concept or lexical keyword in the OT+NT concept graph (seeded from Easton's Bible Dictionary); returns its definition, verse anchors, instantiating entities, and a relation-count summary. `concept_type` optional: theme | keyword. Also accepts a Strong's number.
+- `concepts_in_passage(reference)` — Theological concepts and keywords linked to a verse or chapter, e.g. `Genesis 15`. Complements `entities_in_passage`.
+- `get_concept_relations(name, verb="", limit=20)` — Typed relations for a concept: `broader`/`narrower`/`causes`/`part_of`/`symbol_of`/`fulfills`/`contrasts`, hand-reviewed against cited evidence. Excludes the much larger mechanical `associated` tier by default — pass `verb="associated"` to include it.
+- `read_work(work, chapter=1, start=1, end=5)` — Read a prose work by paragraph range (CONFESSIONS, IMITATION, PILGRIM, PRESENCE, JULIAN, ORTHODOXY, 1CLEMENT, BARNABAS, EASTON, and others — see `corpus_info()` for the full list). Use `search(version=<WORK>)` to find passages first.
 - `compare_versions(reference)` — A verse or short range in BSB and WEB, side by side.
 - `corpus_info()` — What's in the corpus: documents, layers, licenses, and counts.
 
