@@ -1,0 +1,4006 @@
+{
+  "batch_file": "phase5-batch-2026-09-28-w3-9.json",
+  "model": "claude-in-session (Sonnet 5) — weight 3-9 tier chunk 3 (indices 1000-1499, weight=8)",
+  "judgments": [
+    {
+      "pair": [
+        "barber",
+        "hair"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.5.1/Isa.7.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ark",
+        "chronicles-books-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.8.3/1Chr.15.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "kenites",
+        "palm-trees-the-city-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.2.55/Judg.1.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "parable",
+        "proverb"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.3.23/Ps.49.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hoshea",
+        "jesus"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.32.44/Num.13.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fenced-cities",
+        "giants"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Num.13.28/Deut.2.21) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "beast",
+        "gift"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.60.6/Ps.72.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brass",
+        "ensign"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ensign",
+        "serpent-fiery"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Num.21.8/John.3.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bashan-havoth-jair",
+        "city"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.4.13/Deut.3.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "moab",
+        "nebo"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Num.22.1/Deut.34.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "aloes",
+        "frankincense"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.19.39/Song.4.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "hanging"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.21.23/2Sam.21.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hepher",
+        "machir"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Num.27.1/1Chr.7.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pentecost",
+        "romans-epistle-to-the"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.2.1/Acts.20.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jephthah-s-vow",
+        "vows"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Judg.11.30/1Sam.1.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "armoury",
+        "beeves"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "beyond",
+        "hittites"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.1.1/Josh.9.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "amorites",
+        "baal-hermon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.3.9/Josh.11.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gift",
+        "magistrate"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "magistrate",
+        "taxes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.1.17/Mark.12.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "arnon",
+        "aroer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.3.16/2Sam.24.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cedar",
+        "giants"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Amos.2.9/Deut.3.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "idol"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.13.16/1Sam.6.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dung",
+        "moon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.14.10/Jer.8.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "aroer",
+        "machir"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.15.29/Num.32.40) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adoption",
+        "peculiar"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.7.6/1Pet.2.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "priest"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.1.2/1Pet.2.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "fellowship"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.30/Rom.12.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bless",
+        "fruit"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.13.14/Gal.5.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "valley",
+        "wilderness"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.41.18/Ps.105.41) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bless",
+        "covenant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.5.10/Heb.9.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "passover",
+        "tithe"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.16.2/Deut.12.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "banquet",
+        "beg"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.16.11/Deut.12.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "goat",
+        "roe"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.24.2/Ps.104.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "witness"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.22.23/Acts.7.58) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "citizenship",
+        "poor"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.14.29/Deut.16.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "flesh",
+        "poor"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.58.7/Luke.3.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "horse",
+        "host"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.10.26/1Kgs.4.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "horse",
+        "merchant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.8.4/1Kgs.10.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "astrologer",
+        "witchcraft"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.18.10/Gal.5.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "christ",
+        "light"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.18.15/Luke.2.32) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "life",
+        "moses"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.5.39/Deut.18.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "redemption"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.21.23/Gal.3.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "house",
+        "valley"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.22.8/Isa.22.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "harlot",
+        "sodomites"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.23.17/1Kgs.15.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "council",
+        "scourging"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "scourging",
+        "stripes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.16.22/Acts.16.37) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "famine",
+        "fast"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.25.3/Jer.52.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ark",
+        "hilkiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.8.3/Deut.31.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fear-of-the-lord-the",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.32.6/Ps.95.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bee",
+        "honey"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Deut.32.13/Ps.81.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "arrows",
+        "persecution"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.5.16/Ps.7.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "priest",
+        "scribes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mal.2.7/Ezra.7.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jordan",
+        "mantle"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.2.8/1Kgs.19.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adjuration",
+        "vagabond"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.22.16/Acts.19.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "deuteronomy",
+        "law-of-moses"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Josh.8.31/2Kgs.14.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hittites",
+        "mizpah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Josh.11.3/Judg.20.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "amorites",
+        "covenant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Josh.10.6/Josh.9.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baalah",
+        "kirjath-jearim"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.13.6/Josh.15.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abinadab",
+        "kirjath-jearim"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.13.7/2Sam.6.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chariot",
+        "hough"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.18.4/2Sam.8.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abigail",
+        "maachah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.3.3/Josh.13.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dan",
+        "laish"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.27.19/Judg.18.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ahitub",
+        "thummim"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.22.9/1Sam.14.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehonadab",
+        "rechabites"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.2.55/Judg.1.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "aroer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.27.17/Judg.11.33) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "earthquake",
+        "heaven"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.22.8/Ps.77.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "city",
+        "corner"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fire",
+        "providence"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.7.3/Ps.103.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "betroth",
+        "marriage"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Hos.2.19/Isa.54.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "circumcision",
+        "garrison"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.17.26/1Sam.14.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bear",
+        "lions"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.2.24/1Kgs.13.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ishtob",
+        "rehob"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.10.6/2Sam.8.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "day",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Tim.1.18/1Kgs.17.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "head-dress",
+        "horn"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.2.1/Luke.1.69) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "habitation",
+        "rock"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.57.15/1Sam.2.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hell",
+        "key"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.2.6/Rev.1.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "benaiah",
+        "eleazar"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.2.35/1Kgs.2.27) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eleazar",
+        "shimei"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.2.35/1Kgs.1.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "governor",
+        "messiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.9.16/1Sam.16.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehu",
+        "messiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.9.6/1Kgs.19.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehiel",
+        "music"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.29.14/1Chr.25.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "music",
+        "obed-edom"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ethan",
+        "music-instrumental"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.15.19/1Chr.13.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "linen",
+        "music"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.6.14/Luke.15.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alien",
+        "covenant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.2.12/Num.18.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chariot",
+        "host"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.18.4/1Kgs.10.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "armour",
+        "philistines"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "elijah",
+        "honey"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.1.8/Matt.3.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "honey",
+        "kings-the-books-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.7.15/Matt.3.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "girdle",
+        "honey"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.1.8/Matt.3.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baptism-christian",
+        "saul"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.1.8/Acts.8.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cattle",
+        "raisins"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.12.40/2Sam.16.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cattle",
+        "flagon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.12.40/2Sam.16.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "elhanan",
+        "goliath"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.20.5/2Sam.21.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "goliath",
+        "jaare-oregim"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.20.5/2Sam.21.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "david-city-of",
+        "micah-book-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.17.12/Mic.5.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephah",
+        "gift"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Sam.17.17/Matt.7.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fornication",
+        "marriage"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.3.8/Jer.3.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chronicles-books-of",
+        "gad"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.29.29/1Sam.22.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "banquet",
+        "drunk"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.4.3/Eph.5.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abigail",
+        "amnon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.3.1/2Sam.13.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abigail",
+        "daniel"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.3.3/1Chr.3.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abigail",
+        "joab"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.2.17/2Sam.19.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jonathan",
+        "merib-baal"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.8.34/2Sam.4.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jonathan",
+        "mephibosheth"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.8.34/2Sam.4.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mephibosheth",
+        "merib-baal"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.8.34/2Sam.4.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cedar",
+        "ceiling"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.5.8/1Kgs.6.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hiram",
+        "house"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.9.27/1Kgs.10.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "carpenter",
+        "hiram"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.14.1/2Chr.2.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cedar",
+        "nathan"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.5.11/2Sam.7.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cymbals",
+        "harp"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.6.5/1Sam.16.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cornet",
+        "dulcimer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.6.5/Dan.3.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cedar",
+        "shepherd"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.7.7/Jer.3.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ahimaaz",
+        "ahitub"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.6.53/2Sam.8.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abimelech",
+        "scribes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.18.16/1Kgs.4.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "colour",
+        "oil"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eccl.9.8/Luke.7.46) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gera",
+        "shimei"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Sam.19.16/1Kgs.2.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "meekness"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abel-beth-maachah",
+        "captivity"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.15.20/2Kgs.15.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ahohite",
+        "dodo"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.11.12/1Chr.27.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abishua",
+        "zadok"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alms",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.6.1/Matt.6.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "azariah",
+        "seraiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.9.11/Neh.11.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ceiling",
+        "temple-solomon-s"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.7.3/1Kgs.6.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "lily",
+        "sea-the-molten"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.7.26/2Chr.4.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "army",
+        "hazar-susah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.9.19/2Chr.1.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hiram",
+        "merchant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.9.27/1Kgs.10.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gold",
+        "queen"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.10.1/Luke.11.31) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gold",
+        "merchant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.9.28/1Kgs.10.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ape",
+        "tarshish"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.10.22/Gen.10.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bethel",
+        "jeroboam"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.13.1/1Kgs.13.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "burial",
+        "tombs"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.11.43/2Kgs.21.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "burial",
+        "jehoram"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.11.43/2Chr.21.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bethel",
+        "chemarim"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Hos.10.5/2Kgs.23.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dog",
+        "funeral"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.14.11/1Kgs.16.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abijah",
+        "naamah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.15.1/1Kgs.14.31) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "rama",
+        "temple-solomon-s"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.15.18/1Kgs.14.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "elijah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.18.46/2Kgs.9.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hand",
+        "predestination"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.6.11/1Pet.1.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "kiss"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.1.12/Ps.2.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gate",
+        "jeroboam"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.21.13/Amos.7.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "burial",
+        "joram"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.14.20/2Kgs.8.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ahaziah",
+        "jehoram"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Kgs.22.51/2Kgs.1.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "prophet",
+        "schools-of-the-prophets"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.2.15/2Kgs.2.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "drunk",
+        "music"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "perseverance-of-the-saints",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.2.24/Jas.5.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ahaziah",
+        "joram"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.9.29/2Kgs.8.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehoahaz",
+        "jehu"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.22.6/2Kgs.8.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eye",
+        "paint"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.9.30/Jer.4.30) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eye",
+        "hair"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.9.30/1Pet.3.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehonadab",
+        "jonadab"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.2.55/2Kgs.10.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "aroer",
+        "poetry"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.15.29/Amos.1.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "light",
+        "testimony"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.8.20/Isa.8.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ezra",
+        "scribes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.7.1/Ezra.7.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "nethaneel",
+        "scribes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.24.6/Ezra.7.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehoash",
+        "zabad"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.14.20/2Kgs.12.21) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "amaziah",
+        "zabad"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.25.27/2Chr.24.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jeroboam",
+        "joash"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.14.16/2Kgs.13.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dragon",
+        "thistle"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.13.22/Isa.34.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "captivity",
+        "jerusalem"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.5.26/Ezra.1.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adultery",
+        "jeroboam"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.3.9/Hos.4.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "captivity",
+        "pul"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.5.26/2Kgs.15.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "captivity",
+        "tiglath-pileser-iii"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.5.26/1Chr.5.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "exile",
+        "pul"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.5.26/2Kgs.15.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "isaiah",
+        "poetry"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.15.19/Isa.9.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "calf",
+        "poetry"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.15.29/Amos.1.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "exile",
+        "israel-kingdom-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.5.26/2Kgs.17.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gihon",
+        "isaiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.18.17/Isa.36.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adrammelech",
+        "samaritans"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.17.31/2Kgs.17.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adrammelech",
+        "esarhaddon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.17.31/2Kgs.19.37) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gihon",
+        "river"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.32.30/2Kgs.20.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cane",
+        "dispersion"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.18.21/Isa.30.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bit",
+        "fish-hooks"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.19.28/Amos.4.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cake",
+        "moon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.44.19/Jer.7.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehoahaz",
+        "zedekiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.23.31/2Kgs.24.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "exile",
+        "jakim"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "captivity",
+        "wine"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.36.10/Dan.5.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alliance",
+        "zedekiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.17.16/2Kgs.24.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "temple",
+        "zedekiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pashur",
+        "seraiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.6.14/2Kgs.25.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ezra",
+        "hilkiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Kgs.25.18/Ezra.7.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "azariah",
+        "ezra"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.9.11/2Kgs.25.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jaaz-aniah",
+        "seraiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.40.8/2Kgs.25.23) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fast",
+        "nethaniah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.41.1/2Kgs.25.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "armour",
+        "lud"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.27.10/Gen.10.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "meshullam",
+        "seraiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.3.19/Ezra.2.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "meshullam",
+        "pashur"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.9.11/Jer.20.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "asaph",
+        "cymbals"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "azariah",
+        "hilkiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.7.1/2Kgs.22.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "amariah",
+        "captain"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.31.15/2Chr.31.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hilkiah",
+        "meshullam"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.7.1/1Chr.9.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "akkub",
+        "talmon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.9.17/Neh.11.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "joel",
+        "zadok"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.15.11/2Sam.8.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gedaliah",
+        "maaseiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.25.3/1Chr.15.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "benaiah",
+        "porter"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.15.24/1Chr.15.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abijah",
+        "priest"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.2.36/Neh.7.39) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jeshua",
+        "priest"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Chr.24.11/Ezra.2.36) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chronicles-books-of",
+        "iddo"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.13.22/2Chr.12.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "minister"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.4.4/Rom.15.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jehoahaz",
+        "jehoash"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Chr.21.17/2Chr.25.23) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "nethinim",
+        "ziha"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.8.20/Ezra.2.43) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "scribes",
+        "tirshatha"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.7.6/Neh.8.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "juda"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.9.5/Mark.6.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "jeshua"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.3.2/Hag.1.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jeshua",
+        "law-of-moses"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Hag.1.1/Ezra.3.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "governor",
+        "minister"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.4.20/Ezra.7.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "roll",
+        "scribes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.6.1/Jer.36.32) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bani",
+        "shebaniah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezra.10.29/Neh.10.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "pentateuch"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "banquet",
+        "head-dress"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.7.38/Isa.61.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sanhedrim",
+        "scribes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.4.1/Acts.6.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "atonement",
+        "pardon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.1.7/Ps.86.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "accuser",
+        "son-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Job.1.6/Gen.6.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "devil",
+        "son-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Job.1.6/Gen.6.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "robbery",
+        "sabeans"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Job.1.15/Gen.10.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "orion",
+        "pleiades"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Amos.5.8/Job.9.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "afflictions",
+        "man"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.4.14/Matt.5.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fig",
+        "grape"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Hos.9.10/Mic.7.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sadducees",
+        "viper"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.22.23/Matt.3.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "wheel"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Job.21.18/Ps.83.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "light",
+        "providence"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Col.1.12/Prov.16.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "winds"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.4.11/Isa.27.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cherub",
+        "glass"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rev.4.6/Rev.15.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bride",
+        "head-dress"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.49.18/Isa.61.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "head-dress",
+        "poetry"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.16.10/Isa.61.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "desert",
+        "dragon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.43.20/Isa.13.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "heaven",
+        "lightning"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Job.35.5/Nah.1.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "anoint",
+        "apostle"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.18.5/John.15.27) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "son-of-man"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.4.4/Heb.2.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dwell",
+        "habitation"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.6.16/Isa.57.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "death",
+        "hades"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.15.55/Luke.16.23) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bless",
+        "cup"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ps.116.13/1Cor.10.21) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "flesh",
+        "hope"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.3.16/Col.1.27) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hades",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.2.27/Ps.16.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "deep",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ps.69.15/Ps.16.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "prince",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.3.15/Eph.1.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "coal",
+        "lightning"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ps.18.13/Rev.4.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "scripture",
+        "testimony"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Tim.3.15/Ps.19.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bible",
+        "humiliation-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "lama"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.15.34/Matt.27.46) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "beast",
+        "humiliation-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.10.34/Luke.2.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "shepherd"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.10.43/Heb.13.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hand",
+        "mediator"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "hand"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.2.16/1Cor.6.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hand",
+        "solomon-song-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ps.45.9/John.3.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alms",
+        "contentment"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "queen",
+        "solomon-song-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ps.45.9/John.3.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bride",
+        "queen"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dress",
+        "white"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.9.3/Isa.1.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blot",
+        "repentance"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.3.19/Ps.51.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blot",
+        "pardon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.3.19/Isa.43.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blot",
+        "ransom"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.44.22/1Cor.6.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blot",
+        "redemption"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.44.22/1Cor.6.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "forest",
+        "olive-tree"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Hos.14.6/Ps.52.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bow",
+        "sword"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Hos.7.16/Ps.57.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cockatrice",
+        "poison"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.11.8/Ps.140.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agony",
+        "providence"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.6.12/Ps.63.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "earthquake",
+        "wax"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.5.25/Mic.1.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "prophecy",
+        "providence"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.14.62/Heb.1.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "coming-of-christ",
+        "heaven"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.9.28/1John.3.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "decrees-of-god",
+        "heaven"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Thess.2.13/Gen.1.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ambassador",
+        "cane"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "book",
+        "eternal-death"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rev.20.15/Matt.25.41) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dwell",
+        "temple"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Tim.1.14/1Cor.3.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gospels",
+        "synagogue"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.4.23/Ps.74.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gospel",
+        "synagogue"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.4.23/Ps.74.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "arm",
+        "horn"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.30.21/Jer.48.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sheep-fold",
+        "shepherd"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.10.16/Heb.13.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sanctuary",
+        "temple"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "boar",
+        "hezekiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hezekiah",
+        "swine"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fowler",
+        "hunting"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Prov.6.5/Ps.91.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glorify",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.10.31/Col.3.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bless",
+        "father"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.13.14/Rom.1.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "atonement",
+        "providence"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rom.3.25/Acts.3.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "providence",
+        "redemption"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.2.10/Titus.2.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bible",
+        "stone"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.24.44/Ps.118.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "decalogue",
+        "law"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rom.7.7/Ps.119.96) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dross",
+        "furnace"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Prov.25.4/Ezek.22.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "man",
+        "sword"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Thess.5.23/Heb.4.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "perfumes",
+        "saffron"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.19.39/Song.4.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "furnace",
+        "refiner"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.22.18/Isa.1.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "basilisk",
+        "cockatrice"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.11.8/Isa.59.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cockatrice",
+        "viper"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.11.8/Isa.59.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "forest",
+        "lily"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eccl.2.5/Song.6.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "book",
+        "judgment-the-final"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Dan.7.10/Matt.25.31) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-life",
+        "man"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.18.9/Matt.16.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "man",
+        "resurrection-of-the-dead"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.5.1/1John.3.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "frankincense",
+        "spikenard"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Song.1.3/John.12.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pound",
+        "spikenard"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.12.3/Song.1.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "desert",
+        "hart"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "fear-of-the-lord-the"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.2.10/Deut.32.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "incarnation",
+        "kingly-office-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.3.16/Isa.9.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bittern",
+        "dragon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-death",
+        "key"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rev.1.18/Isa.22.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alleluia",
+        "wall"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hallelujah",
+        "wall"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "desert",
+        "forest"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.27.10/Jer.26.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "carve",
+        "stone"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Zech.3.9/Acts.4.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "graving",
+        "stone"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Zech.3.9/Acts.4.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "corner",
+        "rock"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.2.20/Matt.16.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blind",
+        "luke-gospel-according-to"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.4.18/Rom.2.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fan",
+        "winnow"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.30.24/Matt.3.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "river"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cedar",
+        "pine-tree"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.35.2/Isa.60.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "goldsmith",
+        "hammer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "graving",
+        "hammer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "a",
+        "omega"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.12.2/Rev.1.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-life",
+        "worm"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Dan.12.2/Isa.66.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fear-of-the-lord-the",
+        "worm"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.63.16/Isa.41.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "testament"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.3.13/Heb.9.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "blot",
+        "covenant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "anoint",
+        "decrees-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.1.9/Acts.4.27) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "counsellor",
+        "joseph"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.15.43/Matt.27.57) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "roll"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.10.5/Heb.10.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cross",
+        "perseverance-of-the-saints"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.12.2/Matt.20.28) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "covenant",
+        "face"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.4.4/John.1.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "perseverance-of-the-saints"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.53.12/Isa.53.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antichrist",
+        "perseverance-of-the-saints"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1John.2.18/1Pet.1.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bake",
+        "luke-gospel-according-to"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Isa.58.7/Luke.11.41) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-life",
+        "flesh"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rom.6.4/Rom.6.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "church",
+        "judgment-the-final"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.2/Jude.1.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "espouse",
+        "solomon-song-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.11.2/John.3.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "garner",
+        "worm"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.3.12/Isa.66.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "corn",
+        "worm"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.3.12/Isa.66.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "solomon-song-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.12.22/Rev.21.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "camel",
+        "harlot"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.2.23/Jer.3.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dromedary",
+        "harlot"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.2.23/Jer.3.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adultery",
+        "gilgal"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "day",
+        "furnace"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Dan.3.6/Matt.13.50) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "call",
+        "covenant"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.1.17/Jer.31.34) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "afflictions",
+        "perseverance-of-the-saints"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rom.8.35/John.10.28) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "circumcision",
+        "perseverance-of-the-saints"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.3.14/Jer.32.40) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "no",
+        "prophecy"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.30.14/Nah.3.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "death",
+        "drunk"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jer.51.39/Jer.51.57) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "heaven",
+        "trance"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.12.2/Acts.22.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "amber",
+        "fire"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.1.27/Ezek.1.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "flesh"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.2.10/Matt.16.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crown",
+        "dragon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Ezek.23.42/Rev.12.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ezekiel-book-of",
+        "faith"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "leaf",
+        "mustard"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Dan.4.12/Luke.13.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "resurrection-of-christ",
+        "son-of-man"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.2.24/Heb.2.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antichrist",
+        "diadem"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Dan.7.24/Rev.12.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antichrist",
+        "blasphemy"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Dan.7.24/Rev.13.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antichrist",
+        "man-of-sin"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Thess.2.8/2Thess.2.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antichrist",
+        "daniel-book-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Thess.2.8/2Thess.2.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antichrist",
+        "deep"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rev.13.1/Rev.11.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "pentateuch"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "death",
+        "nativity-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.5.21/Dan.9.24) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bible",
+        "nativity-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.24.44/Isa.7.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "governor",
+        "michael"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Dan.10.13/Rev.12.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mystery",
+        "resurrection-of-the-dead"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.15.51/Phil.3.21) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "quotations",
+        "resurrection-of-the-dead"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.15.54/Rev.21.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "harlot",
+        "jeroboam"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bethel",
+        "thistle"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Hos.10.8/Isa.34.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sickle",
+        "wine-press"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Joel.3.13/Isa.63.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baptism-christian",
+        "tongues-gift-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.10.47/Acts.2.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rom.5.1/Ps.122.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "alabaster",
+        "ointment"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.26.7/Ps.133.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "micah-book-of",
+        "prophecy"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.7.42/Mic.5.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mary",
+        "micah-book-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.2.6/Mic.5.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bay",
+        "colour"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Zech.6.3/Zech.1.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "devil",
+        "temptation"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rev.12.10/Luke.22.31) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "judas",
+        "pieces"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "luke-gospel-according-to",
+        "spirit"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.6.18/Zech.12.10) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "justice-of-god",
+        "temptation"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Tim.4.8/Jas.1.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jesus",
+        "nazarene"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.7.42/Isa.11.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "jesus",
+        "son-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.6.42/Gal.4.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "joseph"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.1.26/Luke.2.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "david-city-of",
+        "joseph"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.2.11/Matt.1.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "mary"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.30/Matt.1.21) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mary",
+        "ransom"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.2.7/Gal.4.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mary",
+        "redemption"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.2.7/Gal.4.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "incarnation",
+        "mary"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.3.16/Mic.5.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "city",
+        "jesus"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.2.4/Luke.4.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pharisees",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.18.11/Mark.11.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "mint",
+        "pharisees"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.11.42/Matt.23.23) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pharisees",
+        "rue"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.18.12/Luke.11.42) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "luke-gospel-according-to",
+        "pharisees"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "luke-gospel-according-to",
+        "sadducees"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "pharisees",
+        "sanhedrim"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.16.1/Acts.5.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baptism-christian",
+        "life"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.9.10/Heb.7.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "fishing-the-art-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.6.14/Matt.4.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "meekness"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.1.2/Col.3.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "light",
+        "son-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.5.14/Phil.2.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "light",
+        "luke-gospel-according-to"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "man",
+        "son-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.5.1/1John.3.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "scripture"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Thess.2.13/2Tim.3.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chaldee-language",
+        "gehenna"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.5.22/Luke.12.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gehenna",
+        "raca"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jas.3.6/Matt.5.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gehenna",
+        "syriac"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jas.3.6/Matt.5.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "eternal-death"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.1.19/Jude.1.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gehenna",
+        "man"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.12.5/Matt.10.28) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "oath"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.20.19/Rom.1.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hypocrite",
+        "prayer"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.6.5/Luke.18.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adoption",
+        "dwell"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agony",
+        "eternal-life"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.9.25/1Tim.6.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "cross",
+        "eternal-life"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.10.21/Luke.16.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "centurion",
+        "latchet"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.10.1/Acts.22.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "daemoniac",
+        "gadarenes"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.1.24/Luke.8.37) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "levi",
+        "philip"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.5.27/Matt.10.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "call",
+        "judgment-the-final"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.2/Jude.1.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "call",
+        "sin"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.2/Rom.3.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "exorcist"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.2.4/Mark.16.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "john",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.10.2/1Cor.15.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fellowship",
+        "john"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.2.46/Acts.3.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "church"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.3.1/1Cor.1.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "philip"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jude.1.1/Mark.3.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dispersion",
+        "james"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jas.1.1/Gal.1.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "james",
+        "sabbath"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.27.56/John.20.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "exorcist",
+        "gifts-spiritual"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.16.18/Mark.16.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-death",
+        "man"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jude.1.1/1Thess.5.23) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "assurance",
+        "man"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1John.3.14/1Pet.1.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "decrees-of-god",
+        "luke-gospel-according-to"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.4.27/Acts.10.38) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "judgment-the-final",
+        "rest"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Thess.1.7/Heb.4.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "example",
+        "meekness"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.2.21/Matt.11.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "exorcist",
+        "vagabond"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.19.13/Gen.4.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "brother",
+        "faith"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.1/Rom.1.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "agriculture",
+        "parable"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.13.3/Ezek.20.49) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "apostle",
+        "mystery"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.12.8/Matt.13.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "joseph",
+        "salome"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.13.55/Mark.15.40) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antipas",
+        "brother"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.13.31/Luke.3.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "banquet",
+        "sin"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.15.27/Rom.3.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "church",
+        "kingly-office-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.5.23/Col.1.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "building",
+        "church"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.3.9/Matt.16.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "church",
+        "gate"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.2/Heb.13.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "church",
+        "resurrection-of-the-dead"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Heb.12.23/1Cor.15.54) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "church",
+        "prophet"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Tim.2.19/Eph.2.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "angel",
+        "archangel"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.1.11/1Thess.4.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "seven"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.4.32/Luke.17.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baptism-christian",
+        "child"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.9.17/Matt.19.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.19.1/Matt.20.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "perseverance-of-the-saints",
+        "propitiation"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.20.28/1John.2.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ransom",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.1.19/1Pet.3.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fruit",
+        "perseverance-of-the-saints"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Matt.26.29/Isa.53.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fruit",
+        "predestination"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Gal.5.22/John.15.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "fruit"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.1.4/Gal.5.22) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "call",
+        "incarnation"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.2/Heb.2.11) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "minister",
+        "tribute"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antioch",
+        "proselyte"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.11.24/Acts.6.5) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "antichrist",
+        "serpent"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1John.2.22/John.8.44) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-death",
+        "law"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.1.17/Rom.1.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "john",
+        "palace"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.4.6/Matt.26.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fire",
+        "palace"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.18.18/Mark.14.54) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hair",
+        "mary"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.11.2/Mark.14.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gardens",
+        "hymn"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.18.1/Mark.14.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "door-keeper",
+        "palace"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.18.16/Matt.26.69) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "door-keeper",
+        "hall"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.18.16/Matt.26.69) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abomination",
+        "judgment-hall"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.10.28/John.18.28) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "abomination",
+        "praetorium"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.10.28/John.18.28) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "reed"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.19.29/Matt.27.48) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "crucifixion",
+        "ghost"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.19.28/John.19.30) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "joanna",
+        "mary"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Luke.24.10/Matt.27.56) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "burial",
+        "counsellor"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "resurrection-of-christ",
+        "tombs"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.20.1/Matt.27.60) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "resurrection-of-christ",
+        "simon"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Mark.16.1/Mark.14.3) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-life",
+        "mediator"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "baptism-christian",
+        "gift"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.19.5/Acts.2.38) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "messiah",
+        "moses"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.26.22/John.1.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "election-of-grace",
+        "passover"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.13.18/John.13.26) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "perfumes",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.19.39/Mark.16.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "resurrection-of-christ",
+        "type"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.20.27/John.20.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "day",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "food",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.21.9/John.21.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "call",
+        "eternal-death"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.2/Jude.1.1) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "creature",
+        "eternal-death"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Col.1.15/1Tim.1.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "conscience",
+        "faith"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.3.21/Mark.16.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "gifts-spiritual",
+        "tongues-gift-of"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.19.6/Acts.2.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "comforter",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1John.2.1/1Pet.3.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "call",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.6.44/Col.2.12) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "incarnation",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.3.16/Mark.16.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "glory",
+        "mary"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.1.14/Luke.2.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "flesh",
+        "humiliation-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Tim.3.16/Gal.4.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "chosen",
+        "resurrection-of-christ"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.10.41/John.21.13) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "bible",
+        "prophecy"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.12.34/Isa.9.7) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dwell",
+        "word-the"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1John.4.12/John.1.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "robbery",
+        "son-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Phil.2.6/John.5.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dwell",
+        "life"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.1.14/John.3.16) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "regeneration",
+        "word-of-god"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1John.2.29/1Pet.1.23) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adoption",
+        "glory"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Jas.2.5/Acts.7.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "sanctification",
+        "transfiguration-the"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Cor.4.6/2Cor.3.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dwell",
+        "faith"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Col.3.16/Eph.1.17) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "atonement",
+        "flesh"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.3.16/John.1.14) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "dwell",
+        "ransom"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.3.16/1Cor.6.19) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "death",
+        "grace"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.1.7/Eph.3.8) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "grace",
+        "moses"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.1.13/Heb.3.6) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "church",
+        "grace"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Cor.1.2/2Tim.1.9) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "life",
+        "word-the"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.3.16/John.1.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "decrees-of-god",
+        "messiah"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Acts.2.23/Luke.22.37) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "miracle"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.10.38/John.5.36) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "ephesians-epistle-to",
+        "temple"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.1.14/Ps.74.2) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "fruit",
+        "regeneration"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.5.9/1John.2.29) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "hope",
+        "sin"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Eph.2.12/Eph.4.18) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "life",
+        "sanctification"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (John.3.15/Gal.2.20) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "faith",
+        "faithful"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (Rom.3.25/1Tim.1.15) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "judgment-the-final",
+        "life"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (2Thess.1.7/Luke.16.25) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "eternal-life",
+        "hope"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (no evidence recovered) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    },
+    {
+      "pair": [
+        "adoption",
+        "eternal-life"
+      ],
+      "justification": "Generic cross-reference-chain co-citation (1Pet.1.14/Rom.6.4) — no specific structural claim in the cited evidence supports a sharper verb than associated.",
+      "verb": "associated"
+    }
+  ]
+}

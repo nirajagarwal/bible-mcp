@@ -13,11 +13,15 @@ Usage: python3 scripts/phase5_prepare.py [N] [min_weight]
 
 Output: outputs/phase5-batch-<date>.json
 
-CONFIDENCE FLOOR (settled 2026-09-26, see DESIGN.md #5): do not call this with
-min_weight < 10. Weight 1-9 is 83,450 pairs, 85% of it single-citation evidence —
-a deliberate, permanent policy decision left that whole tier `associated` rather
-than review it. Revisit the decision (don't just override it here) before ever
-pointing this script below weight 10 again.
+CONFIDENCE FLOOR (settled 2026-09-26, revised 2026-09-28, see DESIGN.md #5):
+weight<7 is a permanent floor, never reviewed. Weight 7-9 was opened up for
+review on 2026-09-28 (explicit decision to trade some per-pair rigor for
+coverage at this scale) and fully completed — 8 edges sharpened out of 2,892,
+with the sharpen rate collapsing to ~0 by weight 7. A partial sample into
+weight 6 (408 pairs) confirmed the trend (0 upgrades) before the pass was
+deliberately stopped rather than continued into weight 6-3's remaining ~20,800
+pairs. Don't point this script below weight 7 without another explicit
+decision recorded here.
 """
 import glob
 import json

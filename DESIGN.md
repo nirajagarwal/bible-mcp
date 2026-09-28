@@ -153,16 +153,28 @@ the evidence was undeniable, the way `part_of` was added, would just have reprod
 the same backlog on purpose. Single direction, same reasoning as `part_of`: the verb
 name fixes the reading, no mirrored inverse needed.
 
-**Confidence floor (settled 2026-09-26)**: `concept_associated` edges below weight 10
-stay `associated` permanently, as a matter of policy, not backlog. That tier is
-83,450 pairs — roughly 100x the weight≥10 batch that took a full session to hand-
-review — and 85% of it (weight 1-2, 70,712 pairs) is single-citation evidence (one
-shared verse or one cross-reference hop), too weak a signal to warrant the same
-per-pair scrutiny that produced real, checkable upgrades at weight≥10. This is a
-deliberate scope boundary, not an oversight: Phase 5 does not run on weight<10
-edges, and no future pass should silently start reviewing them without first
-revisiting this decision (e.g. by wiring up a real batched LLM API pass, the
-option this decision explicitly declined for now).
+**Confidence floor (settled 2026-09-26, revised 2026-09-28)**: `concept_associated`
+edges below weight 7 stay `associated` permanently, as a matter of policy, not
+backlog. Originally the floor was weight<10, left untouched by explicit decision.
+On 2026-09-28 that decision was deliberately revisited: the weight 3-9 tier
+(24,124 never-judged pairs at the time) was opened for the same evidence-cited
+Phase 5 review as weight≥10, accepting a lower per-pair scrutiny bar in exchange
+for coverage at this scale (default-to-`associated` unless the cited evidence
+states an explicit structural claim, same rule, applied faster). Weight 9 (632
+pairs) and weight 8 (944) were reviewed in full, weight 7 (1,316) in full, and a
+partial pass into weight 6 (408 of 1,969) — 3,300 pairs total, logged in
+`outputs/concept-build-log-2026-09-28.jsonl` via `scripts/phase5_w39_chunk1-5.py`.
+Result: **8 sharpened** (2 `narrower`, 3 `causes`, 1 `part_of`, 1 `symbol_of` in
+weight=9; 1 `causes` in weight=8), all others correctly kept `associated`. The
+sharpen rate collapsed from 1.5% (weight=9) to 0.1% (weight=8) to 0% (weight 7
+and the weight=6 sample) — exactly the pattern the original floor predicted:
+lower weight means fewer shared citations means thinner evidence means less
+material for a sharper verb to hang on. Given the trend, the remaining ~20,800
+pairs (weight 6 tail + 5 + 4 + 3, dominated by weight 1-2's 113,315 single-
+citation pairs) were **not** reviewed — continuing would very likely add few if
+any further upgrades for a very large amount of review effort. The floor is now
+weight<7, not weight<10; as before, don't silently start reviewing below it
+without another explicit decision recorded here.
 
 **Scope**: the 39 protocanonical OT books for v1 (Deuterocanon/Apocrypha concepts
 deferred, not discarded — Easton covers the whole Bible).
