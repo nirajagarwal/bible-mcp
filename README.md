@@ -2,7 +2,7 @@
 
 An MCP server for Christian scholarship and research. Non-commercial, aiming to become a public resource. See `corpus-survey.md` for the full source/license landscape and `ROADMAP.md` for direction.
 
-## What's in it (v0.12)
+## What's in it (v0.13)
 
 | Data | Source | License |
 |---|---|---|
@@ -23,8 +23,9 @@ An MCP server for Christian scholarship and research. Non-commercial, aiming to 
 | **Versemap**: 988 empirically derived MT/NA ↔ English verse alignments across 31 books (Joel 2–4, Malachi 3–4, Hosea, Isaiah 64, Kings/Chronicles/Nehemiah seams, 3 John, Acts 19, Rev 12…), gloss-validated; plus the Psalms superscription offsets | derived from corpus | — |
 | **Research outputs layer** (`layer='output'`): Layer 0 corpus surveys + Layer 2 research briefs for potter-and-clay, living water, wilderness — searchable, embedded, with `draws_on` links back to their grounding refs | generated in-project | — |
 | ~112,400 embeddings (verse/window/paragraph) for semantic + hybrid search across every layer | bge-small-en-v1.5, generated locally | — |
+| **OT+NT concept graph**: 5,673 concept nodes (theological themes + lexical keywords, seeded from Easton's Bible Dictionary) and 171,000+ typed/associated edges (`broader`/`narrower`/`causes`/`part_of`/`symbol_of`/`fulfills`/`associated`) linking concepts to each other, to entities, and to verse anchors across both Testaments; 2,338 edges hand-reviewed against cited evidence (Phase 5/6). Dataset-only for now — no MCP tool queries it live yet, see DESIGN.md §5 | derived from corpus + Easton's Bible Dictionary (already covered by the Theographic Bible Metadata row above) | — |
 
-All in one SQLite file (`db/bible.db`, ~370MB) with FTS5 full-text search. Prose works are addressed as `WORK.chapter.paragraph`. See DESIGN.md for the architecture rationale.
+All in one SQLite file (`db/bible.db`, ~400MB) with FTS5 full-text search. Prose works are addressed as `WORK.chapter.paragraph`. See DESIGN.md for the architecture rationale.
 
 ## Tools
 

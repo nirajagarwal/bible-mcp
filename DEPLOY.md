@@ -20,12 +20,12 @@ gh repo create <your-repo-name> --public --source=. --push
 ```
 
 Then attach the database to a release (the db is too big for git — GitHub's
-file-size cap is 100MB and this db is ~230MB):
+file-size cap is 100MB and this db is ~400MB):
 
 ```bash
 gh release create v0.1.0 db/bible.db \
   --title "<your-repo-name> v0.1.0" \
-  --notes "Corpus db (SQLite+FTS5, ~230MB). See README for contents; LICENSE.md for terms."
+  --notes "Corpus db (SQLite+FTS5, ~400MB). See README for contents; LICENSE.md for terms."
 ```
 
 Note: forking on GitHub does **not** copy Releases. If you forked rather than
@@ -42,7 +42,7 @@ One-time: install flyctl (`brew install flyctl`), `fly auth signup` (or login).
 ```bash
 cd your-clone-of-bible-mcp
 fly launch --no-deploy --name <your-app-name> --vm-memory 1024 --no-db --no-redis
-fly deploy                                                  # uploads context incl. db/bible.db (~230MB)
+fly deploy                                                  # uploads context incl. db/bible.db (~400MB)
 ```
 
 Notes:
